@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://coj6cgolqv6we"]
 
-[ext_resource type="Script" path="res://PositionChange.gd" id="1_vf5fe"]
+[ext_resource type="Script" uid="uid://ddttyw307qy6y" path="res://PositionChange.gd" id="1_vf5fe"]
 [ext_resource type="Texture2D" uid="uid://cev6xi8jd8a54" path="res://Art/Silver.png" id="2_pugja"]
 
 [node name="Node2D" type="Node2D"]

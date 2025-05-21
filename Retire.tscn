@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ba7e0utx5nj82"]
 
-[ext_resource type="Script" path="res://Retire.gd" id="1_g5rns"]
+[ext_resource type="Script" uid="uid://dhvhgs1b132iw" path="res://Retire.gd" id="1_g5rns"]
 [ext_resource type="Texture2D" uid="uid://c3fi82uqofwut" path="res://Art/Copper.png" id="2_win7x"]
 
 [node name="Node2D" type="Node2D"]

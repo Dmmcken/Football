@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cypghvjo1cdmy"]
 
-[ext_resource type="Script" path="res://Trade.gd" id="1_ge00s"]
+[ext_resource type="Script" uid="uid://c40degbvkn08x" path="res://Trade.gd" id="1_ge00s"]
 [ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_vsvdb"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_7blhv"]

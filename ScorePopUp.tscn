@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://bi5v6xnv7rq15"]
 
 [ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="1_3b8u0"]
-[ext_resource type="Script" path="res://ScorePopUp.gd" id="1_dr4lg"]
+[ext_resource type="Script" uid="uid://dy7bpu705k5hl" path="res://ScorePopUp.gd" id="1_dr4lg"]
 [ext_resource type="Texture2D" uid="uid://dtpdfy4rc03ie" path="res://Art/Standings2.png" id="2_4vupd"]
 
 [sub_resource type="Theme" id="Theme_gh1si"]

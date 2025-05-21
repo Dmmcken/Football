@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://cjtopxlqypews"]
 
-[ext_resource type="Script" path="res://NewCoaches.gd" id="1_bbrgy"]
+[ext_resource type="Script" uid="uid://bavhxguwmblpd" path="res://NewCoaches.gd" id="1_bbrgy"]
 [ext_resource type="Texture2D" uid="uid://q3t7yiwppdkh" path="res://Art/Free Agents BG.png" id="1_c3nhp"]
 [ext_resource type="Texture2D" uid="uid://c3fi82uqofwut" path="res://Art/Copper.png" id="3_mgov2"]
 [ext_resource type="Texture2D" uid="uid://b1fiys7rwfgln" path="res://Art/Bronze.png" id="4_de7p5"]

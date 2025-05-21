@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://du7x3wvheg888"]
 
-[ext_resource type="Script" path="res://SeasonHome.gd" id="1_5gxnp"]
+[ext_resource type="Script" uid="uid://ba6bhk5wnjn5r" path="res://SeasonHome.gd" id="1_5gxnp"]
 [ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_6bxi5"]
 [ext_resource type="Theme" uid="uid://ccrt2axm1b3pb" path="res://Themes/PopupWarnings.tres" id="3_7po3q"]
 

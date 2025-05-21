@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://csiyyknqi2xly"]
 
-[ext_resource type="Script" path="res://Panel.gd" id="1_gsmi2"]
-[ext_resource type="Script" path="res://gameplay.gd" id="1_sr2cp"]
+[ext_resource type="Script" uid="uid://5e6kggei2ifu" path="res://Panel.gd" id="1_gsmi2"]
+[ext_resource type="Script" uid="uid://cjbeksyvt2uio" path="res://gameplay.gd" id="1_sr2cp"]
 [ext_resource type="Texture2D" uid="uid://c42h2qbk5hlgs" path="res://field.png" id="2_gcmpm"]
 [ext_resource type="Texture2D" uid="uid://cq5gmp5obqgdc" path="res://bluebackground.png" id="2_uardg"]
 

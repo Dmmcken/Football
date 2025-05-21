@@ -1,6 +1,6 @@
 [gd_scene load_steps=12 format=3 uid="uid://cnlsge1xoour8"]
 
-[ext_resource type="Script" path="res://Draft_Scene.gd" id="1_gfvpe"]
+[ext_resource type="Script" uid="uid://ck5soedsf4xml" path="res://Draft_Scene.gd" id="1_gfvpe"]
 [ext_resource type="Texture2D" uid="uid://thrkq7mr0h0e" path="res://Art/Podium.png" id="2_pr1ml"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a61ae"]

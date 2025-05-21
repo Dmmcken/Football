@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://s7cg0crt53nu"]
 
-[ext_resource type="Script" path="res://DepthChart.gd" id="1_tqif5"]
+[ext_resource type="Script" uid="uid://c5bv15him1prk" path="res://DepthChart.gd" id="1_tqif5"]
 [ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_81wl0"]
 
 [node name="Node2D" type="Node2D"]

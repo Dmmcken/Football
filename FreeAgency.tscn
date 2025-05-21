@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://bs300pj3buh3j"]
 
-[ext_resource type="Script" path="res://FreeAgency.gd" id="1_roxgo"]
+[ext_resource type="Script" uid="uid://c6wlqo5pb46um" path="res://FreeAgency.gd" id="1_roxgo"]
 [ext_resource type="Texture2D" uid="uid://q3t7yiwppdkh" path="res://Art/Free Agents BG.png" id="2_olw3u"]
 
 [node name="Node2D" type="Node2D"]

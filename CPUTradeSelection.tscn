@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://ov18rvloobqg"]
 
-[ext_resource type="Script" path="res://CPUTradeSelection.gd" id="1_rkti3"]
+[ext_resource type="Script" uid="uid://b637hk2qqh6lk" path="res://CPUTradeSelection.gd" id="1_rkti3"]
 [ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_u2f0v"]
 
 [node name="Node2D" type="Node2D"]
