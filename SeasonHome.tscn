@@ -1,0 +1,294 @@
+[gd_scene load_steps=6 format=3 uid="uid://du7x3wvheg888"]
+
+[ext_resource type="Script" path="res://SeasonHome.gd" id="1_5gxnp"]
+[ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_6bxi5"]
+[ext_resource type="Theme" uid="uid://ccrt2axm1b3pb" path="res://Themes/PopupWarnings.tres" id="3_7po3q"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hxgix"]
+bg_color = Color(1, 1, 1, 0.478431)
+expand_margin_left = 10.0
+expand_margin_top = 10.0
+expand_margin_right = 10.0
+expand_margin_bottom = 10.0
+
+[sub_resource type="Theme" id="Theme_nqv4w"]
+PopupPanel/styles/panel = SubResource("StyleBoxFlat_hxgix")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_5gxnp")
+
+[node name="Stadium" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(1.152, 1.15098)
+texture = ExtResource("2_6bxi5")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_use_anchors_ = true
+
+[node name="Button" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 936.0
+offset_top = 544.0
+offset_right = 1064.0
+offset_bottom = 608.0
+text = "Coaches"
+
+[node name="CurrentWeek" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 64.0
+offset_right = 704.0
+offset_bottom = 128.0
+text = "{CurrentWeek}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayerTeam" type="Label" parent="."]
+offset_left = 384.0
+offset_right = 768.0
+offset_bottom = 64.0
+text = "{PlayerTeam}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="OpponentTeam" type="Label" parent="."]
+offset_left = 256.0
+offset_top = 304.0
+offset_right = 896.0
+offset_bottom = 368.0
+text = "{OpponentTeam}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayButton" type="Button" parent="."]
+visible = false
+offset_left = 640.0
+offset_top = 384.0
+offset_right = 896.0
+offset_bottom = 512.0
+text = "Play Game"
+metadata/_edit_use_anchors_ = true
+
+[node name="SimulateButton" type="Button" parent="."]
+offset_left = 448.0
+offset_top = 384.0
+offset_right = 704.0
+offset_bottom = 512.0
+text = "Advance Week"
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayerRecord" type="Label" parent="."]
+offset_left = 512.0
+offset_top = 128.0
+offset_right = 640.0
+offset_bottom = 192.0
+text = "{Record}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayoffButton" type="Button" parent="."]
+offset_left = 976.0
+offset_top = 232.0
+offset_right = 1096.0
+offset_bottom = 264.0
+
+[node name="OffenseOVR" type="Label" parent="."]
+offset_left = 256.0
+offset_top = 192.0
+offset_right = 416.0
+offset_bottom = 218.0
+text = "Offense OVR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TeamOffense" type="Label" parent="."]
+offset_left = 256.0
+offset_top = 224.0
+offset_right = 416.0
+offset_bottom = 258.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TeamDefense" type="Label" parent="."]
+offset_left = 416.0
+offset_top = 224.0
+offset_right = 576.0
+offset_bottom = 258.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TeamST" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 224.0
+offset_right = 736.0
+offset_bottom = 258.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TeamOVR" type="Label" parent="."]
+offset_left = 736.0
+offset_top = 224.0
+offset_right = 896.0
+offset_bottom = 258.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OffenseOVR2" type="Label" parent="."]
+offset_left = 416.0
+offset_top = 192.0
+offset_right = 576.0
+offset_bottom = 218.0
+text = "Defense OVR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OffenseOVR3" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 192.0
+offset_right = 736.0
+offset_bottom = 218.0
+text = "Special Teams OVR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OffenseOVR4" type="Label" parent="."]
+offset_left = 736.0
+offset_top = 192.0
+offset_right = 896.0
+offset_bottom = 218.0
+text = "Team OVR"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="DepthChart" type="Button" parent="."]
+offset_left = 256.0
+offset_top = 544.0
+offset_right = 384.0
+offset_bottom = 608.0
+text = "Depth Chart"
+
+[node name="FreeAgents" type="Button" parent="."]
+offset_left = 768.0
+offset_top = 544.0
+offset_right = 896.0
+offset_bottom = 608.0
+text = "Free Agents"
+
+[node name="Salary" type="Label" parent="."]
+offset_left = 928.0
+offset_right = 1120.0
+offset_bottom = 64.0
+text = "Salary Cap"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="SalaryCap" type="Label" parent="."]
+offset_left = 960.0
+offset_top = 48.0
+offset_right = 1088.0
+offset_bottom = 112.0
+horizontal_alignment = 1
+
+[node name="TradeMenu" type="Button" parent="."]
+offset_left = 600.0
+offset_top = 544.0
+offset_right = 728.0
+offset_bottom = 608.0
+text = "Trade"
+
+[node name="SalaryCapPopup" type="PopupPanel" parent="."]
+size = Vector2i(300, 200)
+theme = ExtResource("3_7po3q")
+
+[node name="CapPopupLabel" type="Label" parent="SalaryCapPopup"]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 290.0
+offset_bottom = 196.0
+text = "Over Salary Cap!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RosterSizePopup" type="PopupPanel" parent="."]
+size = Vector2i(333, 200)
+theme = ExtResource("3_7po3q")
+
+[node name="RosterSizePopupLabel" type="Label" parent="RosterSizePopup"]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 323.0
+offset_bottom = 196.0
+text = "Over 53 Players! Cut players to continue!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RosterMinPopup" type="PopupPanel" parent="."]
+size = Vector2i(333, 200)
+theme = ExtResource("3_7po3q")
+
+[node name="RosterMinPopupLabel" type="Label" parent="RosterMinPopup"]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 323.0
+offset_bottom = 196.0
+text = "Over 53 Players! Cut players to continue!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TradeDeadlinePopup" type="PopupPanel" parent="."]
+size = Vector2i(300, 200)
+theme = ExtResource("3_7po3q")
+
+[node name="TradeDeadlinePopup" type="Label" parent="TradeDeadlinePopup"]
+offset_left = 10.0
+offset_top = 4.0
+offset_right = 290.0
+offset_bottom = 196.0
+text = "Trade Deadline has passed!"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TestButton" type="Button" parent="."]
+offset_right = 128.0
+offset_bottom = 64.0
+text = "Test"
+
+[node name="InjuryPopup" type="PopupPanel" parent="."]
+theme = SubResource("Theme_nqv4w")
+
+[node name="InjuryPopupContainer" type="VBoxContainer" parent="InjuryPopup"]
+offset_right = 100.0
+offset_bottom = 100.0
+
+[node name="InjuryPopupBox" type="VBoxContainer" parent="InjuryPopup/InjuryPopupContainer"]
+layout_mode = 2
+
+[node name="StandingsButton" type="Button" parent="."]
+offset_left = 424.0
+offset_top = 544.0
+offset_right = 552.0
+offset_bottom = 608.0
+text = "Standings"
+
+[node name="SeasonStats" type="Button" parent="."]
+offset_left = 88.0
+offset_top = 544.0
+offset_right = 216.0
+offset_bottom = 608.0
+text = "Season Stats"
+
+[connection signal="pressed" from="Panel/Button" to="." method="_on_coaches_button_pressed"]
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="SimulateButton" to="." method="_on_simulate_button_pressed"]
+[connection signal="pressed" from="PlayoffButton" to="." method="_on_playoff_button_pressed"]
+[connection signal="pressed" from="DepthChart" to="." method="_on_depth_chart_pressed"]
+[connection signal="pressed" from="FreeAgents" to="." method="_on_free_agents_pressed"]
+[connection signal="pressed" from="TradeMenu" to="." method="_on_trade_menu_pressed"]
+[connection signal="pressed" from="TestButton" to="." method="_on_test_button_pressed"]
+[connection signal="pressed" from="StandingsButton" to="." method="_on_standings_button_pressed"]
+[connection signal="pressed" from="SeasonStats" to="." method="_on_season_stats_pressed"]

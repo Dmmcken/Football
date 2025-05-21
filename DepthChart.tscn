@@ -1,0 +1,81 @@
+[gd_scene load_steps=3 format=3 uid="uid://s7cg0crt53nu"]
+
+[ext_resource type="Script" path="res://DepthChart.gd" id="1_tqif5"]
+[ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_81wl0"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_tqif5")
+
+[node name="Stadium" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(1.152, 1.15098)
+texture = ExtResource("2_81wl0")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Panel2" type="Panel" parent="."]
+offset_left = 192.0
+offset_right = 960.0
+offset_bottom = 648.0
+
+[node name="DepthChart" type="ScrollContainer" parent="."]
+offset_left = 200.0
+offset_right = 776.0
+offset_bottom = 648.0
+
+[node name="QBDepth" type="VBoxContainer" parent="DepthChart"]
+layout_mode = 2
+size_flags_vertical = 2
+
+[node name="Up" type="Button" parent="."]
+offset_left = 840.0
+offset_top = 176.0
+offset_right = 904.0
+offset_bottom = 224.0
+text = "Up"
+
+[node name="Down" type="Button" parent="."]
+offset_left = 840.0
+offset_top = 248.0
+offset_right = 904.0
+offset_bottom = 296.0
+text = "Down"
+
+[node name="Back" type="Button" parent="."]
+offset_left = 840.0
+offset_top = 552.0
+offset_right = 904.0
+offset_bottom = 600.0
+text = "Back"
+
+[node name="AutoReorder" type="Button" parent="."]
+offset_left = 824.0
+offset_top = 64.0
+offset_right = 920.0
+offset_bottom = 128.0
+text = "Auto 
+Reorder"
+
+[node name="Release" type="Button" parent="."]
+offset_left = 832.0
+offset_top = 336.0
+offset_right = 912.0
+offset_bottom = 384.0
+text = "Release"
+
+[node name="ChangePosition" type="Button" parent="."]
+offset_left = 832.0
+offset_top = 424.0
+offset_right = 912.0
+offset_bottom = 478.0
+text = "Change
+Position"
+
+[connection signal="pressed" from="Up" to="." method="_on_up_pressed"]
+[connection signal="pressed" from="Down" to="." method="_on_down_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="AutoReorder" to="." method="_on_auto_reorder_pressed"]
+[connection signal="pressed" from="Release" to="." method="_on_release_pressed"]
+[connection signal="pressed" from="ChangePosition" to="." method="_on_change_position_pressed"]

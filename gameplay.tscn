@@ -1,0 +1,132 @@
+[gd_scene load_steps=5 format=3 uid="uid://csiyyknqi2xly"]
+
+[ext_resource type="Script" path="res://Panel.gd" id="1_gsmi2"]
+[ext_resource type="Script" path="res://gameplay.gd" id="1_sr2cp"]
+[ext_resource type="Texture2D" uid="uid://c42h2qbk5hlgs" path="res://field.png" id="2_gcmpm"]
+[ext_resource type="Texture2D" uid="uid://cq5gmp5obqgdc" path="res://bluebackground.png" id="2_uardg"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_sr2cp")
+
+[node name="Bluebackground" type="Sprite2D" parent="."]
+position = Vector2(572, 397)
+texture = ExtResource("2_uardg")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+script = ExtResource("1_gsmi2")
+
+[node name="Field" type="Sprite2D" parent="Panel"]
+position = Vector2(576, 256.594)
+scale = Vector2(0.746667, 0.665263)
+texture = ExtResource("2_gcmpm")
+
+[node name="LeftTeamNameLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 128.0
+offset_right = 320.0
+offset_bottom = 64.0
+
+[node name="RightTeamNameLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 768.0
+offset_right = 960.0
+offset_bottom = 64.0
+
+[node name="LeftTeamScoreLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 320.0
+offset_right = 384.0
+offset_bottom = 64.0
+
+[node name="RightTeamScoreLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 960.0
+offset_right = 1024.0
+offset_bottom = 64.0
+
+[node name="DownToGoLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 576.0
+offset_right = 768.0
+offset_bottom = 64.0
+
+[node name="TimeLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 384.0
+offset_right = 576.0
+offset_bottom = 64.0
+
+[node name="LastPlayLabel" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 426.0
+offset_right = 1024.0
+offset_bottom = 452.0
+horizontal_alignment = 1
+
+[node name="Run" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 512.0
+offset_right = 256.0
+offset_bottom = 576.0
+text = "Run"
+
+[node name="ShortPass" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 384.0
+offset_top = 449.0
+offset_right = 512.0
+offset_bottom = 512.0
+text = "Short Pass"
+
+[node name="MediumPass" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 384.0
+offset_top = 512.0
+offset_right = 512.0
+offset_bottom = 576.0
+text = "Medium Pass"
+
+[node name="LongPass" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 384.0
+offset_top = 576.0
+offset_right = 512.0
+offset_bottom = 640.0
+text = "Long Pass"
+
+[node name="FieldGoal" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 640.0
+offset_top = 512.0
+offset_right = 768.0
+offset_bottom = 576.0
+text = "Field Goal"
+
+[node name="Punt" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 896.0
+offset_top = 512.0
+offset_right = 1024.0
+offset_bottom = 576.0
+text = "Punt"
+
+[node name="LineOfScrimmage" type="Line2D" parent="."]
+points = PackedVector2Array(364, 426, 364, 87)
+width = 5.0
+default_color = Color(0.133333, 0, 1, 1)
+
+[node name="DistanceToGo" type="Line2D" parent="."]
+points = PackedVector2Array(435, 426, 435, 87)
+width = 5.0
+default_color = Color(0.780392, 0.847059, 0, 1)
+
+[connection signal="pressed" from="Panel/Run" to="." method="_on_run_pressed"]
+[connection signal="pressed" from="Panel/ShortPass" to="." method="_on_short_pass_pressed"]
+[connection signal="pressed" from="Panel/MediumPass" to="." method="_on_medium_pass_pressed"]
+[connection signal="pressed" from="Panel/LongPass" to="." method="_on_long_pass_pressed"]
+[connection signal="pressed" from="Panel/FieldGoal" to="." method="_on_field_goal_pressed"]
+[connection signal="pressed" from="Panel/Punt" to="." method="_on_punt_pressed"]

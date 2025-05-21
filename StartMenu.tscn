@@ -1,0 +1,27 @@
+[gd_scene load_steps=4 format=3 uid="uid://colbr6y3h4td0"]
+
+[ext_resource type="Script" path="res://StartMenu.gd" id="1_6x0rl"]
+[ext_resource type="Texture2D" uid="uid://bei0acauw8h5a" path="res://Art/Start Screen.png" id="2_7n8gs"]
+[ext_resource type="Texture2D" uid="uid://7yk7uxulvuwg" path="res://Art/Title.png" id="3_oadoj"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_6x0rl")
+
+[node name="StartScreen" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(0.45, 0.3375)
+texture = ExtResource("2_7n8gs")
+
+[node name="Title" type="Sprite2D" parent="."]
+position = Vector2(648, 376)
+scale = Vector2(2.38, 2.20667)
+texture = ExtResource("3_oadoj")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 496.0
+offset_top = 336.0
+offset_right = 656.0
+offset_bottom = 424.0
+text = "Start Game"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

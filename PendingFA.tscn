@@ -1,0 +1,145 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxbmp0nvo8x0x"]
+
+[ext_resource type="Script" path="res://PendingFA.gd" id="1_ha1kq"]
+[ext_resource type="Texture2D" uid="uid://q3t7yiwppdkh" path="res://Art/Free Agents BG.png" id="2_0t4hl"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ha1kq")
+
+[node name="FreeAgentsBg" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(1.152, 1.15098)
+texture = ExtResource("2_0t4hl")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Pending" type="ScrollContainer" parent="."]
+offset_left = 64.0
+offset_right = 576.0
+offset_bottom = 648.0
+
+[node name="FreeAgents" type="VBoxContainer" parent="Pending"]
+layout_mode = 2
+
+[node name="ContractDetails" type="Label" parent="."]
+offset_left = 608.0
+offset_top = 192.0
+offset_right = 928.0
+offset_bottom = 320.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Resign" type="Button" parent="."]
+offset_left = 768.0
+offset_top = 368.0
+offset_right = 960.0
+offset_bottom = 432.0
+text = "Resign Player"
+
+[node name="Release" type="Button" parent="."]
+offset_left = 768.0
+offset_top = 560.0
+offset_right = 960.0
+offset_bottom = 624.0
+text = "Release Remaining
+Players"
+
+[node name="Roster" type="Button" parent="."]
+offset_left = 768.0
+offset_top = 464.0
+offset_right = 960.0
+offset_bottom = 528.0
+text = "View Roster"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 672.0
+offset_right = 1056.0
+offset_bottom = 64.0
+text = "Requested Contract:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Years" type="Label" parent="."]
+offset_left = 736.0
+offset_top = 64.0
+offset_right = 992.0
+offset_bottom = 128.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GuaranteedYears" type="Label" parent="."]
+offset_left = 736.0
+offset_top = 128.0
+offset_right = 992.0
+offset_bottom = 192.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Salary" type="Label" parent="."]
+offset_left = 736.0
+offset_top = 192.0
+offset_right = 992.0
+offset_bottom = 256.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="YearsDown" type="Button" parent="."]
+offset_left = 680.0
+offset_top = 72.0
+offset_right = 728.0
+offset_bottom = 120.0
+text = "<"
+
+[node name="YearsUp" type="Button" parent="."]
+offset_left = 1000.0
+offset_top = 72.0
+offset_right = 1048.0
+offset_bottom = 120.0
+text = ">"
+
+[node name="GuaranteedUp" type="Button" parent="."]
+offset_left = 1000.0
+offset_top = 136.0
+offset_right = 1048.0
+offset_bottom = 184.0
+text = ">"
+
+[node name="SalaryUp" type="Button" parent="."]
+offset_left = 1000.0
+offset_top = 200.0
+offset_right = 1048.0
+offset_bottom = 248.0
+text = ">"
+
+[node name="GuaranteedDown" type="Button" parent="."]
+offset_left = 680.0
+offset_top = 136.0
+offset_right = 728.0
+offset_bottom = 184.0
+text = "<"
+
+[node name="SalaryDown" type="Button" parent="."]
+offset_left = 680.0
+offset_top = 200.0
+offset_right = 728.0
+offset_bottom = 248.0
+text = "<"
+
+[node name="Deal" type="Label" parent="."]
+offset_left = 736.0
+offset_top = 288.0
+offset_right = 992.0
+offset_bottom = 352.0
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Resign" to="." method="_on_resign_pressed"]
+[connection signal="pressed" from="Release" to="." method="_on_release_pressed"]
+[connection signal="pressed" from="Roster" to="." method="_on_roster_pressed"]
+[connection signal="pressed" from="YearsDown" to="." method="_on_years_down_pressed"]
+[connection signal="pressed" from="YearsUp" to="." method="_on_years_up_pressed"]
+[connection signal="pressed" from="GuaranteedUp" to="." method="_on_guaranteed_up_pressed"]
+[connection signal="pressed" from="SalaryUp" to="." method="_on_salary_up_pressed"]
+[connection signal="pressed" from="GuaranteedDown" to="." method="_on_guaranteed_down_pressed"]
+[connection signal="pressed" from="SalaryDown" to="." method="_on_salary_down_pressed"]

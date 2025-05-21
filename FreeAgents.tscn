@@ -1,0 +1,133 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbck7dcwpg3fo"]
+
+[ext_resource type="Script" path="res://FreeAgents.gd" id="1_ujs4u"]
+[ext_resource type="Texture2D" uid="uid://q3t7yiwppdkh" path="res://Art/Free Agents BG.png" id="2_ybn3j"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_ujs4u")
+
+[node name="FreeAgentsBg" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(1.152, 1.15098)
+texture = ExtResource("2_ybn3j")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="FAScroll" type="ScrollContainer" parent="."]
+offset_left = 64.0
+offset_right = 640.0
+offset_bottom = 648.0
+
+[node name="FreeAgents" type="VBoxContainer" parent="FAScroll"]
+layout_mode = 2
+
+[node name="Sign" type="Button" parent="."]
+offset_left = 832.0
+offset_top = 368.0
+offset_right = 960.0
+offset_bottom = 432.0
+text = "Sign Player"
+
+[node name="Back" type="Button" parent="."]
+offset_left = 832.0
+offset_top = 560.0
+offset_right = 960.0
+offset_bottom = 624.0
+text = "Back"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 768.0
+offset_right = 1024.0
+offset_bottom = 64.0
+text = "Requested Contract:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OptionButton" type="OptionButton" parent="."]
+offset_left = 516.0
+offset_right = 628.0
+offset_bottom = 64.0
+
+[node name="Years" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 64.0
+offset_right = 1024.0
+offset_bottom = 128.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="GuaranteedYears" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 128.0
+offset_right = 1024.0
+offset_bottom = 192.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Salary" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 192.0
+offset_right = 1024.0
+offset_bottom = 256.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="YearsDown" type="Button" parent="."]
+offset_left = 712.0
+offset_top = 72.0
+offset_right = 760.0
+offset_bottom = 120.0
+text = "<"
+
+[node name="YearsUp" type="Button" parent="."]
+offset_left = 1032.0
+offset_top = 72.0
+offset_right = 1080.0
+offset_bottom = 120.0
+text = ">"
+
+[node name="GuaranteedUp" type="Button" parent="."]
+offset_left = 1032.0
+offset_top = 136.0
+offset_right = 1080.0
+offset_bottom = 184.0
+text = ">"
+
+[node name="SalaryUp" type="Button" parent="."]
+offset_left = 1032.0
+offset_top = 200.0
+offset_right = 1080.0
+offset_bottom = 248.0
+text = ">"
+
+[node name="GuaranteedDown" type="Button" parent="."]
+offset_left = 712.0
+offset_top = 136.0
+offset_right = 760.0
+offset_bottom = 184.0
+text = "<"
+
+[node name="SalaryDown" type="Button" parent="."]
+offset_left = 712.0
+offset_top = 200.0
+offset_right = 760.0
+offset_bottom = 248.0
+text = "<"
+
+[node name="Deal" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 288.0
+offset_right = 1024.0
+offset_bottom = 352.0
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Sign" to="." method="_on_sign_pressed"]
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="YearsDown" to="." method="_on_years_down_pressed"]
+[connection signal="pressed" from="YearsUp" to="." method="_on_years_up_pressed"]
+[connection signal="pressed" from="GuaranteedUp" to="." method="_on_guaranteed_up_pressed"]
+[connection signal="pressed" from="SalaryUp" to="." method="_on_salary_up_pressed"]
+[connection signal="pressed" from="GuaranteedDown" to="." method="_on_guaranteed_down_pressed"]
+[connection signal="pressed" from="SalaryDown" to="." method="_on_salary_down_pressed"]

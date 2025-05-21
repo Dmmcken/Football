@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://b141t488dwcvd"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_use_anchors_ = true
+
+[node name="CurrentWeek" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 64.0
+offset_right = 704.0
+offset_bottom = 128.0
+text = "{CurrentWeek}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayerTeam" type="Label" parent="."]
+offset_left = 384.0
+offset_right = 768.0
+offset_bottom = 64.0
+text = "{PlayerTeam}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="OpponentTeam" type="Label" parent="."]
+offset_left = 256.0
+offset_top = 256.0
+offset_right = 896.0
+offset_bottom = 320.0
+text = "{OpponentTeam}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = 640.0
+offset_top = 384.0
+offset_right = 896.0
+offset_bottom = 512.0
+text = "Play Game"
+metadata/_edit_use_anchors_ = true
+
+[node name="SimulateButton" type="Button" parent="."]
+offset_left = 256.0
+offset_top = 384.0
+offset_right = 512.0
+offset_bottom = 512.0
+text = "Simulate Game"
+metadata/_edit_use_anchors_ = true
+
+[node name="StandingsButton" type="Button" parent="."]
+offset_left = 448.0
+offset_top = 544.0
+offset_right = 704.0
+offset_bottom = 608.0
+text = "View Standings"
+metadata/_edit_use_anchors_ = true
+
+[node name="PlayerRecord" type="Label" parent="."]
+offset_left = 512.0
+offset_top = 128.0
+offset_right = 640.0
+offset_bottom = 192.0
+text = "{Record}"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true

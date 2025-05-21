@@ -1,0 +1,258 @@
+{
+  "Minnesota Vikings": {
+	"Conference": "NFC",
+	"Division": "North",
+	"Offense_Ovr": 87,
+	"Defense_Ovr": 80,
+	"Special_Teams_Over": 80,
+	"Team_Ovr": 82
+  },
+  "Green Bay Packers": {
+	"Conference": "NFC",
+	"Division": "North",
+	"Offense_Ovr": 92,
+	"Defense_Ovr": 91,
+	"Special_Teams_Over": 90,
+	"Team_Ovr": 91
+  },
+  "Chicago Bears": {
+	"Conference": "NFC",
+	"Division": "North",
+	"Offense_Ovr": 73,
+	"Defense_Ovr": 88,
+	"Special_Teams_Over": 80,
+	"Team_Ovr": 80
+  },
+  "Detroit Lions": {
+	"Conference": "NFC",
+	"Division": "North",
+	"Offense_Ovr": 80,
+	"Defense_Ovr": 91,
+	"Special_Teams_Over": 93,
+	"Team_Ovr": 88
+  },
+  "Dallas Cowboys": {
+	"Conference": "NFC",
+	"Division": "East",
+	"Offense_Ovr": 80,
+	"Defense_Ovr": 70,
+	"Special_Teams_Over": 93,
+	"Team_Ovr": 81
+  },
+  "New York Giants": {
+	"Conference": "NFC",
+	"Division": "East",
+	"Offense_Ovr": 92,
+	"Defense_Ovr": 81,
+	"Special_Teams_Over": 80,
+	"Team_Ovr": 84
+  },
+  "Philadelphia Eagles": {
+	"Conference": "NFC",
+	"Division": "East",
+	"Offense_Ovr": 75,
+	"Defense_Ovr": 76,
+	"Special_Teams_Over": 73,
+	"Team_Ovr": 75
+  },
+  "Washington Commanders": {
+	"Conference": "NFC",
+	"Division": "East",
+	"Offense_Ovr": 77,
+	"Defense_Ovr": 84,
+	"Special_Teams_Over": 83,
+	"Team_Ovr": 81
+  },
+  "Atlanta Falcons": {
+	"Conference": "NFC",
+	"Division": "South",
+	"Offense_Ovr": 74,
+	"Defense_Ovr": 88,
+	"Special_Teams_Over": 76,
+	"Team_Ovr": 79
+  },
+  "Carolina Panthers": {
+	"Conference": "NFC",
+	"Division": "South",
+	"Offense_Ovr": 71,
+	"Defense_Ovr": 77,
+	"Special_Teams_Over": 83,
+	"Team_Ovr": 77
+  },
+  "Tampa Bay Buccaneers": {
+	"Conference": "NFC",
+	"Division": "South",
+	"Offense_Ovr": 74,
+	"Defense_Ovr": 82,
+	"Special_Teams_Over": 82,
+	"Team_Ovr": 79
+  },
+  "New Orleans Saints": {
+	"Conference": "NFC",
+	"Division": "South",
+	"Offense_Ovr": 70,
+	"Defense_Ovr": 84,
+	"Special_Teams_Over": 78,
+	"Team_Ovr": 77
+  },
+  "Arizona Cardinals": {
+	"Conference": "NFC",
+	"Division": "West",
+	"Offense_Ovr": 71,
+	"Defense_Ovr": 80,
+	"Special_Teams_Over": 72,
+	"Team_Ovr": 74
+  },
+  "Los Angeles Rams": {
+	"Conference": "NFC",
+	"Division": "West",
+	"Offense_Ovr": 86,
+	"Defense_Ovr": 87,
+	"Special_Teams_Over": 73,
+	"Team_Ovr": 82
+  },
+  "San Francisco 49ers": {
+	"Conference": "NFC",
+	"Division": "West",
+	"Offense_Ovr": 79,
+	"Defense_Ovr": 90,
+	"Special_Teams_Over": 87,
+	"Team_Ovr": 85
+  },
+  "Seattle Seahawks": {
+	"Conference": "NFC",
+	"Division": "West",
+	"Offense_Ovr": 84,
+	"Defense_Ovr": 79,
+	"Special_Teams_Over": 70,
+	"Team_Ovr": 78
+  },
+  "Baltimore Ravens": {
+	"Conference": "AFC",
+	"Division": "North",
+	"Offense_Ovr": 73,
+	"Defense_Ovr": 91,
+	"Special_Teams_Over": 88,
+	"Team_Ovr": 84
+  },
+  "Cincinnati Bengals": {
+	"Conference": "AFC",
+	"Division": "North",
+	"Offense_Ovr": 80,
+	"Defense_Ovr": 77,
+	"Special_Teams_Over": 83,
+	"Team_Ovr": 80
+  },
+  "Cleveland Browns": {
+	"Conference": "AFC",
+	"Division": "North",
+	"Offense_Ovr": 78,
+	"Defense_Ovr": 85,
+	"Special_Teams_Over": 76,
+	"Team_Ovr": 80
+  },
+  "Pittsburgh Steelers": {
+	"Conference": "AFC",
+	"Division": "North",
+	"Offense_Ovr": 71,
+	"Defense_Ovr": 88,
+	"Special_Teams_Over": 87,
+	"Team_Ovr": 82
+  },
+  "Buffalo Bills": {
+	"Conference": "AFC",
+	"Division": "East",
+	"Offense_Ovr": 74,
+	"Defense_Ovr": 75,
+	"Special_Teams_Over": 71,
+	"Team_Ovr": 73
+  },
+  "Miami Dolphins": {
+	"Conference": "AFC",
+	"Division": "East",
+	"Offense_Ovr": 74,
+	"Defense_Ovr": 72,
+	"Special_Teams_Over": 85,
+	"Team_Ovr": 77
+  },
+  "New England Patriots": {
+	"Conference": "AFC",
+	"Division": "East",
+	"Offense_Ovr": 91,
+	"Defense_Ovr": 79,
+	"Special_Teams_Over": 88,
+	"Team_Ovr": 86
+  },
+  "New York Jets": {
+	"Conference": "AFC",
+	"Division": "East",
+	"Offense_Ovr": 79,
+	"Defense_Ovr": 82,
+	"Special_Teams_Over": 77,
+	"Team_Ovr": 79
+  },
+  "Houston Texans": {
+	"Conference": "AFC",
+	"Division": "South",
+	"Offense_Ovr": 87,
+	"Defense_Ovr": 87,
+	"Special_Teams_Over": 79,
+	"Team_Ovr": 84
+  },
+  "Indianapolis Colts": {
+	"Conference": "AFC",
+	"Division": "South",
+	"Offense_Ovr": 90,
+	"Defense_Ovr": 74,
+	"Special_Teams_Over": 74,
+	"Team_Ovr": 79
+  },
+  "Jacksonville Jaguars": {
+	"Conference": "AFC",
+	"Division": "South",
+	"Offense_Ovr": 85,
+	"Defense_Ovr": 75,
+	"Special_Teams_Over": 89,
+	"Team_Ovr": 83
+  },
+  "Tennessee Titans": {
+	"Conference": "AFC",
+	"Division": "South",
+	"Offense_Ovr": 92,
+	"Defense_Ovr": 88,
+	"Special_Teams_Over": 92,
+	"Team_Ovr": 91
+  },
+  "Denver Broncos": {
+	"Conference": "AFC",
+	"Division": "West",
+	"Offense_Ovr": 72,
+	"Defense_Ovr": 90,
+	"Special_Teams_Over": 90,
+	"Team_Ovr": 84
+  },
+  "Kansas City Chiefs": {
+	"Conference": "AFC",
+	"Division": "West",
+	"Offense_Ovr": 73,
+	"Defense_Ovr": 74,
+	"Special_Teams_Over": 84,
+	"Team_Ovr": 77
+  },
+  "Las Vegas Raiders": {
+	"Conference": "AFC",
+	"Division": "West",
+	"Offense_Ovr": 78,
+	"Defense_Ovr": 72,
+	"Special_Teams_Over": 86,
+	"Team_Ovr": 79
+  },
+  "Los Angeles Chargers": {
+	"Conference": "AFC",
+	"Division": "West",
+	"Offense_Ovr": 87,
+	"Defense_Ovr": 75,
+	"Special_Teams_Over": 82,
+	"Team_Ovr": 81
+  }
+}

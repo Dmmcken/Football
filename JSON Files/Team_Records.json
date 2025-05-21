@@ -1,0 +1,324 @@
+{
+	"Sheet1":{
+	"Detroit Motors": {
+	  "Conference": "CFC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Cleveland Blue Jays": {
+	  "Conference": "CFC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Louisville Stallions": {
+	  "Conference": "CFC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Indianapolis Cougars": {
+	  "Conference": "CFC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Miami Pirates": {
+	  "Conference": "CFC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Tampa Wolverines": {
+	  "Conference": "CFC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Boston Wildcats": {
+	  "Conference": "CFC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Georgia Peaches": {
+	  "Conference": "CFC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Kansas City Badgers": {
+	  "Conference": "CFC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Houston Bulls": {
+	  "Conference": "CFC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Nashville Strings": {
+	  "Conference": "CFC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Dallas Rebels": {
+	  "Conference": "CFC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Albuquerque Scorpions": {
+	  "Conference": "CFC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Phoenix Roadrunners": {
+	  "Conference": "CFC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Sacramento Golds": {
+	  "Conference": "CFC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Seattle Vampires": {
+	  "Conference": "CFC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Columbus Hawks": {
+	  "Conference": "AHC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Milwaukee Owls": {
+	  "Conference": "AHC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Baltimore Bombers": {
+	  "Conference": "AHC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Chicago Warriors": {
+	  "Conference": "AHC",
+	  "Division": "North",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Philadelphia Suns": {
+	  "Conference": "AHC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"New York Spartans": {
+	  "Conference": "AHC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Charlotte Beasts": {
+	  "Conference": "AHC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"DC Senators": {
+	  "Conference": "AHC",
+	  "Division": "East",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"New Orleans Voodoo": {
+	  "Conference": "AHC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Oklahoma Tornadoes": {
+	  "Conference": "AHC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Memphis Pyramids": {
+	  "Conference": "AHC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Omaha Ducks": {
+	  "Conference": "AHC",
+	  "Division": "South",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Las Vegas Aces": {
+	  "Conference": "AHC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"San Diego Spartans": {
+	  "Conference": "AHC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Oregon Sea Lions": {
+	  "Conference": "AHC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	},
+	"Los Angeles Stars": {
+	  "Conference": "AHC",
+	  "Division": "West",
+	  "Wins": 0,
+	  "Losses": 0,
+	  "Conference Wins": 0,
+	  "Conference Losses": 0,
+	  "Division Wins": 0,
+	  "Division Losses": 0
+	}
+  }
+}

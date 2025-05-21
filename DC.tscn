@@ -1,0 +1,329 @@
+[gd_scene load_steps=9 format=3 uid="uid://npbk221y0cax"]
+
+[ext_resource type="Script" path="res://DC.gd" id="1_10jq1"]
+[ext_resource type="Texture2D" uid="uid://c2seahejttxhx" path="res://Art/pixil-frame-0.png" id="2_4nhmc"]
+[ext_resource type="Texture2D" uid="uid://c3fi82uqofwut" path="res://Art/Copper.png" id="3_we00l"]
+[ext_resource type="Texture2D" uid="uid://b1fiys7rwfgln" path="res://Art/Bronze.png" id="4_e1iye"]
+[ext_resource type="Texture2D" uid="uid://cev6xi8jd8a54" path="res://Art/Silver.png" id="5_wh13n"]
+[ext_resource type="Texture2D" uid="uid://bqs3a18gy8bn" path="res://Art/Gold.png" id="6_f78gp"]
+[ext_resource type="Texture2D" uid="uid://cjg1ng4tp7gpr" path="res://Art/Platinum.png" id="7_6cwqe"]
+[ext_resource type="Texture2D" uid="uid://uuke7exo55ju" path="res://Art/Diamond.png" id="8_waow8"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_10jq1")
+
+[node name="Pixil-frame-0" type="Sprite2D" parent="."]
+position = Vector2(576, 320)
+scale = Vector2(0.6, 0.5875)
+texture = ExtResource("2_4nhmc")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+metadata/_edit_use_anchors_ = true
+
+[node name="CopperOC1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("3_we00l")
+
+[node name="CopperOC2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("3_we00l")
+
+[node name="CopperOC3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("3_we00l")
+
+[node name="BronzeOC1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("4_e1iye")
+
+[node name="BronzeOC2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("4_e1iye")
+
+[node name="BronzeOC3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("4_e1iye")
+
+[node name="SilverOC1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("5_wh13n")
+
+[node name="SilverOC2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("5_wh13n")
+
+[node name="SilverOC3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("5_wh13n")
+
+[node name="GoldOC1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("6_f78gp")
+
+[node name="GoldOC2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("6_f78gp")
+
+[node name="GoldOC3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("6_f78gp")
+
+[node name="PlatinumOC1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("7_6cwqe")
+
+[node name="PlatinumOC2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("7_6cwqe")
+
+[node name="PlatinumOC3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("7_6cwqe")
+
+[node name="DiamondOC1" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("8_waow8")
+
+[node name="DiamondOC2" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("8_waow8")
+
+[node name="DiamondOC3" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("8_waow8")
+
+[node name="Choose" type="Label" parent="."]
+offset_right = 1152.0
+offset_bottom = 128.0
+text = "Choose a Defensive Coordinator"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Button" type="Button" parent="."]
+offset_left = 144.0
+offset_top = 568.0
+offset_right = 272.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Button" type="Button" parent="."]
+offset_left = 512.0
+offset_top = 568.0
+offset_right = 640.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Button" type="Button" parent="."]
+offset_left = 880.0
+offset_top = 568.0
+offset_right = 1008.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Name" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 128.0
+offset_right = 384.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Name" type="Label" parent="."]
+offset_left = 400.0
+offset_top = 128.0
+offset_right = 752.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Name" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 128.0
+offset_right = 1120.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Rank" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 192.0
+offset_right = 384.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Rank" type="Label" parent="."]
+offset_left = 400.0
+offset_top = 192.0
+offset_right = 752.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Rank" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 192.0
+offset_right = 1120.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Boost" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 256.0
+offset_right = 384.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Boost" type="Label" parent="."]
+offset_left = 400.0
+offset_top = 256.0
+offset_right = 752.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Boost" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 256.0
+offset_right = 1120.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Focus" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 320.0
+offset_right = 384.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Focus" type="Label" parent="."]
+offset_left = 400.0
+offset_top = 320.0
+offset_right = 752.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Focus" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 320.0
+offset_right = 1120.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Trait" type="Label" parent="."]
+offset_left = 32.0
+offset_top = 384.0
+offset_right = 384.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Trait" type="Label" parent="."]
+offset_left = 400.0
+offset_top = 384.0
+offset_right = 752.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Trait" type="Label" parent="."]
+offset_left = 768.0
+offset_top = 384.0
+offset_right = 1120.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1TraitDesc" type="Label" parent="."]
+offset_left = 40.0
+offset_top = 448.0
+offset_right = 376.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2TraitDesc" type="Label" parent="."]
+offset_left = 408.0
+offset_top = 448.0
+offset_right = 744.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3TraitDesc" type="Label" parent="."]
+offset_left = 776.0
+offset_top = 448.0
+offset_right = 1112.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="DC1Button" to="." method="_on_dc_1_button_pressed"]
+[connection signal="pressed" from="DC2Button" to="." method="_on_dc_2_button_pressed"]
+[connection signal="pressed" from="DC3Button" to="." method="_on_dc_3_button_pressed"]

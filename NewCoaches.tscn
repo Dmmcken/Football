@@ -1,0 +1,919 @@
+[gd_scene load_steps=9 format=3 uid="uid://cjtopxlqypews"]
+
+[ext_resource type="Script" path="res://NewCoaches.gd" id="1_bbrgy"]
+[ext_resource type="Texture2D" uid="uid://q3t7yiwppdkh" path="res://Art/Free Agents BG.png" id="1_c3nhp"]
+[ext_resource type="Texture2D" uid="uid://c3fi82uqofwut" path="res://Art/Copper.png" id="3_mgov2"]
+[ext_resource type="Texture2D" uid="uid://b1fiys7rwfgln" path="res://Art/Bronze.png" id="4_de7p5"]
+[ext_resource type="Texture2D" uid="uid://cev6xi8jd8a54" path="res://Art/Silver.png" id="5_bkl5y"]
+[ext_resource type="Texture2D" uid="uid://bqs3a18gy8bn" path="res://Art/Gold.png" id="6_bnver"]
+[ext_resource type="Texture2D" uid="uid://cjg1ng4tp7gpr" path="res://Art/Platinum.png" id="7_sjc7l"]
+[ext_resource type="Texture2D" uid="uid://uuke7exo55ju" path="res://Art/Diamond.png" id="8_4bmkc"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_bbrgy")
+
+[node name="FreeAgentsBg" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(1.152, 1.15098)
+texture = ExtResource("1_c3nhp")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="DC" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 512.0
+offset_top = 32.0
+offset_right = 640.0
+offset_bottom = 96.0
+text = "DC"
+
+[node name="Scout" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 704.0
+offset_top = 32.0
+offset_right = 832.0
+offset_bottom = 96.0
+text = "Scout"
+
+[node name="OC" type="Button" parent="Panel"]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 32.0
+offset_right = 448.0
+offset_bottom = 96.0
+text = "OC"
+
+[node name="OCPanel" type="Panel" parent="."]
+visible = false
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Choose" type="Label" parent="OCPanel"]
+offset_right = 1152.0
+offset_bottom = 128.0
+text = "Choose an Offensive Coordinator"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CopperOC1" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="CopperOC2" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="CopperOC3" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="BronzeOC1" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="BronzeOC2" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="BronzeOC3" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="SilverOC1" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="SilverOC2" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="SilverOC3" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="GoldOC1" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("6_bnver")
+
+[node name="GoldOC2" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("6_bnver")
+
+[node name="GoldOC3" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("6_bnver")
+
+[node name="PlatinumOC1" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="PlatinumOC2" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="PlatinumOC3" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="DiamondOC1" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="DiamondOC2" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="DiamondOC3" type="Sprite2D" parent="OCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="OC1Button" type="Button" parent="OCPanel"]
+offset_left = 144.0
+offset_top = 568.0
+offset_right = 272.0
+offset_bottom = 632.0
+text = "Select"
+
+[node name="OC2Button" type="Button" parent="OCPanel"]
+offset_left = 512.0
+offset_top = 568.0
+offset_right = 640.0
+offset_bottom = 632.0
+text = "Select"
+
+[node name="OC3Button" type="Button" parent="OCPanel"]
+offset_left = 880.0
+offset_top = 568.0
+offset_right = 1008.0
+offset_bottom = 632.0
+text = "Select"
+
+[node name="OC1Name" type="Label" parent="OCPanel"]
+offset_left = 32.0
+offset_top = 128.0
+offset_right = 384.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC2Name" type="Label" parent="OCPanel"]
+offset_left = 400.0
+offset_top = 128.0
+offset_right = 752.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC3Name" type="Label" parent="OCPanel"]
+offset_left = 768.0
+offset_top = 128.0
+offset_right = 1120.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC1Rank" type="Label" parent="OCPanel"]
+offset_left = 32.0
+offset_top = 192.0
+offset_right = 384.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC2Rank" type="Label" parent="OCPanel"]
+offset_left = 400.0
+offset_top = 192.0
+offset_right = 752.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC3Rank" type="Label" parent="OCPanel"]
+offset_left = 768.0
+offset_top = 192.0
+offset_right = 1120.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC1Boost" type="Label" parent="OCPanel"]
+offset_left = 32.0
+offset_top = 256.0
+offset_right = 384.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC2Boost" type="Label" parent="OCPanel"]
+offset_left = 400.0
+offset_top = 256.0
+offset_right = 752.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC3Boost" type="Label" parent="OCPanel"]
+offset_left = 768.0
+offset_top = 256.0
+offset_right = 1120.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC1Focus" type="Label" parent="OCPanel"]
+offset_left = 32.0
+offset_top = 320.0
+offset_right = 384.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC2Focus" type="Label" parent="OCPanel"]
+offset_left = 400.0
+offset_top = 320.0
+offset_right = 752.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC3Focus" type="Label" parent="OCPanel"]
+offset_left = 768.0
+offset_top = 320.0
+offset_right = 1120.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC1Trait" type="Label" parent="OCPanel"]
+offset_left = 32.0
+offset_top = 384.0
+offset_right = 384.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC2Trait" type="Label" parent="OCPanel"]
+offset_left = 400.0
+offset_top = 384.0
+offset_right = 752.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC3Trait" type="Label" parent="OCPanel"]
+offset_left = 768.0
+offset_top = 384.0
+offset_right = 1120.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OC1TraitDesc" type="Label" parent="OCPanel"]
+offset_left = 40.0
+offset_top = 448.0
+offset_right = 376.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="OC2TraitDesc" type="Label" parent="OCPanel"]
+offset_left = 408.0
+offset_top = 448.0
+offset_right = 744.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="OC3TraitDesc" type="Label" parent="OCPanel"]
+offset_left = 776.0
+offset_top = 448.0
+offset_right = 1112.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="DCPanel" type="Panel" parent="."]
+visible = false
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="CopperOC1" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="CopperOC2" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="CopperOC3" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="BronzeOC1" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="BronzeOC2" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="BronzeOC3" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="SilverOC1" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="SilverOC2" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="SilverOC3" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="GoldOC1" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("6_bnver")
+
+[node name="GoldOC2" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("6_bnver")
+
+[node name="GoldOC3" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("6_bnver")
+
+[node name="PlatinumOC1" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="PlatinumOC2" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="PlatinumOC3" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="DiamondOC1" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="DiamondOC2" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="DiamondOC3" type="Sprite2D" parent="DCPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="Choose" type="Label" parent="DCPanel"]
+offset_right = 1152.0
+offset_bottom = 128.0
+text = "Choose a Defensive Coordinator"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Button" type="Button" parent="DCPanel"]
+offset_left = 144.0
+offset_top = 568.0
+offset_right = 272.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Button" type="Button" parent="DCPanel"]
+offset_left = 512.0
+offset_top = 568.0
+offset_right = 640.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Button" type="Button" parent="DCPanel"]
+offset_left = 880.0
+offset_top = 568.0
+offset_right = 1008.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Name" type="Label" parent="DCPanel"]
+offset_left = 32.0
+offset_top = 128.0
+offset_right = 384.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Name" type="Label" parent="DCPanel"]
+offset_left = 400.0
+offset_top = 128.0
+offset_right = 752.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Name" type="Label" parent="DCPanel"]
+offset_left = 768.0
+offset_top = 128.0
+offset_right = 1120.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Rank" type="Label" parent="DCPanel"]
+offset_left = 32.0
+offset_top = 192.0
+offset_right = 384.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Rank" type="Label" parent="DCPanel"]
+offset_left = 400.0
+offset_top = 192.0
+offset_right = 752.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Rank" type="Label" parent="DCPanel"]
+offset_left = 768.0
+offset_top = 192.0
+offset_right = 1120.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Boost" type="Label" parent="DCPanel"]
+offset_left = 32.0
+offset_top = 256.0
+offset_right = 384.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Boost" type="Label" parent="DCPanel"]
+offset_left = 400.0
+offset_top = 256.0
+offset_right = 752.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Boost" type="Label" parent="DCPanel"]
+offset_left = 768.0
+offset_top = 256.0
+offset_right = 1120.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Focus" type="Label" parent="DCPanel"]
+offset_left = 32.0
+offset_top = 320.0
+offset_right = 384.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Focus" type="Label" parent="DCPanel"]
+offset_left = 400.0
+offset_top = 320.0
+offset_right = 752.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Focus" type="Label" parent="DCPanel"]
+offset_left = 768.0
+offset_top = 320.0
+offset_right = 1120.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1Trait" type="Label" parent="DCPanel"]
+offset_left = 32.0
+offset_top = 384.0
+offset_right = 384.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2Trait" type="Label" parent="DCPanel"]
+offset_left = 400.0
+offset_top = 384.0
+offset_right = 752.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3Trait" type="Label" parent="DCPanel"]
+offset_left = 768.0
+offset_top = 384.0
+offset_right = 1120.0
+offset_bottom = 448.0
+text = "Trait"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="DC1TraitDesc" type="Label" parent="DCPanel"]
+offset_left = 40.0
+offset_top = 448.0
+offset_right = 376.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="DC2TraitDesc" type="Label" parent="DCPanel"]
+offset_left = 408.0
+offset_top = 448.0
+offset_right = 744.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="DC3TraitDesc" type="Label" parent="DCPanel"]
+offset_left = 776.0
+offset_top = 448.0
+offset_right = 1112.0
+offset_bottom = 552.0
+text = "Trait"
+horizontal_alignment = 1
+autowrap_mode = 2
+metadata/_edit_use_anchors_ = true
+
+[node name="ScoutPanel" type="Panel" parent="."]
+visible = false
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="CopperOC1" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="CopperOC2" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="CopperOC3" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("3_mgov2")
+
+[node name="BronzeOC1" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="BronzeOC2" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="BronzeOC3" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("4_de7p5")
+
+[node name="SilverOC1" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="SilverOC2" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="SilverOC3" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("5_bkl5y")
+
+[node name="GoldOC1" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("6_bnver")
+
+[node name="GoldOC2" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("6_bnver")
+
+[node name="GoldOC3" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("6_bnver")
+
+[node name="PlatinumOC1" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="PlatinumOC2" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="PlatinumOC3" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("7_sjc7l")
+
+[node name="DiamondOC1" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(208, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="DiamondOC2" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(576, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="DiamondOC3" type="Sprite2D" parent="ScoutPanel"]
+visible = false
+position = Vector2(944, 344)
+texture = ExtResource("8_4bmkc")
+
+[node name="Choose" type="Label" parent="ScoutPanel"]
+offset_right = 1152.0
+offset_bottom = 128.0
+text = "Choose a Scout"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout1Button" type="Button" parent="ScoutPanel"]
+offset_left = 144.0
+offset_top = 568.0
+offset_right = 272.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout2Button" type="Button" parent="ScoutPanel"]
+offset_left = 512.0
+offset_top = 568.0
+offset_right = 640.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout3Button" type="Button" parent="ScoutPanel"]
+offset_left = 880.0
+offset_top = 568.0
+offset_right = 1008.0
+offset_bottom = 632.0
+text = "Select"
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout1Name" type="Label" parent="ScoutPanel"]
+offset_left = 32.0
+offset_top = 128.0
+offset_right = 384.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout2Name" type="Label" parent="ScoutPanel"]
+offset_left = 400.0
+offset_top = 128.0
+offset_right = 752.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout3Name" type="Label" parent="ScoutPanel"]
+offset_left = 768.0
+offset_top = 128.0
+offset_right = 1120.0
+offset_bottom = 192.0
+text = "Name"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout1Rank" type="Label" parent="ScoutPanel"]
+offset_left = 32.0
+offset_top = 192.0
+offset_right = 384.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout2Rank" type="Label" parent="ScoutPanel"]
+offset_left = 400.0
+offset_top = 192.0
+offset_right = 752.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout3Rank" type="Label" parent="ScoutPanel"]
+offset_left = 768.0
+offset_top = 192.0
+offset_right = 1120.0
+offset_bottom = 256.0
+text = "Rank"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout1Boost" type="Label" parent="ScoutPanel"]
+offset_left = 32.0
+offset_top = 256.0
+offset_right = 384.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout2Boost" type="Label" parent="ScoutPanel"]
+offset_left = 400.0
+offset_top = 256.0
+offset_right = 752.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout3Boost" type="Label" parent="ScoutPanel"]
+offset_left = 768.0
+offset_top = 256.0
+offset_right = 1120.0
+offset_bottom = 320.0
+text = "Boost"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout1Focus" type="Label" parent="ScoutPanel"]
+offset_left = 32.0
+offset_top = 320.0
+offset_right = 384.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout2Focus" type="Label" parent="ScoutPanel"]
+offset_left = 400.0
+offset_top = 320.0
+offset_right = 752.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout3Focus" type="Label" parent="ScoutPanel"]
+offset_left = 768.0
+offset_top = 320.0
+offset_right = 1120.0
+offset_bottom = 384.0
+text = "Focus"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout1Slots" type="Label" parent="ScoutPanel"]
+offset_left = 32.0
+offset_top = 384.0
+offset_right = 384.0
+offset_bottom = 448.0
+text = "Slots"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout2Slots" type="Label" parent="ScoutPanel"]
+offset_left = 400.0
+offset_top = 384.0
+offset_right = 752.0
+offset_bottom = 448.0
+text = "Slots"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Scout3Slots" type="Label" parent="ScoutPanel"]
+offset_left = 768.0
+offset_top = 384.0
+offset_right = 1120.0
+offset_bottom = 448.0
+text = "Slots"
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Panel/DC" to="." method="_on_dc_pressed"]
+[connection signal="pressed" from="Panel/Scout" to="." method="_on_scout_pressed"]
+[connection signal="pressed" from="Panel/OC" to="." method="_on_oc_pressed"]

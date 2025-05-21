@@ -1,0 +1,183 @@
+[gd_scene load_steps=5 format=3 uid="uid://bi5v6xnv7rq15"]
+
+[ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="1_3b8u0"]
+[ext_resource type="Script" path="res://ScorePopUp.gd" id="1_dr4lg"]
+[ext_resource type="Texture2D" uid="uid://dtpdfy4rc03ie" path="res://Art/Standings2.png" id="2_4vupd"]
+
+[sub_resource type="Theme" id="Theme_gh1si"]
+Label/font_sizes/font_size = 16
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_dr4lg")
+
+[node name="Stadium" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(1.152, 1.15098)
+texture = ExtResource("1_3b8u0")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Standings2" type="Sprite2D" parent="."]
+position = Vector2(576, 289)
+scale = Vector2(2.5, 2.32292)
+texture = ExtResource("2_4vupd")
+
+[node name="TeamLeftName" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 72.0
+offset_right = 576.0
+offset_bottom = 136.0
+theme = SubResource("Theme_gh1si")
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TeamRightName" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 72.0
+offset_right = 888.0
+offset_bottom = 136.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TeamLeftScore" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 144.0
+offset_right = 576.0
+offset_bottom = 208.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="TeamRightScore" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 144.0
+offset_right = 888.0
+offset_bottom = 208.0
+theme_override_font_sizes/font_size = 30
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Continue" type="Button" parent="."]
+offset_left = 512.0
+offset_top = 536.0
+offset_right = 640.0
+offset_bottom = 600.0
+text = "Continue"
+
+[node name="TeamLeftQB" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 208.0
+offset_right = 576.0
+offset_bottom = 240.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamLeftRB" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 240.0
+offset_right = 576.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamLeftWR" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 272.0
+offset_right = 576.0
+offset_bottom = 304.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamLeftWR2" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 304.0
+offset_right = 576.0
+offset_bottom = 336.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamLeftDef" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 336.0
+offset_right = 576.0
+offset_bottom = 368.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamLeftDef2" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 368.0
+offset_right = 576.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamLeftKick" type="Label" parent="."]
+offset_left = 264.0
+offset_top = 400.0
+offset_right = 576.0
+offset_bottom = 432.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamRightKick" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 400.0
+offset_right = 888.0
+offset_bottom = 432.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamRightDef" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 336.0
+offset_right = 888.0
+offset_bottom = 368.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamRightDef2" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 368.0
+offset_right = 888.0
+offset_bottom = 400.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamRightQB" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 208.0
+offset_right = 888.0
+offset_bottom = 240.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamRightRB" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 240.0
+offset_right = 888.0
+offset_bottom = 272.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamRightWR" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 272.0
+offset_right = 888.0
+offset_bottom = 304.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[node name="TeamRightWR2" type="Label" parent="."]
+offset_left = 576.0
+offset_top = 304.0
+offset_right = 888.0
+offset_bottom = 336.0
+theme_override_font_sizes/font_size = 10
+horizontal_alignment = 1
+
+[connection signal="pressed" from="Continue" to="." method="_on_continue_pressed"]

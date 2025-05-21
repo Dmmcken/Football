@@ -1,0 +1,370 @@
+[gd_scene load_steps=42 format=3 uid="uid://76epqbsvjpop"]
+
+[ext_resource type="Script" path="res://TeamSelect.gd" id="1_kdwqk"]
+[ext_resource type="Texture2D" uid="uid://c2seahejttxhx" path="res://Art/pixil-frame-0.png" id="2_mdgky"]
+[ext_resource type="Theme" uid="uid://ds3o3hwtrqrb5" path="res://Themes/ABQ.tres" id="3_vfcbg"]
+[ext_resource type="Theme" uid="uid://uauhwsdc5se2" path="res://Themes/BAL.tres" id="4_iiqe4"]
+[ext_resource type="Theme" uid="uid://dsru1oqv8v3lx" path="res://Themes/BOS.tres" id="5_l5rwk"]
+[ext_resource type="Theme" uid="uid://cxe7vvwy2avnj" path="res://Themes/CHI.tres" id="6_tttk3"]
+[ext_resource type="Theme" uid="uid://di8nhroaogm2l" path="res://Themes/CHA.tres" id="7_m4ih8"]
+[ext_resource type="Theme" uid="uid://dqqfugia3enhi" path="res://Themes/COL.tres" id="8_cnm4l"]
+[ext_resource type="Theme" uid="uid://bq6b0k48gtl35" path="res://Themes/CLE.tres" id="9_vu7hq"]
+[ext_resource type="Theme" uid="uid://pjgkn0oxhefp" path="res://Themes/DAL.tres" id="10_5jglm"]
+[ext_resource type="Theme" uid="uid://ck5ctd8o8ernk" path="res://Themes/DC.tres" id="11_vjed1"]
+[ext_resource type="Theme" uid="uid://cvu6rkthgg317" path="res://Themes/DET.tres" id="12_4exs2"]
+[ext_resource type="Theme" uid="uid://c1rcev5i1uq7y" path="res://Themes/GA.tres" id="13_35k0q"]
+[ext_resource type="Theme" uid="uid://dfoacqm0l1flk" path="res://Themes/HOU.tres" id="14_x4y5a"]
+[ext_resource type="Theme" uid="uid://cx5mtha7ex7lv" path="res://Themes/IND.tres" id="15_0tm1g"]
+[ext_resource type="Theme" uid="uid://b847503o5iarp" path="res://Themes/KC.tres" id="16_g1aer"]
+[ext_resource type="Theme" uid="uid://b6w0ysvm7b0x4" path="res://Themes/LV.tres" id="17_0sp0y"]
+[ext_resource type="Theme" uid="uid://cykjk4t4y6xcn" path="res://Themes/LA.tres" id="18_thnvy"]
+[ext_resource type="Theme" uid="uid://do7gtkpac8mhi" path="res://Themes/LOU.tres" id="19_4j3oj"]
+[ext_resource type="Theme" uid="uid://cw42os57ggrmd" path="res://Themes/MEM.tres" id="20_ympkw"]
+[ext_resource type="Theme" uid="uid://bdnrqolo71hip" path="res://Themes/MIA.tres" id="21_x0666"]
+[ext_resource type="Theme" uid="uid://ib2plype0013" path="res://Themes/MIL.tres" id="22_g2t3h"]
+[ext_resource type="Theme" uid="uid://d2asfqylhi47i" path="res://Themes/NAS.tres" id="23_mrei8"]
+[ext_resource type="Theme" uid="uid://2ai0amlgaru2" path="res://Themes/NOR.tres" id="24_4a3tk"]
+[ext_resource type="Theme" uid="uid://dk2ksnivifb07" path="res://Themes/NY.tres" id="25_ova7o"]
+[ext_resource type="Theme" uid="uid://1i6ettaxn68o" path="res://Themes/OK.tres" id="26_jgl0c"]
+[ext_resource type="Theme" uid="uid://0n2s26p3nh07" path="res://Themes/OMA.tres" id="27_ykhuu"]
+[ext_resource type="Theme" uid="uid://ci53111jmnxfo" path="res://Themes/OR.tres" id="28_l1cms"]
+[ext_resource type="Theme" uid="uid://b1uqohxa1s68f" path="res://Themes/PHI.tres" id="29_5q430"]
+[ext_resource type="Theme" uid="uid://b8586ge13lrf1" path="res://Themes/PHO.tres" id="30_gyfx4"]
+[ext_resource type="Theme" uid="uid://b5d8f0d85uih8" path="res://Themes/SAC.tres" id="31_fc7rx"]
+[ext_resource type="Theme" uid="uid://cb3q6rg813oto" path="res://Themes/SD.tres" id="32_okixi"]
+[ext_resource type="Theme" uid="uid://djobgk5sg3lan" path="res://Themes/SEA.tres" id="33_6w5by"]
+[ext_resource type="Theme" uid="uid://xgcstnbn0th1" path="res://Themes/TAM.tres" id="34_ny38x"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_hl2wx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_on230"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.4)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hou2w"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_olkgu"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.75, 0.75, 0.75, 0.75)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 6
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_kvyym"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_o1fe0"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="Theme" id="Theme_2cxxb"]
+ScrollContainer/styles/Scrollbar = null
+VScrollBar/icons/decrement = SubResource("ImageTexture_hl2wx")
+VScrollBar/icons/decrement_highlight = SubResource("ImageTexture_hl2wx")
+VScrollBar/icons/decrement_pressed = SubResource("ImageTexture_hl2wx")
+VScrollBar/icons/increment = SubResource("ImageTexture_hl2wx")
+VScrollBar/icons/increment_highlight = SubResource("ImageTexture_hl2wx")
+VScrollBar/icons/increment_pressed = SubResource("ImageTexture_hl2wx")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_on230")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_hou2w")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_olkgu")
+VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_kvyym")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxFlat_o1fe0")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_kdwqk")
+
+[node name="Pixil-frame-0" type="Sprite2D" parent="."]
+position = Vector2(576, 316)
+scale = Vector2(0.6, 0.58125)
+texture = ExtResource("2_mdgky")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1160.0
+offset_bottom = 648.0
+
+[node name="TeamOptions" type="ScrollContainer" parent="."]
+offset_left = 1248.0
+offset_top = 128.0
+offset_right = 1632.0
+offset_bottom = 776.0
+
+[node name="Teams" type="VBoxContainer" parent="TeamOptions"]
+layout_mode = 2
+
+[node name="TeamSelect" type="Button" parent="."]
+offset_left = 448.0
+offset_top = 576.0
+offset_right = 704.0
+offset_bottom = 632.0
+theme = ExtResource("3_vfcbg")
+text = "Select Team"
+
+[node name="PleaseSelect" type="Label" parent="."]
+offset_left = 448.0
+offset_top = 8.0
+offset_right = 704.0
+offset_bottom = 31.0
+text = "Please Select Your Team"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Selected" type="Label" parent="."]
+offset_left = 840.0
+offset_top = 256.0
+offset_right = 1096.0
+offset_bottom = 320.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Teams" type="ScrollContainer" parent="."]
+offset_left = 407.0
+offset_top = 40.0
+offset_right = 751.0
+offset_bottom = 560.0
+theme = SubResource("Theme_2cxxb")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Teams"]
+layout_mode = 2
+alignment = 1
+
+[node name="ABQ" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("3_vfcbg")
+text = "Albuquerque Scorpions"
+
+[node name="BAL" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_iiqe4")
+text = "Baltimore Bombers"
+
+[node name="BOS" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("5_l5rwk")
+text = "Boston Wildcats"
+
+[node name="CHA" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("7_m4ih8")
+text = "Charlotte Beasts"
+
+[node name="CHI" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("6_tttk3")
+text = "Chicago Warriors"
+
+[node name="CLE" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("9_vu7hq")
+text = "Cleveland Blue Jays"
+
+[node name="COL" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("8_cnm4l")
+text = "Columbus Hawks"
+
+[node name="DAL" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("10_5jglm")
+text = "Dallas Rebels"
+
+[node name="DC" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("11_vjed1")
+text = "DC Senators"
+
+[node name="DET" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("12_4exs2")
+text = "Detroit Motors"
+
+[node name="GA" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("13_35k0q")
+text = "Georgia Peaches"
+
+[node name="HOU" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("14_x4y5a")
+text = "Houston Bulls"
+
+[node name="IND" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("15_0tm1g")
+text = "Indianapolis Cougars"
+
+[node name="KC" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("16_g1aer")
+text = "Kansas City Badgers"
+
+[node name="LV" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("17_0sp0y")
+text = "Las Vegas Aces"
+
+[node name="LA" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("18_thnvy")
+text = "Los Angeles Stars"
+
+[node name="LOU" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("19_4j3oj")
+text = "Louisville Stallions"
+
+[node name="MEM" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("20_ympkw")
+text = "Memphis Pyramids"
+
+[node name="MIA" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("21_x0666")
+text = "Miami Pirates"
+
+[node name="MIL" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("22_g2t3h")
+text = "Milwaukee Owls"
+
+[node name="NAS" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("23_mrei8")
+text = "Nashville Strings"
+
+[node name="NOR" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("24_4a3tk")
+text = "New Orleans Voodoo"
+
+[node name="NY" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("25_ova7o")
+text = "New York Spartans"
+
+[node name="OK" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("26_jgl0c")
+text = "Oklahoma Tornadoes"
+
+[node name="OMA" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("27_ykhuu")
+text = "Omaha Ducks"
+
+[node name="OR" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("28_l1cms")
+text = "Oregon Sea Lions"
+
+[node name="PHI" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("29_5q430")
+text = "Philadelphia Suns"
+
+[node name="PHO" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("30_gyfx4")
+text = "Phoenix Roadrunners"
+
+[node name="SAC" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("31_fc7rx")
+text = "Sacramento Golds"
+
+[node name="SD" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("32_okixi")
+text = "San Diego Spartans"
+
+[node name="SEA" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("33_6w5by")
+text = "Seattle Vampires"
+
+[node name="TAM" type="Button" parent="Teams/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("34_ny38x")
+text = "Tampa Wolverines"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 56.0
+offset_top = 216.0
+offset_right = 192.0
+offset_bottom = 288.0
+theme = ExtResource("8_cnm4l")
+
+[connection signal="pressed" from="TeamSelect" to="." method="_on_team_select_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/ABQ" to="." method="_on_abq_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/BAL" to="." method="_on_bal_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/BOS" to="." method="_on_bos_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/CHA" to="." method="_on_cha_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/CHI" to="." method="_on_chi_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/CLE" to="." method="_on_cle_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/COL" to="." method="_on_col_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/DAL" to="." method="_on_dal_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/DC" to="." method="_on_dc_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/DET" to="." method="_on_det_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/GA" to="." method="_on_ga_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/HOU" to="." method="_on_hou_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/IND" to="." method="_on_ind_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/KC" to="." method="_on_kc_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/LV" to="." method="_on_lv_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/LA" to="." method="_on_la_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/LOU" to="." method="_on_lou_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/MEM" to="." method="_on_mem_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/MIA" to="." method="_on_mia_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/MIL" to="." method="_on_mil_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/NAS" to="." method="_on_nas_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/NOR" to="." method="_on_nor_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/NY" to="." method="_on_ny_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/OK" to="." method="_on_ok_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/OMA" to="." method="_on_oma_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/OR" to="." method="_on_or_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/PHI" to="." method="_on_phi_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/PHO" to="." method="_on_pho_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/SAC" to="." method="_on_sac_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/SD" to="." method="_on_sd_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/SEA" to="." method="_on_sea_pressed"]
+[connection signal="pressed" from="Teams/VBoxContainer/TAM" to="." method="_on_tam_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

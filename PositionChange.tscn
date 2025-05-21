@@ -1,0 +1,55 @@
+[gd_scene load_steps=3 format=3 uid="uid://coj6cgolqv6we"]
+
+[ext_resource type="Script" path="res://PositionChange.gd" id="1_vf5fe"]
+[ext_resource type="Texture2D" uid="uid://cev6xi8jd8a54" path="res://Art/Silver.png" id="2_pugja"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_vf5fe")
+
+[node name="PositionChangePanel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Silver" type="Sprite2D" parent="."]
+position = Vector2(600.756, 304)
+rotation = 1.5708
+scale = Vector2(1, 1.2998)
+texture = ExtResource("2_pugja")
+
+[node name="PositionChangeScroll" type="ScrollContainer" parent="."]
+offset_left = 416.0
+offset_top = 232.0
+offset_right = 576.0
+offset_bottom = 408.0
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="PositionChangeBox" type="VBoxContainer" parent="PositionChangeScroll"]
+layout_mode = 2
+alignment = 1
+
+[node name="Back" type="Button" parent="."]
+offset_left = 672.0
+offset_top = 344.0
+offset_right = 800.0
+offset_bottom = 408.0
+text = "Back"
+
+[node name="Change" type="Button" parent="."]
+offset_left = 672.0
+offset_top = 232.0
+offset_right = 800.0
+offset_bottom = 296.0
+text = "Change
+Position"
+
+[node name="PlayerLabel" type="Label" parent="."]
+offset_left = 320.0
+offset_top = 128.0
+offset_right = 880.0
+offset_bottom = 224.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="Back" to="." method="_on_back_pressed"]
+[connection signal="pressed" from="Change" to="." method="_on_change_pressed"]

@@ -1,0 +1,179 @@
+[gd_scene load_steps=12 format=3 uid="uid://cnlsge1xoour8"]
+
+[ext_resource type="Script" path="res://Draft_Scene.gd" id="1_gfvpe"]
+[ext_resource type="Texture2D" uid="uid://thrkq7mr0h0e" path="res://Art/Podium.png" id="2_pr1ml"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a61ae"]
+
+[sub_resource type="ImageTexture" id="ImageTexture_k7wd3"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_2o6mp"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.4)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_18tmb"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 6
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_6uvy2"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(0.75, 0.75, 0.75, 0.75)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+corner_detail = 6
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ct3mn"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ntnem"]
+content_margin_left = 4.0
+content_margin_top = 4.0
+content_margin_right = 4.0
+content_margin_bottom = 4.0
+bg_color = Color(1, 1, 1, 0.75)
+draw_center = false
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+expand_margin_left = 2.0
+expand_margin_top = 2.0
+expand_margin_right = 2.0
+expand_margin_bottom = 2.0
+
+[sub_resource type="Theme" id="Theme_8q40d"]
+ScrollContainer/styles/panel = SubResource("StyleBoxFlat_a61ae")
+VScrollBar/icons/decrement = SubResource("ImageTexture_k7wd3")
+VScrollBar/icons/decrement_highlight = SubResource("ImageTexture_k7wd3")
+VScrollBar/icons/decrement_pressed = SubResource("ImageTexture_k7wd3")
+VScrollBar/icons/increment = SubResource("ImageTexture_k7wd3")
+VScrollBar/icons/increment_highlight = SubResource("ImageTexture_k7wd3")
+VScrollBar/icons/increment_pressed = SubResource("ImageTexture_k7wd3")
+VScrollBar/styles/grabber = SubResource("StyleBoxFlat_2o6mp")
+VScrollBar/styles/grabber_highlight = SubResource("StyleBoxFlat_18tmb")
+VScrollBar/styles/grabber_pressed = SubResource("StyleBoxFlat_6uvy2")
+VScrollBar/styles/scroll = SubResource("StyleBoxEmpty_ct3mn")
+VScrollBar/styles/scroll_focus = SubResource("StyleBoxFlat_ntnem")
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_lbp6h"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_gfvpe")
+
+[node name="Podium" type="Sprite2D" parent="."]
+position = Vector2(576, 324)
+scale = Vector2(1.152, 1.15098)
+texture = ExtResource("2_pr1ml")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="DraftScroll" type="ScrollContainer" parent="."]
+offset_right = 576.0
+offset_bottom = 648.0
+theme = SubResource("Theme_8q40d")
+theme_override_styles/panel = SubResource("StyleBoxEmpty_lbp6h")
+
+[node name="DraftBox" type="VBoxContainer" parent="DraftScroll"]
+layout_mode = 2
+
+[node name="Select" type="Button" parent="."]
+offset_left = 896.0
+offset_top = 152.0
+offset_right = 1024.0
+offset_bottom = 216.0
+
+[node name="SelectingTeam" type="Label" parent="."]
+offset_left = 832.0
+offset_top = 104.0
+offset_right = 1088.0
+offset_bottom = 136.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="RoundLabel" type="Label" parent="."]
+offset_left = 896.0
+offset_top = 16.0
+offset_right = 1024.0
+offset_bottom = 40.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PickLabel" type="Label" parent="."]
+offset_left = 896.0
+offset_top = 40.0
+offset_right = 1024.0
+offset_bottom = 64.0
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="OnTheClock" type="Label" parent="."]
+offset_left = 832.0
+offset_top = 72.0
+offset_right = 1088.0
+offset_bottom = 98.0
+text = "On The Clock:"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Simulate" type="Button" parent="."]
+offset_left = 896.0
+offset_top = 248.0
+offset_right = 1024.0
+offset_bottom = 312.0
+text = "Sim to next
+player pick"
+
+[node name="Roster" type="Button" parent="."]
+offset_left = 896.0
+offset_top = 344.0
+offset_right = 1024.0
+offset_bottom = 408.0
+text = "View
+Roster"
+
+[node name="Trade" type="Button" parent="."]
+offset_left = 896.0
+offset_top = 440.0
+offset_right = 1024.0
+offset_bottom = 504.0
+text = "Trade"
+
+[node name="Scout" type="Button" parent="."]
+offset_left = 896.0
+offset_top = 536.0
+offset_right = 1024.0
+offset_bottom = 600.0
+text = "Scout Player"
+
+[connection signal="pressed" from="Select" to="." method="_on_select_pressed"]
+[connection signal="pressed" from="Simulate" to="." method="_on_simulate_pressed"]
+[connection signal="pressed" from="Roster" to="." method="_on_roster_pressed"]
+[connection signal="pressed" from="Trade" to="." method="_on_trade_pressed"]
+[connection signal="pressed" from="Scout" to="." method="_on_scout_pressed"]

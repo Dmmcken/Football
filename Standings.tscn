@@ -1,0 +1,1705 @@
+[gd_scene load_steps=6 format=3 uid="uid://bv5b53i0nd66k"]
+
+[ext_resource type="Script" path="res://Standings.gd" id="1_aad0o"]
+[ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_1ysdc"]
+[ext_resource type="Texture2D" uid="uid://dtpdfy4rc03ie" path="res://Art/Standings2.png" id="3_s2r2w"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_dh0jr"]
+content_margin_left = 3.0
+bg_color = Color(0.6, 0.6, 0.6, 0)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.2, 0.2, 1)
+
+[sub_resource type="Theme" id="Theme_6pru2"]
+Label/styles/normal = SubResource("StyleBoxFlat_dh0jr")
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_aad0o")
+
+[node name="Stadium" type="Sprite2D" parent="."]
+position = Vector2(576, 323.25)
+scale = Vector2(1.152, 1.15364)
+texture = ExtResource("2_1ysdc")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Standings2" type="Sprite2D" parent="Panel"]
+position = Vector2(192, 160)
+texture = ExtResource("3_s2r2w")
+
+[node name="Standings3" type="Sprite2D" parent="Panel"]
+position = Vector2(448, 160)
+texture = ExtResource("3_s2r2w")
+
+[node name="Standings4" type="Sprite2D" parent="Panel"]
+position = Vector2(704, 160)
+texture = ExtResource("3_s2r2w")
+
+[node name="Standings5" type="Sprite2D" parent="Panel"]
+position = Vector2(960, 160)
+texture = ExtResource("3_s2r2w")
+
+[node name="Standings6" type="Sprite2D" parent="Panel"]
+position = Vector2(192, 416)
+texture = ExtResource("3_s2r2w")
+
+[node name="Standings8" type="Sprite2D" parent="Panel"]
+position = Vector2(704, 416)
+texture = ExtResource("3_s2r2w")
+
+[node name="Standings9" type="Sprite2D" parent="Panel"]
+position = Vector2(960, 416)
+texture = ExtResource("3_s2r2w")
+
+[node name="Standings7" type="Sprite2D" parent="Panel"]
+position = Vector2(448, 416)
+texture = ExtResource("3_s2r2w")
+
+[node name="Label" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 448.0
+offset_right = 704.0
+offset_bottom = 64.0
+text = "CFC"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 256.0
+offset_right = 704.0
+offset_bottom = 320.0
+text = "AHC"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 64.0
+offset_right = 320.0
+offset_bottom = 96.0
+text = "North"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 64.0
+offset_right = 576.0
+offset_bottom = 96.0
+text = "East"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 64.0
+offset_right = 832.0
+offset_bottom = 96.0
+text = "South"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label6" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 832.0
+offset_top = 64.0
+offset_right = 1088.0
+offset_bottom = 96.0
+text = "West"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label7" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 64.0
+offset_top = 320.0
+offset_right = 320.0
+offset_bottom = 352.0
+text = "North"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label8" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 320.0
+offset_top = 320.0
+offset_right = 576.0
+offset_bottom = 352.0
+text = "East"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label9" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 576.0
+offset_top = 320.0
+offset_right = 832.0
+offset_bottom = 352.0
+text = "South"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label10" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 832.0
+offset_top = 320.0
+offset_right = 1088.0
+offset_bottom = 352.0
+text = "West"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCNTeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 120.0
+offset_right = 180.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCN1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 120.0
+offset_right = 225.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 120.0
+offset_right = 264.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 120.0
+offset_right = 309.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 151.0
+offset_right = 225.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 151.0
+offset_right = 264.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 151.0
+offset_right = 309.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 182.0
+offset_right = 225.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 182.0
+offset_right = 264.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 182.0
+offset_right = 309.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 213.0
+offset_right = 225.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 213.0
+offset_right = 264.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCN4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 213.0
+offset_right = 309.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCNTeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 151.0
+offset_right = 180.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCNTeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 182.0
+offset_right = 180.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCNTeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 213.0
+offset_right = 180.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCETeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 120.0
+offset_right = 436.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCE1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 120.0
+offset_right = 481.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 120.0
+offset_right = 520.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 120.0
+offset_right = 565.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 151.0
+offset_right = 481.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 151.0
+offset_right = 520.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 151.0
+offset_right = 565.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 182.0
+offset_right = 481.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 182.0
+offset_right = 520.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 182.0
+offset_right = 565.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 213.0
+offset_right = 481.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 213.0
+offset_right = 520.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCE4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 213.0
+offset_right = 565.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCETeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 151.0
+offset_right = 436.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCETeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 182.0
+offset_right = 436.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCETeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 213.0
+offset_right = 436.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCSTeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 120.0
+offset_right = 692.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCS1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 120.0
+offset_right = 737.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 120.0
+offset_right = 776.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 120.0
+offset_right = 821.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 151.0
+offset_right = 737.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 151.0
+offset_right = 776.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 151.0
+offset_right = 821.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 182.0
+offset_right = 737.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 182.0
+offset_right = 776.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 182.0
+offset_right = 821.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 213.0
+offset_right = 737.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 213.0
+offset_right = 776.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCS4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 213.0
+offset_right = 821.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCSTeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 151.0
+offset_right = 692.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCSTeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 182.0
+offset_right = 692.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCSTeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 213.0
+offset_right = 692.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCWTeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 120.0
+offset_right = 948.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCW1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 120.0
+offset_right = 993.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 120.0
+offset_right = 1032.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 120.0
+offset_right = 1077.0
+offset_bottom = 152.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 151.0
+offset_right = 993.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 151.0
+offset_right = 1032.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 151.0
+offset_right = 1077.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 182.0
+offset_right = 993.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 182.0
+offset_right = 1032.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 182.0
+offset_right = 1077.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 213.0
+offset_right = 993.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 213.0
+offset_right = 1032.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCW4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 213.0
+offset_right = 1077.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CFCWTeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 151.0
+offset_right = 948.0
+offset_bottom = 183.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCWTeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 182.0
+offset_right = 948.0
+offset_bottom = 214.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="CFCWTeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 213.0
+offset_right = 948.0
+offset_bottom = 245.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCNTeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 376.0
+offset_right = 180.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCN1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 376.0
+offset_right = 225.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 376.0
+offset_right = 264.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 376.0
+offset_right = 309.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 407.0
+offset_right = 225.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 407.0
+offset_right = 264.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 407.0
+offset_right = 309.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 438.0
+offset_right = 225.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 438.0
+offset_right = 264.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 438.0
+offset_right = 309.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 469.0
+offset_right = 225.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 469.0
+offset_right = 264.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCN4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 469.0
+offset_right = 309.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCNTeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 407.0
+offset_right = 180.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCNTeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 438.0
+offset_right = 180.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCNTeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 469.0
+offset_right = 180.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCETeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 376.0
+offset_right = 436.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCE1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 376.0
+offset_right = 481.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 376.0
+offset_right = 520.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 376.0
+offset_right = 565.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 407.0
+offset_right = 481.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 407.0
+offset_right = 520.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 407.0
+offset_right = 565.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 438.0
+offset_right = 481.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 438.0
+offset_right = 520.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 438.0
+offset_right = 565.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 469.0
+offset_right = 481.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 469.0
+offset_right = 520.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCE4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 469.0
+offset_right = 565.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCETeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 407.0
+offset_right = 436.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCETeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 438.0
+offset_right = 436.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCETeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 469.0
+offset_right = 436.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCSTeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 376.0
+offset_right = 692.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCS1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 376.0
+offset_right = 737.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 376.0
+offset_right = 776.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 376.0
+offset_right = 821.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 407.0
+offset_right = 737.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 407.0
+offset_right = 776.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 407.0
+offset_right = 821.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 438.0
+offset_right = 737.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 438.0
+offset_right = 776.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 438.0
+offset_right = 821.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 469.0
+offset_right = 737.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 469.0
+offset_right = 776.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCS4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 469.0
+offset_right = 821.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCSTeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 407.0
+offset_right = 692.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCSTeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 438.0
+offset_right = 692.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCSTeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 469.0
+offset_right = 692.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCWTeam1" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 376.0
+offset_right = 948.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCW1WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 376.0
+offset_right = 993.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW1DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 376.0
+offset_right = 1032.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW1CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 376.0
+offset_right = 1077.0
+offset_bottom = 408.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW2WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 407.0
+offset_right = 993.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW2DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 407.0
+offset_right = 1032.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW2CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 407.0
+offset_right = 1077.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW3WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 438.0
+offset_right = 993.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW3DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 438.0
+offset_right = 1032.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW3CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 438.0
+offset_right = 1077.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW4WL" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 469.0
+offset_right = 993.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW4DIV" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 469.0
+offset_right = 1032.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCW4CON" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 469.0
+offset_right = 1077.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="AHCWTeam2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 407.0
+offset_right = 948.0
+offset_bottom = 439.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCWTeam3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 438.0
+offset_right = 948.0
+offset_bottom = 470.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="AHCWTeam4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 469.0
+offset_right = 948.0
+offset_bottom = 501.0
+theme = SubResource("Theme_6pru2")
+vertical_alignment = 1
+
+[node name="NFCNHeader" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 96.0
+offset_right = 180.0
+offset_bottom = 120.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader2" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 96.0
+offset_right = 225.0
+offset_bottom = 120.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader3" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 96.0
+offset_right = 264.0
+offset_bottom = 120.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader4" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 96.0
+offset_right = 309.0
+offset_bottom = 120.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="NFCNHeader5" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 96.0
+offset_right = 435.0
+offset_bottom = 120.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader6" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 96.0
+offset_right = 481.0
+offset_bottom = 120.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader7" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 96.0
+offset_right = 520.0
+offset_bottom = 120.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader8" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 96.0
+offset_right = 565.0
+offset_bottom = 120.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="NFCNHeader9" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 96.0
+offset_right = 692.0
+offset_bottom = 120.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader10" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 96.0
+offset_right = 737.0
+offset_bottom = 120.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader11" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 96.0
+offset_right = 776.0
+offset_bottom = 120.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader12" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 96.0
+offset_right = 821.0
+offset_bottom = 120.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="NFCNHeader13" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 96.0
+offset_right = 948.0
+offset_bottom = 120.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader14" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 96.0
+offset_right = 993.0
+offset_bottom = 120.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader15" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 96.0
+offset_right = 1032.0
+offset_bottom = 120.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader16" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 96.0
+offset_right = 1077.0
+offset_bottom = 120.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="NFCNHeader17" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 72.0
+offset_top = 352.0
+offset_right = 180.0
+offset_bottom = 376.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader18" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 179.0
+offset_top = 352.0
+offset_right = 225.0
+offset_bottom = 376.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader19" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 224.0
+offset_top = 352.0
+offset_right = 264.0
+offset_bottom = 376.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader20" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 263.0
+offset_top = 352.0
+offset_right = 309.0
+offset_bottom = 376.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="NFCNHeader21" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 328.0
+offset_top = 352.0
+offset_right = 436.0
+offset_bottom = 376.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader22" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 435.0
+offset_top = 352.0
+offset_right = 481.0
+offset_bottom = 376.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader23" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 480.0
+offset_top = 352.0
+offset_right = 520.0
+offset_bottom = 376.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader24" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 352.0
+offset_right = 565.0
+offset_bottom = 376.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="NFCNHeader25" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 584.0
+offset_top = 352.0
+offset_right = 692.0
+offset_bottom = 376.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader26" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 691.0
+offset_top = 352.0
+offset_right = 737.0
+offset_bottom = 376.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader27" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 736.0
+offset_top = 352.0
+offset_right = 776.0
+offset_bottom = 376.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader28" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 775.0
+offset_top = 352.0
+offset_right = 821.0
+offset_bottom = 376.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="NFCNHeader29" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 352.0
+offset_right = 948.0
+offset_bottom = 376.0
+text = "Team"
+horizontal_alignment = 1
+
+[node name="NFCNHeader30" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 947.0
+offset_top = 352.0
+offset_right = 993.0
+offset_bottom = 376.0
+text = "W-L"
+horizontal_alignment = 1
+
+[node name="NFCNHeader31" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 992.0
+offset_top = 352.0
+offset_right = 1032.0
+offset_bottom = 376.0
+text = "DIV"
+horizontal_alignment = 1
+
+[node name="NFCNHeader32" type="Label" parent="Panel"]
+layout_mode = 0
+offset_left = 1031.0
+offset_top = 352.0
+offset_right = 1077.0
+offset_bottom = 376.0
+text = "CON"
+horizontal_alignment = 1
+
+[node name="CloseButton" type="Button" parent="."]
+offset_left = 512.0
+offset_top = 544.0
+offset_right = 640.0
+offset_bottom = 608.0
+text = "Close"
+
+[connection signal="pressed" from="CloseButton" to="." method="_on_close_button_pressed"]

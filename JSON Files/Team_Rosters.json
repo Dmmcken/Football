@@ -1,0 +1,8352 @@
+{
+  "Los Angeles Stars": {
+	"Andres": {
+	  "LastName": "Rowe",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 79
+	},
+	"Ian": {
+	  "LastName": "Blanton",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 64
+	},
+	"Kai": {
+	  "LastName": "Chamberlain",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 82
+	},
+	"Alex": {
+	  "LastName": "Nobles",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 99
+	},
+	"Brandon": {
+	  "LastName": "Parsons",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 73
+	},
+	"Allan": {
+	  "LastName": "Wylie",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 94
+	},
+	"Joshua": {
+	  "LastName": "Coker",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 86
+	},
+	"Kayden": {
+	  "LastName": "Tatum",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 78
+	},
+	"Aiden": {
+	  "LastName": "Falk",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 84
+	},
+	"Nicholas": {
+	  "LastName": "Bellamy",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Chris": {
+	  "LastName": "Bright",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 62
+	},
+	"Rayan": {
+	  "LastName": "Forrester",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 98
+	},
+	"Julius": {
+	  "LastName": "Ellison",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 97
+	},
+	"Kevin": {
+	  "LastName": "Beal",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 93
+	},
+	"Nikhil": {
+	  "LastName": "Foy",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 61
+	},
+	"Richard": {
+	  "LastName": "Kearns",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 80
+	},
+	"Abdullah": {
+	  "LastName": "Oliva",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 84
+	},
+	"Jeremy": {
+	  "LastName": "Steen",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 93
+	},
+	"Matthew": {
+	  "LastName": "Waggoner",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 88
+	},
+	"Simon": {
+	  "LastName": "Dasilva",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 96
+	},
+	"Gianluca": {
+	  "LastName": "Elizondo",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 85
+	},
+	"Avery": {
+	  "LastName": "Yost",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 94
+	},
+	"Benzion": {
+	  "LastName": "Tate",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 91
+	},
+	"Rayyan": {
+	  "LastName": "Lindsey",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 96
+	},
+	"Dariel": {
+	  "LastName": "Woodard",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 88
+	},
+	"Zaiden": {
+	  "LastName": "Zavala",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 84
+	},
+	"Theo": {
+	  "LastName": "Conklin",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 62
+	},
+	"Cayden": {
+	  "LastName": "Bourgeois",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 87
+	},
+	"Grayson": {
+	  "LastName": "Mcgowan",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 88
+	},
+	"Mayer": {
+	  "LastName": "Woo",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 95
+	},
+	"Liam": {
+	  "LastName": "Killian",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 63
+	},
+	"Albert": {
+	  "LastName": "Kern",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 79
+	},
+	"Yadiel": {
+	  "LastName": "Waddell",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 76
+	},
+	"Jason": {
+	  "LastName": "Cecil",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 85
+	},
+	"Frederick": {
+	  "LastName": "Cordova",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 62
+	},
+	"Danny": {
+	  "LastName": "Maloney",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 93
+	},
+	"Yisroel": {
+	  "LastName": "Beatty",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 98
+	},
+	"Youssef": {
+	  "LastName": "Lind",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 94
+	},
+	"Parker": {
+	  "LastName": "Grimes",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 74
+	},
+	"Prince": {
+	  "LastName": "Portillo",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 77
+	},
+	"Cristian": {
+	  "LastName": "Spann",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 73
+	},
+	"Yaseen": {
+	  "LastName": "Daugherty",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 70
+	},
+	"Timothy": {
+	  "LastName": "Kraus",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 89
+	}
+  },
+  "Oregon Sea Lions": {
+	"Oscar": {
+	  "LastName": "Yarbrough",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 63
+	},
+	"Riley": {
+	  "LastName": "Davenport",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 97
+	},
+	"Tristan": {
+	  "LastName": "Huddleston",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 89
+	},
+	"Shane": {
+	  "LastName": "Tidwell",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 80
+	},
+	"Myles": {
+	  "LastName": "Hopper",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 67
+	},
+	"Joshua": {
+	  "LastName": "Shook",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 75
+	},
+	"Bryan": {
+	  "LastName": "Culver",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 78
+	},
+	"Giovanni": {
+	  "LastName": "Oneil",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 73
+	},
+	"Anderson": {
+	  "LastName": "Soriano",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 98
+	},
+	"Alston": {
+	  "LastName": "Westfall",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 82
+	},
+	"Daniel": {
+	  "LastName": "Whitaker",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 95
+	},
+	"Andres": {
+	  "LastName": "Boucher",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 67
+	},
+	"Noah": {
+	  "LastName": "Cody",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 68
+	},
+	"Kaden": {
+	  "LastName": "Shirley",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 74
+	},
+	"Abraham": {
+	  "LastName": "Carey",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 83
+	},
+	"Xavier": {
+	  "LastName": "Mayo",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 70
+	},
+	"Blake": {
+	  "LastName": "Larkin",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 96
+	},
+	"Albert": {
+	  "LastName": "Gavin",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 70
+	},
+	"Yaseen": {
+	  "LastName": "Fenton",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 94
+	},
+	"Jacob": {
+	  "LastName": "Good",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 81
+	},
+	"Hamza": {
+	  "LastName": "Staton",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 69
+	},
+	"Brandon": {
+	  "LastName": "Oneill",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 84
+	},
+	"Judah": {
+	  "LastName": "Adamson",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 98
+	},
+	"Shea": {
+	  "LastName": "Naranjo",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 83
+	},
+	"Julian": {
+	  "LastName": "Tillman",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 98
+	},
+	"Tzvi": {
+	  "LastName": "Douglass",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 81
+	},
+	"Zayan": {
+	  "LastName": "Lara",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 81
+	},
+	"Quincy": {
+	  "LastName": "Pimentel",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 65
+	},
+	"Silas": {
+	  "LastName": "Mixon",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 94
+	},
+	"Moshe": {
+	  "LastName": "Chester",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 60
+	},
+	"Messiah": {
+	  "LastName": "Spurlock",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 66
+	},
+	"Thiago": {
+	  "LastName": "Angel",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 79
+	},
+	"Nathan": {
+	  "LastName": "Mohamed",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 67
+	},
+	"Mohammad": {
+	  "LastName": "Monahan",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 91
+	},
+	"Sholom": {
+	  "LastName": "Nagy",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 91
+	},
+	"Yakov": {
+	  "LastName": "Esquivel",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 96
+	},
+	"Pinchus": {
+	  "LastName": "Gilliland",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 85
+	},
+	"Aaron": {
+	  "LastName": "Talbot",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 91
+	},
+	"Devin": {
+	  "LastName": "Christiansen",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 67
+	},
+	"Jakob": {
+	  "LastName": "Serna",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 90
+	},
+	"Jayden": {
+	  "LastName": "Burrell",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 96
+	},
+	"Aiden": {
+	  "LastName": "Knox",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 97
+	},
+	"Raphael": {
+	  "LastName": "Elmore",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 65
+	}
+  },
+  "San Diego Spartans": {
+	"Devin": {
+	  "LastName": "Fitch",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 90
+	},
+	"Peter": {
+	  "LastName": "Camacho",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 71
+	},
+	"King": {
+	  "LastName": "Tatum",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 64
+	},
+	"Vincent": {
+	  "LastName": "Read",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 69
+	},
+	"Jean": {
+	  "LastName": "Glover",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 72
+	},
+	"Dylan": {
+	  "LastName": "Bui",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Uriel": {
+	  "LastName": "Tracy",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Leonardo": {
+	  "LastName": "Joseph",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 92
+	},
+	"Jacob": {
+	  "LastName": "Staley",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 81
+	},
+	"Jadiel": {
+	  "LastName": "Stubbs",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 84
+	},
+	"Joel": {
+	  "LastName": "Chisholm",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 94
+	},
+	"Jake": {
+	  "LastName": "Gilman",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 99
+	},
+	"Gabriel": {
+	  "LastName": "Moody",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 75
+	},
+	"Edward": {
+	  "LastName": "Lord",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 81
+	},
+	"Connor": {
+	  "LastName": "Peoples",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 66
+	},
+	"Caleb": {
+	  "LastName": "Willey",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 60
+	},
+	"Jerry": {
+	  "LastName": "Cortes",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 97
+	},
+	"Aayan": {
+	  "LastName": "Cross",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 84
+	},
+	"Omar": {
+	  "LastName": "Beckman",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 89
+	},
+	"Chad": {
+	  "LastName": "Pham",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 61
+	},
+	"Dante": {
+	  "LastName": "Ha",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 90
+	},
+	"Avery": {
+	  "LastName": "Bourgeois",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 84
+	},
+	"Elliott": {
+	  "LastName": "Schaeffer",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 75
+	},
+	"Louis": {
+	  "LastName": "Ames",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 61
+	},
+	"Henry": {
+	  "LastName": "Judd",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 78
+	},
+	"Jesus": {
+	  "LastName": "Benson",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 91
+	},
+	"Gavriel": {
+	  "LastName": "Newsome",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 60
+	},
+	"Ahmad": {
+	  "LastName": "Swain",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 65
+	},
+	"Zachariah": {
+	  "LastName": "Huddleston",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 81
+	},
+	"Boruch": {
+	  "LastName": "Houston",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 90
+	},
+	"Aryeh": {
+	  "LastName": "Houser",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 69
+	},
+	"Jason": {
+	  "LastName": "Engle",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 74
+	},
+	"Jaxon": {
+	  "LastName": "Card",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 60
+	},
+	"Rehan": {
+	  "LastName": "Shearer",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 72
+	},
+	"Ian": {
+	  "LastName": "Waller",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Jeffrey": {
+	  "LastName": "Deal",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 65
+	},
+	"Gianluca": {
+	  "LastName": "Meehan",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Ivan": {
+	  "LastName": "Simons",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 81
+	},
+	"Elias": {
+	  "LastName": "Maloney",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 70
+	},
+	"Zachary": {
+	  "LastName": "Luu",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 63
+	},
+	"Moishe": {
+	  "LastName": "Dickson",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 78
+	},
+	"Stanley": {
+	  "LastName": "Bowers",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 88
+	},
+	"Yona": {
+	  "LastName": "Griffiths",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 81
+	},
+	"Christopher": {
+	  "LastName": "Houser",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 91
+	}
+  },
+  "Las Vegas Aces": {
+	"Marcus": {
+	  "LastName": "Goss",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Roy": {
+	  "LastName": "Pickering",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 69
+	},
+	"Thomas": {
+	  "LastName": "Nolan",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 60
+	},
+	"Blake": {
+	  "LastName": "Hodge",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 60
+	},
+	"Charles": {
+	  "LastName": "Becerra",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 87
+	},
+	"Shawn": {
+	  "LastName": "Bermudez",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 89
+	},
+	"Jack": {
+	  "LastName": "Hawthorne",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 70
+	},
+	"Felipe": {
+	  "LastName": "Waters",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 65
+	},
+	"Nathan": {
+	  "LastName": "Hawk",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 90
+	},
+	"Mendy": {
+	  "LastName": "Crouse",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 68
+	},
+	"Royce": {
+	  "LastName": "Nava",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 69
+	},
+	"Justin": {
+	  "LastName": "Walsh",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 92
+	},
+	"Gavriel": {
+	  "LastName": "Clinton",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 64
+	},
+	"Boruch": {
+	  "LastName": "Jacobsen",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 86
+	},
+	"Martin": {
+	  "LastName": "Potter",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 82
+	},
+	"Oliver": {
+	  "LastName": "Melendez",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 86
+	},
+	"Yehoshua": {
+	  "LastName": "Sterling",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 88
+	},
+	"Jeffrey": {
+	  "LastName": "Ames",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 75
+	},
+	"Ayden": {
+	  "LastName": "Oconnell",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 77
+	},
+	"Eliezer": {
+	  "LastName": "Stanton",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 93
+	},
+	"William": {
+	  "LastName": "Isaac",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 74
+	},
+	"Alpha": {
+	  "LastName": "Elam",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 93
+	},
+	"Sawyer": {
+	  "LastName": "Rivas",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 94
+	},
+	"Mason": {
+	  "LastName": "Dobson",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 92
+	},
+	"Anthony": {
+	  "LastName": "Decker",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 70
+	},
+	"Travis": {
+	  "LastName": "Luke",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 63
+	},
+	"Angelo": {
+	  "LastName": "Amador",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 84
+	},
+	"Ayaan": {
+	  "LastName": "Devine",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 80
+	},
+	"Kimi": {
+	  "LastName": "Ambrose",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 81
+	},
+	"Lipa": {
+	  "LastName": "Stapleton",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 67
+	},
+	"Yossi": {
+	  "LastName": "Read",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 87
+	},
+	"Mohamed": {
+	  "LastName": "Barnhart",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 98
+	},
+	"Erik": {
+	  "LastName": "Stein",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 80
+	},
+	"Christopher": {
+	  "LastName": "Leal",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 83
+	},
+	"Sholom": {
+	  "LastName": "Nowak",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 87
+	},
+	"Lincoln": {
+	  "LastName": "Cary",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Yakov": {
+	  "LastName": "Drew",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 69
+	},
+	"Noah": {
+	  "LastName": "Patton",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 89
+	},
+	"Musa": {
+	  "LastName": "Hamrick",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 94
+	},
+	"Nicholas": {
+	  "LastName": "Waggoner",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 64
+	},
+	"Logan": {
+	  "LastName": "Mcbride",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 95
+	},
+	"Ali": {
+	  "LastName": "Mcclendon",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 78
+	},
+	"Simcha": {
+	  "LastName": "Lentz",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 93
+	},
+	"Gavin": {
+	  "LastName": "Hightower",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 93
+	}
+  },
+  "Omaha Ducks": {
+	"Leonardo": {
+	  "LastName": "Snell",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 61
+	},
+	"Dominick": {
+	  "LastName": "Gifford",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 87
+	},
+	"Kaiden": {
+	  "LastName": "Segura",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 71
+	},
+	"Reid": {
+	  "LastName": "Rhoades",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 94
+	},
+	"Dov": {
+	  "LastName": "Mora",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 93
+	},
+	"Frank": {
+	  "LastName": "Bergman",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 65
+	},
+	"Adrian": {
+	  "LastName": "Sosa",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 84
+	},
+	"Sean": {
+	  "LastName": "Malone",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 90
+	},
+	"Kaden": {
+	  "LastName": "Griggs",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Tyler": {
+	  "LastName": "Bishop",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 90
+	},
+	"Hudson": {
+	  "LastName": "Vandyke",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 86
+	},
+	"Timothy": {
+	  "LastName": "Caruso",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 75
+	},
+	"Zion": {
+	  "LastName": "Navarro",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 86
+	},
+	"August": {
+	  "LastName": "Franco",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 75
+	},
+	"Derrick": {
+	  "LastName": "Maher",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 95
+	},
+	"Julian": {
+	  "LastName": "Whitman",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 69
+	},
+	"Danny": {
+	  "LastName": "Brito",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 65
+	},
+	"Louis": {
+	  "LastName": "Neely",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 82
+	},
+	"Axel": {
+	  "LastName": "Hoskins",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 95
+	},
+	"Matthew": {
+	  "LastName": "Mccabe",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 88
+	},
+	"Avrohom": {
+	  "LastName": "Rojas",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 92
+	},
+	"Jordan": {
+	  "LastName": "Draper",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 97
+	},
+	"Adam": {
+	  "LastName": "Gaffney",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 71
+	},
+	"Riley": {
+	  "LastName": "Leach",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 75
+	},
+	"Jair": {
+	  "LastName": "Garrett",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 79
+	},
+	"Gregory": {
+	  "LastName": "Lowry",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 60
+	},
+	"Ariel": {
+	  "LastName": "Goodman",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 77
+	},
+	"James": {
+	  "LastName": "Bonner",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 96
+	},
+	"Nicholas": {
+	  "LastName": "Norton",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 91
+	},
+	"Jayce": {
+	  "LastName": "Mccabe",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 84
+	},
+	"Dennis": {
+	  "LastName": "Hewitt",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 66
+	},
+	"Ian": {
+	  "LastName": "Kenney",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 69
+	},
+	"Meilech": {
+	  "LastName": "Lara",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 84
+	},
+	"Johan": {
+	  "LastName": "Garner",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 76
+	},
+	"Brandon": {
+	  "LastName": "Cummings",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 78
+	},
+	"Devin": {
+	  "LastName": "Carr",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 82
+	},
+	"Carter": {
+	  "LastName": "Bowles",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 75
+	},
+	"Elijah": {
+	  "LastName": "Winslow",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 80
+	},
+	"Shlomo": {
+	  "LastName": "Hatch",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 76
+	},
+	"Micah": {
+	  "LastName": "Mckenzie",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 94
+	},
+	"Reuben": {
+	  "LastName": "Orlando",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 95
+	},
+	"Oliver": {
+	  "LastName": "Blackmon",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 64
+	}
+  },
+  "Memphis Pyramids": {
+	"Krish": {
+	  "LastName": "Rudd",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 90
+	},
+	"Dariel": {
+	  "LastName": "Montano",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 78
+	},
+	"Hassan": {
+	  "LastName": "Bingham",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 80
+	},
+	"Xavier": {
+	  "LastName": "Tripp",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 96
+	},
+	"Chase": {
+	  "LastName": "Tidwell",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 65
+	},
+	"Desmond": {
+	  "LastName": "Hoffman",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 67
+	},
+	"Bodhi": {
+	  "LastName": "Locke",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 98
+	},
+	"Messiah": {
+	  "LastName": "Fenton",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 62
+	},
+	"Axel": {
+	  "LastName": "Lentz",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 83
+	},
+	"Jacob": {
+	  "LastName": "Mcfarland",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 65
+	},
+	"Corey": {
+	  "LastName": "Seaman",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 84
+	},
+	"Chris": {
+	  "LastName": "Sousa",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 90
+	},
+	"Ryder": {
+	  "LastName": "Yancey",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 79
+	},
+	"Nico": {
+	  "LastName": "Saucedo",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 79
+	},
+	"Malik": {
+	  "LastName": "Berry",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 99
+	},
+	"Iker": {
+	  "LastName": "Singletary",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 99
+	},
+	"Kenneth": {
+	  "LastName": "Hurley",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 63
+	},
+	"Blake": {
+	  "LastName": "Dunbar",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 87
+	},
+	"Mekhi": {
+	  "LastName": "Pickett",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 60
+	},
+	"Matteo": {
+	  "LastName": "Neff",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 70
+	},
+	"Adrian": {
+	  "LastName": "Manuel",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 74
+	},
+	"Mark": {
+	  "LastName": "Mccormack",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 79
+	},
+	"Carter": {
+	  "LastName": "Rosenthal",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 92
+	},
+	"Quincy": {
+	  "LastName": "Pearce",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 63
+	},
+	"Sam": {
+	  "LastName": "Page",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 66
+	},
+	"Brian": {
+	  "LastName": "Madrid",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 66
+	},
+	"Jerry": {
+	  "LastName": "Silverman",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 93
+	},
+	"Otto": {
+	  "LastName": "Trimble",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 68
+	},
+	"Maximus": {
+	  "LastName": "Ball",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 85
+	},
+	"Arjun": {
+	  "LastName": "Yoder",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Alex": {
+	  "LastName": "Arreola",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 75
+	},
+	"Elliott": {
+	  "LastName": "Scales",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 89
+	},
+	"Felix": {
+	  "LastName": "Gifford",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 89
+	},
+	"Matthew": {
+	  "LastName": "Durham",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 95
+	},
+	"Romeo": {
+	  "LastName": "Pearce",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 61
+	},
+	"Miguel": {
+	  "LastName": "Arthur",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 70
+	},
+	"Leo": {
+	  "LastName": "Barrientos",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 63
+	},
+	"Aiden": {
+	  "LastName": "Valentine",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 73
+	},
+	"Miles": {
+	  "LastName": "Crandall",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 88
+	},
+	"Gavriel": {
+	  "LastName": "Anders",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 86
+	},
+	"Hunter": {
+	  "LastName": "Workman",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 93
+	},
+	"Theo": {
+	  "LastName": "Mcfadden",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 70
+	},
+	"Yaakov": {
+	  "LastName": "Ellsworth",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 76
+	}
+  },
+  "Oklahoma Tornadoes": {
+	"Gavin": {
+	  "LastName": "Hills",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 98
+	},
+	"Hudson": {
+	  "LastName": "Wagoner",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 95
+	},
+	"Emmanuel": {
+	  "LastName": "Ambrose",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 72
+	},
+	"Evan": {
+	  "LastName": "Kimble",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 71
+	},
+	"Kenneth": {
+	  "LastName": "Cavanaugh",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 78
+	},
+	"Patrick": {
+	  "LastName": "Wilkins",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 67
+	},
+	"Anderson": {
+	  "LastName": "Roy",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 76
+	},
+	"Yakov": {
+	  "LastName": "Garza",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 69
+	},
+	"Harrison": {
+	  "LastName": "Crenshaw",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 97
+	},
+	"Christian": {
+	  "LastName": "Crouse",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 78
+	},
+	"Dominic": {
+	  "LastName": "Merchant",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 70
+	},
+	"Jason": {
+	  "LastName": "Yi",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 64
+	},
+	"Jayden": {
+	  "LastName": "Dawkins",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 88
+	},
+	"Alexander": {
+	  "LastName": "Schwartz",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 72
+	},
+	"Angel": {
+	  "LastName": "Hewitt",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 73
+	},
+	"Malcolm": {
+	  "LastName": "Lind",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 91
+	},
+	"Victor": {
+	  "LastName": "Christy",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 79
+	},
+	"Daniel": {
+	  "LastName": "Wolff",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 78
+	},
+	"Mordechai": {
+	  "LastName": "Huber",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 63
+	},
+	"Gabriel": {
+	  "LastName": "Burger",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 96
+	},
+	"Shimon": {
+	  "LastName": "Sorensen",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 68
+	},
+	"Robert": {
+	  "LastName": "Koenig",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 75
+	},
+	"Devin": {
+	  "LastName": "Lester",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 87
+	},
+	"Omar": {
+	  "LastName": "Pierre",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 64
+	},
+	"Matteo": {
+	  "LastName": "Iverson",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 99
+	},
+	"Griffin": {
+	  "LastName": "Bruner",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 76
+	},
+	"Jahir": {
+	  "LastName": "Rosales",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 81
+	},
+	"Adam": {
+	  "LastName": "Godfrey",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 62
+	},
+	"Johan": {
+	  "LastName": "Strong",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 87
+	},
+	"Colin": {
+	  "LastName": "Holm",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 94
+	},
+	"Timothy": {
+	  "LastName": "Vo",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 93
+	},
+	"Brayden": {
+	  "LastName": "Desai",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 88
+	},
+	"Asher": {
+	  "LastName": "Whalen",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 72
+	},
+	"Liam": {
+	  "LastName": "Arroyo",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Alvin": {
+	  "LastName": "Hare",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 93
+	},
+	"Isaac": {
+	  "LastName": "Godwin",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 83
+	},
+	"Martin": {
+	  "LastName": "Goode",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 68
+	},
+	"Byron": {
+	  "LastName": "Benoit",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 94
+	},
+	"Vincent": {
+	  "LastName": "Riddle",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 65
+	},
+	"Nico": {
+	  "LastName": "Crouse",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 66
+	},
+	"Ahmad": {
+	  "LastName": "Novak",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 80
+	},
+	"Louis": {
+	  "LastName": "Waggoner",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 60
+	}
+  },
+  "New Orleans Voodoo": {
+	"Jaiden": {
+	  "LastName": "Sullivan",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 87
+	},
+	"Adonis": {
+	  "LastName": "Cassidy",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 74
+	},
+	"Ethan": {
+	  "LastName": "Cooper",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 97
+	},
+	"Jerry": {
+	  "LastName": "Hathaway",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 70
+	},
+	"Jason": {
+	  "LastName": "Leung",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 69
+	},
+	"Martin": {
+	  "LastName": "Betancourt",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 84
+	},
+	"Benjamin": {
+	  "LastName": "Redding",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 66
+	},
+	"Jasiah": {
+	  "LastName": "Diamond",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 68
+	},
+	"Evan": {
+	  "LastName": "Esparza",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 80
+	},
+	"Ilan": {
+	  "LastName": "Palacios",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 70
+	},
+	"Avery": {
+	  "LastName": "Dove",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 61
+	},
+	"Elijah": {
+	  "LastName": "Chavarria",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 98
+	},
+	"Alexander": {
+	  "LastName": "Cassidy",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 96
+	},
+	"Jace": {
+	  "LastName": "Winslow",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 73
+	},
+	"Dylan": {
+	  "LastName": "Kinney",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 61
+	},
+	"Elias": {
+	  "LastName": "Stuart",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 76
+	},
+	"Mohammed": {
+	  "LastName": "Pena",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 87
+	},
+	"Gregory": {
+	  "LastName": "Ferreira",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 76
+	},
+	"Kabir": {
+	  "LastName": "Hubbard",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 92
+	},
+	"Finn": {
+	  "LastName": "Bentley",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 96
+	},
+	"Andre": {
+	  "LastName": "Roche",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 66
+	},
+	"Josiah": {
+	  "LastName": "Kincaid",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 68
+	},
+	"Brendan": {
+	  "LastName": "Landry",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 76
+	},
+	"Omari": {
+	  "LastName": "Flynn",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 67
+	},
+	"Gael": {
+	  "LastName": "Walton",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 66
+	},
+	"John": {
+	  "LastName": "Giles",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 97
+	},
+	"Miguel": {
+	  "LastName": "Bishop",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 99
+	},
+	"Aryeh": {
+	  "LastName": "Good",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 81
+	},
+	"Jeremy": {
+	  "LastName": "Mansfield",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 93
+	},
+	"Tyler": {
+	  "LastName": "Chadwick",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 75
+	},
+	"Jasper": {
+	  "LastName": "Reynolds",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 67
+	},
+	"Dante": {
+	  "LastName": "Mcmillan",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 76
+	},
+	"Charles": {
+	  "LastName": "Gibbs",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 61
+	},
+	"Jacob": {
+	  "LastName": "Lucas",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 73
+	},
+	"Alan": {
+	  "LastName": "Fernandez",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Shlome": {
+	  "LastName": "Hinton",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 76
+	},
+	"Vincent": {
+	  "LastName": "Stratton",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 93
+	},
+	"Eddie": {
+	  "LastName": "Serna",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 79
+	},
+	"Aharon": {
+	  "LastName": "Sherrill",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 71
+	},
+	"Andrew": {
+	  "LastName": "Phan",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 82
+	},
+	"Gerardo": {
+	  "LastName": "Mccord",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 68
+	},
+	"Connor": {
+	  "LastName": "Hamby",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 80
+	},
+	"Zayan": {
+	  "LastName": "Grubb",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 68
+	}
+  },
+  "DC Senators": {
+	"Duvid": {
+	  "LastName": "Pimentel",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 85
+	},
+	"Jesse": {
+	  "LastName": "Ruiz",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 88
+	},
+	"Emmett": {
+	  "LastName": "Hairston",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 98
+	},
+	"Preston": {
+	  "LastName": "Brenner",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 77
+	},
+	"Giovanni": {
+	  "LastName": "Schwab",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 65
+	},
+	"Harry": {
+	  "LastName": "Burk",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 80
+	},
+	"Dominick": {
+	  "LastName": "Pugh",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 90
+	},
+	"Felix": {
+	  "LastName": "Jacobson",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 96
+	},
+	"Tyler": {
+	  "LastName": "Becker",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 93
+	},
+	"Darren": {
+	  "LastName": "Cornelius",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 68
+	},
+	"Winston": {
+	  "LastName": "Maldonado",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 97
+	},
+	"Muhammad": {
+	  "LastName": "Hale",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 97
+	},
+	"Bodhi": {
+	  "LastName": "Maier",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 75
+	},
+	"Jace": {
+	  "LastName": "Bowser",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 92
+	},
+	"Ari": {
+	  "LastName": "Perry",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 72
+	},
+	"Jesus": {
+	  "LastName": "Flint",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 89
+	},
+	"Greyson": {
+	  "LastName": "Luther",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 73
+	},
+	"Jason": {
+	  "LastName": "Brandon",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 68
+	},
+	"Ali": {
+	  "LastName": "Mcintosh",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 62
+	},
+	"Jeremias": {
+	  "LastName": "Mcdonnell",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 65
+	},
+	"Jacob": {
+	  "LastName": "Forrest",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 91
+	},
+	"Naftali": {
+	  "LastName": "Daigle",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 87
+	},
+	"Johan": {
+	  "LastName": "Houston",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 83
+	},
+	"Jackson": {
+	  "LastName": "Hopper",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 89
+	},
+	"Grant": {
+	  "LastName": "Baldwin",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 67
+	},
+	"Sergio": {
+	  "LastName": "Penn",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 78
+	},
+	"Shea": {
+	  "LastName": "Barnett",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 70
+	},
+	"Levi": {
+	  "LastName": "Crowder",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 92
+	},
+	"Derek": {
+	  "LastName": "Noble",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 90
+	},
+	"Oliver": {
+	  "LastName": "Bruce",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 76
+	},
+	"Hudson": {
+	  "LastName": "Hoffman",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 76
+	},
+	"Jayden": {
+	  "LastName": "Benson",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 82
+	},
+	"Abdul": {
+	  "LastName": "Jarrett",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 92
+	},
+	"Matthew": {
+	  "LastName": "Courtney",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Kevin": {
+	  "LastName": "Barker",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 81
+	},
+	"Riley": {
+	  "LastName": "Okeefe",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 72
+	},
+	"Kayden": {
+	  "LastName": "Dow",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 84
+	},
+	"Devin": {
+	  "LastName": "Jacobs",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 81
+	},
+	"Leonidas": {
+	  "LastName": "Crain",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 69
+	},
+	"Lucas": {
+	  "LastName": "Crook",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 97
+	},
+	"Chase": {
+	  "LastName": "Pelletier",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 78
+	},
+	"Micah": {
+	  "LastName": "Haywood",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 72
+	},
+	"Caleb": {
+	  "LastName": "Suarez",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 80
+	},
+	"Andrew": {
+	  "LastName": "Ochoa",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 70
+	}
+  },
+  "Charlotte Beasts": {
+	"Shmiel": {
+	  "LastName": "Henning",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 80
+	},
+	"Sean": {
+	  "LastName": "Mclain",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 79
+	},
+	"Ousmane": {
+	  "LastName": "Mcmillian",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 75
+	},
+	"Hunter": {
+	  "LastName": "Tabor",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 93
+	},
+	"Kayden": {
+	  "LastName": "Connelly",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 78
+	},
+	"Gavin": {
+	  "LastName": "Hidalgo",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 78
+	},
+	"Benjamin": {
+	  "LastName": "Crider",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 65
+	},
+	"Gael": {
+	  "LastName": "Estrella",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 98
+	},
+	"Isaac": {
+	  "LastName": "Packard",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 85
+	},
+	"Julio": {
+	  "LastName": "Stern",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 83
+	},
+	"Louis": {
+	  "LastName": "Starr",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 71
+	},
+	"Landon": {
+	  "LastName": "Escobedo",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 72
+	},
+	"Benzion": {
+	  "LastName": "Hauser",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 99
+	},
+	"Shane": {
+	  "LastName": "Mancini",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 69
+	},
+	"Lucas": {
+	  "LastName": "Packard",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 64
+	},
+	"Jayden": {
+	  "LastName": "Gall",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 79
+	},
+	"Orlando": {
+	  "LastName": "Coughlin",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 89
+	},
+	"Gregory": {
+	  "LastName": "Mims",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 91
+	},
+	"Elian": {
+	  "LastName": "Robledo",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 77
+	},
+	"Solomon": {
+	  "LastName": "Hanks",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 83
+	},
+	"Elan": {
+	  "LastName": "Hillman",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 60
+	},
+	"Ivan": {
+	  "LastName": "Gaston",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 93
+	},
+	"Orion": {
+	  "LastName": "Lamar",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 64
+	},
+	"Tyler": {
+	  "LastName": "Holtz",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 93
+	},
+	"Caleb": {
+	  "LastName": "Tolliver",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 88
+	},
+	"Alex": {
+	  "LastName": "Masterson",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 88
+	},
+	"Jaden": {
+	  "LastName": "Kimball",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 88
+	},
+	"Camren": {
+	  "LastName": "Mohr",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 70
+	},
+	"Ian": {
+	  "LastName": "Geiger",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 95
+	},
+	"Roman": {
+	  "LastName": "Mehta",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 90
+	},
+	"Jacob": {
+	  "LastName": "Milner",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 83
+	},
+	"Maximilian": {
+	  "LastName": "Purcell",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 96
+	},
+	"Spencer": {
+	  "LastName": "Biddle",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 68
+	},
+	"Omari": {
+	  "LastName": "Lovett",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Daniel": {
+	  "LastName": "Clement",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Gerardo": {
+	  "LastName": "Grove",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 96
+	},
+	"Gabriel": {
+	  "LastName": "Kraft",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 83
+	},
+	"Micah": {
+	  "LastName": "Bowles",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 62
+	},
+	"Luka": {
+	  "LastName": "Spurlock",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 86
+	},
+	"Samuel": {
+	  "LastName": "Bagwell",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 61
+	},
+	"Mario": {
+	  "LastName": "Matson",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 60
+	},
+	"Mordechai": {
+	  "LastName": "Menendez",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 82
+	},
+	"Thomas": {
+	  "LastName": "Fugate",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 63
+	}
+  },
+  "New York Spartans": {
+	"Isaac": {
+	  "LastName": "Navarrete",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 75
+	},
+	"Nathan": {
+	  "LastName": "Burrows",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 95
+	},
+	"Mason": {
+	  "LastName": "Phan",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 80
+	},
+	"Abdullah": {
+	  "LastName": "Parnell",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 97
+	},
+	"Jake": {
+	  "LastName": "Turk",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 86
+	},
+	"Edwin": {
+	  "LastName": "Cartwright",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 99
+	},
+	"Armani": {
+	  "LastName": "Kwon",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 66
+	},
+	"Josiah": {
+	  "LastName": "Quinlan",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 63
+	},
+	"Gregory": {
+	  "LastName": "Caruso",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 97
+	},
+	"Parker": {
+	  "LastName": "Barney",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 64
+	},
+	"Aiden": {
+	  "LastName": "Kozlowski",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 87
+	},
+	"Yitzchak": {
+	  "LastName": "Burks",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 96
+	},
+	"Mekhi": {
+	  "LastName": "Bundy",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 86
+	},
+	"Blake": {
+	  "LastName": "Corey",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 61
+	},
+	"Anson": {
+	  "LastName": "Bergman",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 81
+	},
+	"Marcus": {
+	  "LastName": "Pendleton",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 68
+	},
+	"Nasir": {
+	  "LastName": "Pruett",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 95
+	},
+	"Ayden": {
+	  "LastName": "Wetzel",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 77
+	},
+	"Francesco": {
+	  "LastName": "Neumann",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 98
+	},
+	"Shlome": {
+	  "LastName": "Light",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 71
+	},
+	"Samir": {
+	  "LastName": "Searcy",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 76
+	},
+	"Jace": {
+	  "LastName": "Paxton",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 88
+	},
+	"Connor": {
+	  "LastName": "Mccain",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 84
+	},
+	"Ariel": {
+	  "LastName": "Chavis",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 86
+	},
+	"Angelo": {
+	  "LastName": "Christie",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 63
+	},
+	"Liam": {
+	  "LastName": "Christman",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 62
+	},
+	"Nicolas": {
+	  "LastName": "Clemons",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 82
+	},
+	"Adyan": {
+	  "LastName": "Parnell",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 76
+	},
+	"Amari": {
+	  "LastName": "Crow",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 72
+	},
+	"Yusuf": {
+	  "LastName": "Raines",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 84
+	},
+	"Isiah": {
+	  "LastName": "Temple",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 77
+	},
+	"Victor": {
+	  "LastName": "Maki",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 61
+	},
+	"David": {
+	  "LastName": "Tyson",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 73
+	},
+	"Ezra": {
+	  "LastName": "Dehart",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 61
+	},
+	"Eric": {
+	  "LastName": "Briones",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 61
+	},
+	"Landon": {
+	  "LastName": "Fournier",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 68
+	},
+	"Chaim": {
+	  "LastName": "Napier",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 93
+	},
+	"Rayan": {
+	  "LastName": "Aranda",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 69
+	},
+	"Pablo": {
+	  "LastName": "Musser",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 92
+	},
+	"Derek": {
+	  "LastName": "Culp",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 91
+	},
+	"Albert": {
+	  "LastName": "Morey",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 97
+	},
+	"Elvis": {
+	  "LastName": "Pederson",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 80
+	}
+  },
+  "Philadelphia Suns": {
+	"Chase": {
+	  "LastName": "Maier",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 71
+	},
+	"William": {
+	  "LastName": "Mcallister",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 92
+	},
+	"Chance": {
+	  "LastName": "Hartley",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 61
+	},
+	"Yechiel": {
+	  "LastName": "Gaither",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 99
+	},
+	"Henry": {
+	  "LastName": "Vogt",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 63
+	},
+	"Brandon": {
+	  "LastName": "Marlow",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 72
+	},
+	"Bryce": {
+	  "LastName": "Boudreau",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 73
+	},
+	"Camilo": {
+	  "LastName": "Regan",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 80
+	},
+	"Jayson": {
+	  "LastName": "German",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 91
+	},
+	"Jadiel": {
+	  "LastName": "Lyman",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 76
+	},
+	"Marcos": {
+	  "LastName": "Lunsford",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 90
+	},
+	"Hudson": {
+	  "LastName": "Pelletier",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 96
+	},
+	"Jay": {
+	  "LastName": "Hairston",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 67
+	},
+	"Yadiel": {
+	  "LastName": "Montero",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 69
+	},
+	"Cole": {
+	  "LastName": "Hooks",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 69
+	},
+	"Parker": {
+	  "LastName": "Curley",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 78
+	},
+	"Bradley": {
+	  "LastName": "Chester",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 73
+	},
+	"Josue": {
+	  "LastName": "Magana",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 78
+	},
+	"Matthew": {
+	  "LastName": "Arevalo",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 97
+	},
+	"Micah": {
+	  "LastName": "Allred",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 94
+	},
+	"Pinchas": {
+	  "LastName": "Caron",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 68
+	},
+	"Jefferson": {
+	  "LastName": "Whittaker",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 84
+	},
+	"Kieran": {
+	  "LastName": "Sotelo",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 60
+	},
+	"Elijah": {
+	  "LastName": "Paredes",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 88
+	},
+	"Greyson": {
+	  "LastName": "Diehl",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 69
+	},
+	"Christopher": {
+	  "LastName": "Gamboa",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 64
+	},
+	"Hunter": {
+	  "LastName": "Keyes",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 67
+	},
+	"Jason": {
+	  "LastName": "Soares",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 96
+	},
+	"Timothy": {
+	  "LastName": "Quezada",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 63
+	},
+	"Zachary": {
+	  "LastName": "Tierney",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 97
+	},
+	"Robert": {
+	  "LastName": "Cyr",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 98
+	},
+	"John": {
+	  "LastName": "Coley",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 92
+	},
+	"Zayden": {
+	  "LastName": "Ojeda",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 86
+	},
+	"Mason": {
+	  "LastName": "Vigil",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 85
+	},
+	"Daniel": {
+	  "LastName": "Mccallum",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 83
+	},
+	"Beckett": {
+	  "LastName": "Dupree",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 62
+	},
+	"Joshua": {
+	  "LastName": "Weis",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 81
+	},
+	"Kiyan": {
+	  "LastName": "Reiter",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 62
+	},
+	"Leon": {
+	  "LastName": "Purcell",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 93
+	},
+	"Maxwell": {
+	  "LastName": "Free",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 64
+	},
+	"Leonardo": {
+	  "LastName": "Culbertson",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 79
+	},
+	"Jael": {
+	  "LastName": "Regalado",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 99
+	},
+	"Brayan": {
+	  "LastName": "Montague",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 67
+	}
+  },
+  "Chicago Warriors": {
+	"David": {
+	  "LastName": "High",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 99
+	},
+	"Grayson": {
+	  "LastName": "Herbert",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 78
+	},
+	"Messiah": {
+	  "LastName": "Soares",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 77
+	},
+	"Colin": {
+	  "LastName": "Ogle",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 93
+	},
+	"Shloime": {
+	  "LastName": "Crouch",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 92
+	},
+	"Lucien": {
+	  "LastName": "Fair",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 69
+	},
+	"Michael": {
+	  "LastName": "Enriquez",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 60
+	},
+	"Ashton": {
+	  "LastName": "Mayfield",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 67
+	},
+	"Xavier": {
+	  "LastName": "Lott",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 66
+	},
+	"Lawrence": {
+	  "LastName": "Schuler",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 68
+	},
+	"Luka": {
+	  "LastName": "Spangler",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 72
+	},
+	"Yaseen": {
+	  "LastName": "Otero",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 99
+	},
+	"Jimmy": {
+	  "LastName": "Poindexter",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 68
+	},
+	"Finn": {
+	  "LastName": "Herr",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 83
+	},
+	"Jack": {
+	  "LastName": "Schrader",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 72
+	},
+	"Spencer": {
+	  "LastName": "Abraham",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 93
+	},
+	"Chase": {
+	  "LastName": "Zhao",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 73
+	},
+	"Amare": {
+	  "LastName": "Leahy",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 74
+	},
+	"Diego": {
+	  "LastName": "Koenig",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 94
+	},
+	"Dominic": {
+	  "LastName": "Grossman",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 87
+	},
+	"Joel": {
+	  "LastName": "Mayberry",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 85
+	},
+	"Jasiah": {
+	  "LastName": "Granger",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 96
+	},
+	"Ryder": {
+	  "LastName": "Barbosa",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 85
+	},
+	"Cole": {
+	  "LastName": "Foy",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 64
+	},
+	"Philip": {
+	  "LastName": "Malloy",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 89
+	},
+	"Johnny": {
+	  "LastName": "Shirley",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 65
+	},
+	"Jackson": {
+	  "LastName": "Daly",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 61
+	},
+	"Chance": {
+	  "LastName": "Lancaster",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 77
+	},
+	"Abraham": {
+	  "LastName": "Ivy",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 82
+	},
+	"Mohammed": {
+	  "LastName": "Dailey",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 87
+	},
+	"Lev": {
+	  "LastName": "Hartley",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 69
+	},
+	"Ryan": {
+	  "LastName": "Jacobsen",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 64
+	},
+	"Jayce": {
+	  "LastName": "Oates",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 81
+	},
+	"Manuel": {
+	  "LastName": "Waggoner",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 95
+	},
+	"Anderson": {
+	  "LastName": "Churchill",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 75
+	},
+	"Levi": {
+	  "LastName": "Cramer",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 66
+	},
+	"Vincent": {
+	  "LastName": "Herbert",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 68
+	},
+	"Yaakov": {
+	  "LastName": "Leslie",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 74
+	},
+	"Jadiel": {
+	  "LastName": "Pack",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 78
+	},
+	"Ayden": {
+	  "LastName": "Mcclanahan",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 60
+	},
+	"Marcos": {
+	  "LastName": "Braxton",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 89
+	}
+  },
+  "Baltimore Bombers": {
+	"Rafael": {
+	  "LastName": "Esquivel",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 91
+	},
+	"Myles": {
+	  "LastName": "Victor",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 89
+	},
+	"Aidan": {
+	  "LastName": "Houghton",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 83
+	},
+	"Marco": {
+	  "LastName": "Mcnally",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 61
+	},
+	"Omar": {
+	  "LastName": "Herzog",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 81
+	},
+	"Devin": {
+	  "LastName": "Francois",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 68
+	},
+	"Jayce": {
+	  "LastName": "Crooks",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 70
+	},
+	"Brian": {
+	  "LastName": "Mcrae",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 77
+	},
+	"Ibrahima": {
+	  "LastName": "Arriaga",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 75
+	},
+	"Jordan": {
+	  "LastName": "Heard",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 69
+	},
+	"Messiah": {
+	  "LastName": "Voss",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 72
+	},
+	"Stanley": {
+	  "LastName": "Mobley",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 83
+	},
+	"Christian": {
+	  "LastName": "Mayfield",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 90
+	},
+	"Hassan": {
+	  "LastName": "South",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 82
+	},
+	"Eric": {
+	  "LastName": "Rhoades",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 80
+	},
+	"Jadiel": {
+	  "LastName": "Haney",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 63
+	},
+	"Antonio": {
+	  "LastName": "Bledsoe",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 73
+	},
+	"Maximus": {
+	  "LastName": "Dorman",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 69
+	},
+	"Byron": {
+	  "LastName": "Dickey",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 68
+	},
+	"Zion": {
+	  "LastName": "Guillory",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 74
+	},
+	"Miles": {
+	  "LastName": "Carl",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 63
+	},
+	"Krish": {
+	  "LastName": "Lindberg",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 94
+	},
+	"Justice": {
+	  "LastName": "Delatorre",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 60
+	},
+	"Jad": {
+	  "LastName": "Dejesus",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 75
+	},
+	"Joseph": {
+	  "LastName": "Harwood",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 75
+	},
+	"Yisroel": {
+	  "LastName": "Haney",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 86
+	},
+	"Lorenzo": {
+	  "LastName": "Lusk",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 99
+	},
+	"Andrew": {
+	  "LastName": "Mccloskey",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 95
+	},
+	"Jaxson": {
+	  "LastName": "Humphries",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 89
+	},
+	"Anthony": {
+	  "LastName": "Granados",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 85
+	},
+	"Nicholas": {
+	  "LastName": "Renner",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 64
+	},
+	"Christopher": {
+	  "LastName": "Cullen",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 63
+	},
+	"Alex": {
+	  "LastName": "Mancini",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 92
+	},
+	"Blake": {
+	  "LastName": "Thao",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 94
+	},
+	"Tyler": {
+	  "LastName": "Stepp",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 88
+	},
+	"Andres": {
+	  "LastName": "Dejesus",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Eason": {
+	  "LastName": "Pepper",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Joel": {
+	  "LastName": "Moffett",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 79
+	},
+	"Zachary": {
+	  "LastName": "Schuster",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 83
+	},
+	"Mathias": {
+	  "LastName": "Starnes",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 67
+	},
+	"Yitzchak": {
+	  "LastName": "Cordero",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 71
+	},
+	"Cristian": {
+	  "LastName": "Bolton",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 60
+	},
+	"Erick": {
+	  "LastName": "Stepp",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 97
+	},
+	"Motty": {
+	  "LastName": "Seals",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 81
+	},
+	"Gianluca": {
+	  "LastName": "Daley",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 62
+	}
+  },
+  "Milwaukee Owls": {
+	"Lukas": {
+	  "LastName": "Stump",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 72
+	},
+	"Caleb": {
+	  "LastName": "Tobin",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 99
+	},
+	"Lucas": {
+	  "LastName": "Krebs",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 82
+	},
+	"Christopher": {
+	  "LastName": "Oh",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 78
+	},
+	"Emmanuel": {
+	  "LastName": "Denney",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 89
+	},
+	"Josiah": {
+	  "LastName": "Metz",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 84
+	},
+	"Rafael": {
+	  "LastName": "Negron",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 80
+	},
+	"Shawn": {
+	  "LastName": "Hutchins",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 62
+	},
+	"Derek": {
+	  "LastName": "Brant",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 67
+	},
+	"Mohammed": {
+	  "LastName": "Tillman",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 93
+	},
+	"Jordan": {
+	  "LastName": "Latham",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 89
+	},
+	"Ayaan": {
+	  "LastName": "Bonds",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 99
+	},
+	"Ricardo": {
+	  "LastName": "Burge",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 78
+	},
+	"Maximus": {
+	  "LastName": "Mcalister",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 86
+	},
+	"Amir": {
+	  "LastName": "Napier",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 99
+	},
+	"Marc": {
+	  "LastName": "Fish",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 69
+	},
+	"Tony": {
+	  "LastName": "Foy",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 92
+	},
+	"Mamadou": {
+	  "LastName": "Grigsby",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 94
+	},
+	"Steven": {
+	  "LastName": "Stringer",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 83
+	},
+	"Evan": {
+	  "LastName": "Foss",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 61
+	},
+	"Kevin": {
+	  "LastName": "Steffen",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 91
+	},
+	"Wesley": {
+	  "LastName": "Billings",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 62
+	},
+	"Jonas": {
+	  "LastName": "Burroughs",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 68
+	},
+	"Bruce": {
+	  "LastName": "Renner",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 80
+	},
+	"Finn": {
+	  "LastName": "Bowles",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 90
+	},
+	"Gregory": {
+	  "LastName": "Cooney",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 81
+	},
+	"Duvid": {
+	  "LastName": "Holguin",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 92
+	},
+	"Jaylen": {
+	  "LastName": "Snodgrass",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 76
+	},
+	"Gabriel": {
+	  "LastName": "Nevarez",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 74
+	},
+	"Matthias": {
+	  "LastName": "Alston",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 89
+	},
+	"Theodore": {
+	  "LastName": "Gifford",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 62
+	},
+	"Alston": {
+	  "LastName": "Schweitzer",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 82
+	},
+	"Randy": {
+	  "LastName": "Coates",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Shmiel": {
+	  "LastName": "Ngo",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 95
+	},
+	"Ryder": {
+	  "LastName": "Desai",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 91
+	},
+	"Kenneth": {
+	  "LastName": "Shook",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 84
+	},
+	"Nathaniel": {
+	  "LastName": "Duvall",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 67
+	},
+	"Cayden": {
+	  "LastName": "Hagen",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 77
+	},
+	"Louis": {
+	  "LastName": "Wiseman",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 72
+	},
+	"Yehoshua": {
+	  "LastName": "Battle",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 76
+	},
+	"Mohamed": {
+	  "LastName": "Delgadillo",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 83
+	},
+	"Chaim": {
+	  "LastName": "Lovelace",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 93
+	},
+	"Graham": {
+	  "LastName": "Currie",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 81
+	}
+  },
+  "Columbus Hawks": {
+	"Levi": {
+	  "LastName": "Maples",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 97
+	},
+	"Aron": {
+	  "LastName": "Mcneely",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 75
+	},
+	"Adonis": {
+	  "LastName": "Baggett",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 80
+	},
+	"Aiden": {
+	  "LastName": "Strange",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 78
+	},
+	"Binyomin": {
+	  "LastName": "Doan",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 61
+	},
+	"River": {
+	  "LastName": "Burge",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Tomas": {
+	  "LastName": "Simpkins",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 72
+	},
+	"Isaac": {
+	  "LastName": "Baugh",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 73
+	},
+	"Hayden": {
+	  "LastName": "Saldana",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 85
+	},
+	"Max": {
+	  "LastName": "Corral",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 75
+	},
+	"Caleb": {
+	  "LastName": "Sowers",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 79
+	},
+	"Christian": {
+	  "LastName": "Burroughs",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 95
+	},
+	"Sean": {
+	  "LastName": "Cullen",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 61
+	},
+	"Alexis": {
+	  "LastName": "Granados",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 65
+	},
+	"Santino": {
+	  "LastName": "Cabral",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 64
+	},
+	"Jeremy": {
+	  "LastName": "Ahmad",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 85
+	},
+	"Desmond": {
+	  "LastName": "Lovett",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 61
+	},
+	"Kenneth": {
+	  "LastName": "Causey",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 82
+	},
+	"Kamari": {
+	  "LastName": "Bonds",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 75
+	},
+	"Yosef": {
+	  "LastName": "Newberry",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 81
+	},
+	"Judah": {
+	  "LastName": "Condon",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 95
+	},
+	"Abdiel": {
+	  "LastName": "Kilgore",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 72
+	},
+	"Marco": {
+	  "LastName": "Mcwilliams",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 66
+	},
+	"Jayren": {
+	  "LastName": "Alford",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 91
+	},
+	"Jesus": {
+	  "LastName": "Michel",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 71
+	},
+	"Nicholas": {
+	  "LastName": "Chavis",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 60
+	},
+	"Rohan": {
+	  "LastName": "Mcpherson",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 71
+	},
+	"Wolf": {
+	  "LastName": "Dozier",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 84
+	},
+	"James": {
+	  "LastName": "Farnsworth",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 78
+	},
+	"Elias": {
+	  "LastName": "Omalley",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 60
+	},
+	"Avrum": {
+	  "LastName": "Mccallum",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 83
+	},
+	"Edward": {
+	  "LastName": "Crain",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 79
+	},
+	"Carlos": {
+	  "LastName": "Leslie",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 61
+	},
+	"Zion": {
+	  "LastName": "Wheatley",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 73
+	},
+	"Timothy": {
+	  "LastName": "Fish",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 96
+	},
+	"Owen": {
+	  "LastName": "Mcmullen",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 83
+	},
+	"Jeremias": {
+	  "LastName": "Link",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 98
+	},
+	"Sekou": {
+	  "LastName": "Mallory",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 85
+	},
+	"Wesley": {
+	  "LastName": "Stiles",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 83
+	},
+	"Jason": {
+	  "LastName": "Benoit",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 71
+	},
+	"Justin": {
+	  "LastName": "Reinhardt",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 76
+	},
+	"Frederick": {
+	  "LastName": "Cason",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 66
+	},
+	"Evan": {
+	  "LastName": "Sample",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 98
+	},
+	"Kyle": {
+	  "LastName": "Mcdonough",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 74
+	}
+  },
+  "Seattle Vampires": {
+	"John": {
+	  "LastName": "Lindquist",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 84
+	},
+	"Theodore": {
+	  "LastName": "Braden",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 95
+	},
+	"Alexander": {
+	  "LastName": "Arias",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 85
+	},
+	"Chase": {
+	  "LastName": "Kaminski",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 97
+	},
+	"Louis": {
+	  "LastName": "Betts",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 95
+	},
+	"Kaiden": {
+	  "LastName": "Dailey",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 90
+	},
+	"Darwin": {
+	  "LastName": "Mock",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 99
+	},
+	"Vincent": {
+	  "LastName": "Valles",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 91
+	},
+	"Colin": {
+	  "LastName": "Moe",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 98
+	},
+	"Matteo": {
+	  "LastName": "Carlton",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Shea": {
+	  "LastName": "Stuckey",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 78
+	},
+	"Amir": {
+	  "LastName": "Mcneill",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 82
+	},
+	"Eli": {
+	  "LastName": "Mcwilliams",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 74
+	},
+	"Christian": {
+	  "LastName": "Muller",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 92
+	},
+	"Nathaniel": {
+	  "LastName": "Pedersen",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 93
+	},
+	"Ali": {
+	  "LastName": "Heller",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 66
+	},
+	"Joseph": {
+	  "LastName": "Byers",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 87
+	},
+	"Antonio": {
+	  "LastName": "Covington",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Ayden": {
+	  "LastName": "Blount",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 94
+	},
+	"Hector": {
+	  "LastName": "Kearney",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 92
+	},
+	"Dean": {
+	  "LastName": "Shipley",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 66
+	},
+	"Raphael": {
+	  "LastName": "Katz",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 91
+	},
+	"Yaakov": {
+	  "LastName": "Henning",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 86
+	},
+	"Julio": {
+	  "LastName": "Tolbert",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 82
+	},
+	"Robert": {
+	  "LastName": "John",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 71
+	},
+	"Micah": {
+	  "LastName": "Ma",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 92
+	},
+	"Amare": {
+	  "LastName": "Mccray",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 76
+	},
+	"Yusuf": {
+	  "LastName": "Leggett",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 84
+	},
+	"Cristian": {
+	  "LastName": "Rizzo",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 93
+	},
+	"Joshua": {
+	  "LastName": "Main",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 79
+	},
+	"Hudson": {
+	  "LastName": "Whaley",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 87
+	},
+	"Brody": {
+	  "LastName": "Messina",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 64
+	},
+	"Nasir": {
+	  "LastName": "Zielinski",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 81
+	},
+	"Jaxon": {
+	  "LastName": "Mayer",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 66
+	},
+	"Carter": {
+	  "LastName": "Bullard",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 61
+	},
+	"Jimmy": {
+	  "LastName": "Stuart",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Jordan": {
+	  "LastName": "Her",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 87
+	},
+	"Richard": {
+	  "LastName": "Finn",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 85
+	},
+	"Michael": {
+	  "LastName": "Do",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 65
+	},
+	"Sam": {
+	  "LastName": "Roper",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 72
+	},
+	"Yehuda": {
+	  "LastName": "Schafer",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 75
+	},
+	"Nicholas": {
+	  "LastName": "Billings",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 95
+	},
+	"James": {
+	  "LastName": "Grooms",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 84
+	}
+  },
+  "Sacramento Golds": {
+	"Ibrahim": {
+	  "LastName": "Fabian",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 64
+	},
+	"Albert": {
+	  "LastName": "Bigelow",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 95
+	},
+	"Ayan": {
+	  "LastName": "Tidwell",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 60
+	},
+	"Bowen": {
+	  "LastName": "Smiley",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 83
+	},
+	"Emmett": {
+	  "LastName": "Odonnell",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 60
+	},
+	"Yahir": {
+	  "LastName": "Cramer",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 61
+	},
+	"Matias": {
+	  "LastName": "Peacock",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 87
+	},
+	"Nosson": {
+	  "LastName": "Mclean",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 99
+	},
+	"Anthony": {
+	  "LastName": "Prater",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 76
+	},
+	"Bryan": {
+	  "LastName": "Huston",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 93
+	},
+	"Gabriel": {
+	  "LastName": "Ludwig",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 95
+	},
+	"Carter": {
+	  "LastName": "Aleman",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 67
+	},
+	"Brian": {
+	  "LastName": "Geary",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 73
+	},
+	"Jean": {
+	  "LastName": "Vu",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 90
+	},
+	"Samuel": {
+	  "LastName": "Kimbrough",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 97
+	},
+	"Owen": {
+	  "LastName": "Rockwell",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 99
+	},
+	"Isaiah": {
+	  "LastName": "Whittaker",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 71
+	},
+	"Allan": {
+	  "LastName": "Stiles",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 76
+	},
+	"Shia": {
+	  "LastName": "Rubio",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 75
+	},
+	"Logan": {
+	  "LastName": "Cheatham",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 66
+	},
+	"Lorenzo": {
+	  "LastName": "Talbot",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 84
+	},
+	"Amir": {
+	  "LastName": "Ivy",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 67
+	},
+	"Kyle": {
+	  "LastName": "Lenz",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 87
+	},
+	"Enrique": {
+	  "LastName": "Dozier",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 77
+	},
+	"Darren": {
+	  "LastName": "Denson",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 68
+	},
+	"Ishaan": {
+	  "LastName": "Zhao",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 81
+	},
+	"Tony": {
+	  "LastName": "Stratton",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 63
+	},
+	"Avrum": {
+	  "LastName": "Barrios",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 78
+	},
+	"Moishy": {
+	  "LastName": "Burnette",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 66
+	},
+	"Declan": {
+	  "LastName": "Dill",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 89
+	},
+	"Winston": {
+	  "LastName": "Rosenthal",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 70
+	},
+	"Andy": {
+	  "LastName": "Cullen",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 84
+	},
+	"Wesley": {
+	  "LastName": "Levesque",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 62
+	},
+	"Makai": {
+	  "LastName": "Huntley",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Efraim": {
+	  "LastName": "Ruff",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Mordechai": {
+	  "LastName": "Wilkes",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 62
+	},
+	"Jasper": {
+	  "LastName": "Burdette",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 92
+	},
+	"Edward": {
+	  "LastName": "Lentz",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 66
+	},
+	"Parker": {
+	  "LastName": "Cummins",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 68
+	},
+	"Eliyahu": {
+	  "LastName": "Grace",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 72
+	},
+	"Ian": {
+	  "LastName": "Carman",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 74
+	},
+	"Preston": {
+	  "LastName": "Heller",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 60
+	},
+	"Josiah": {
+	  "LastName": "Belanger",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 66
+	},
+	"Luca": {
+	  "LastName": "Hull",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 73
+	},
+	"Grant": {
+	  "LastName": "Mcgowan",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 94
+	}
+  },
+  "Phoenix Roadrunners": {
+	"Avi": {
+	  "LastName": "Tavares",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 78
+	},
+	"Angelo": {
+	  "LastName": "Mcalister",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 67
+	},
+	"Shneur": {
+	  "LastName": "Myrick",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 79
+	},
+	"Devin": {
+	  "LastName": "Cleary",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 90
+	},
+	"Jefferson": {
+	  "LastName": "Zarate",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 77
+	},
+	"Ayaan": {
+	  "LastName": "Kong",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 94
+	},
+	"Carter": {
+	  "LastName": "Whaley",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 95
+	},
+	"Jace": {
+	  "LastName": "Lackey",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 64
+	},
+	"Sebastian": {
+	  "LastName": "Swain",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 84
+	},
+	"Brayden": {
+	  "LastName": "Pruitt",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 75
+	},
+	"Ian": {
+	  "LastName": "Minton",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 84
+	},
+	"Tyler": {
+	  "LastName": "Hillman",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 92
+	},
+	"Augustus": {
+	  "LastName": "Harwood",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 83
+	},
+	"Jaylen": {
+	  "LastName": "Sams",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 95
+	},
+	"Jordan": {
+	  "LastName": "Lundy",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 80
+	},
+	"Ori": {
+	  "LastName": "Neely",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 64
+	},
+	"Elimelech": {
+	  "LastName": "Lau",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 96
+	},
+	"Aron": {
+	  "LastName": "Sloan",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 94
+	},
+	"Zion": {
+	  "LastName": "Huston",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 62
+	},
+	"Jalen": {
+	  "LastName": "Sadler",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 91
+	},
+	"Allan": {
+	  "LastName": "Spain",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 98
+	},
+	"Marco": {
+	  "LastName": "Leblanc",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 69
+	},
+	"Shaul": {
+	  "LastName": "Song",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 80
+	},
+	"Zev": {
+	  "LastName": "Hollis",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 75
+	},
+	"Israel": {
+	  "LastName": "Crocker",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 68
+	},
+	"Louis": {
+	  "LastName": "Ohara",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 73
+	},
+	"Adam": {
+	  "LastName": "Crum",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 73
+	},
+	"Gael": {
+	  "LastName": "Hutchins",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 70
+	},
+	"Ismael": {
+	  "LastName": "Yi",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 99
+	},
+	"Gregory": {
+	  "LastName": "Peralta",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 92
+	},
+	"Yechiel": {
+	  "LastName": "Raines",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 64
+	},
+	"Cristian": {
+	  "LastName": "Villanueva",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 83
+	},
+	"Melvin": {
+	  "LastName": "Chastain",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 69
+	},
+	"Rowan": {
+	  "LastName": "Dowd",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 83
+	},
+	"Naftuli": {
+	  "LastName": "Ruffin",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 66
+	},
+	"Abraham": {
+	  "LastName": "Mcadams",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Preston": {
+	  "LastName": "Bergeron",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 72
+	},
+	"Ahmed": {
+	  "LastName": "Wiles",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 76
+	},
+	"Yanky": {
+	  "LastName": "Nava",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 83
+	},
+	"Caleb": {
+	  "LastName": "Baer",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 72
+	},
+	"Mohamed": {
+	  "LastName": "Ho",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 73
+	},
+	"Ben": {
+	  "LastName": "Fortune",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 64
+	},
+	"Eli": {
+	  "LastName": "Sheets",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 78
+	},
+	"Christian": {
+	  "LastName": "Strauss",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 91
+	}
+  },
+  "Albuquerque Scorpions": {
+	"Giovanni": {
+	  "LastName": "Graf",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 76
+	},
+	"Winston": {
+	  "LastName": "Espino",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 64
+	},
+	"Bryson": {
+	  "LastName": "Sosa",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 97
+	},
+	"Arlo": {
+	  "LastName": "Walden",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 64
+	},
+	"Elan": {
+	  "LastName": "Sprague",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 77
+	},
+	"Amir": {
+	  "LastName": "Rosario",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 98
+	},
+	"Robert": {
+	  "LastName": "Clemons",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 83
+	},
+	"Yaseen": {
+	  "LastName": "Davison",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 70
+	},
+	"Adam": {
+	  "LastName": "Lundy",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 98
+	},
+	"Omar": {
+	  "LastName": "Mcdonough",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 73
+	},
+	"Santiago": {
+	  "LastName": "Ernst",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 84
+	},
+	"Blake": {
+	  "LastName": "Courtney",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 83
+	},
+	"Kendrick": {
+	  "LastName": "Reilly",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 85
+	},
+	"Stephen": {
+	  "LastName": "Zhou",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 71
+	},
+	"Leandro": {
+	  "LastName": "Kaiser",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 90
+	},
+	"Januel": {
+	  "LastName": "Cortes",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 69
+	},
+	"Mark": {
+	  "LastName": "Steffen",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 76
+	},
+	"Jeremiah": {
+	  "LastName": "Woodruff",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 86
+	},
+	"Evan": {
+	  "LastName": "Goetz",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 97
+	},
+	"Prince": {
+	  "LastName": "Sears",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 78
+	},
+	"Theo": {
+	  "LastName": "Lira",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 94
+	},
+	"Isaiah": {
+	  "LastName": "Locklear",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 70
+	},
+	"Abdul": {
+	  "LastName": "Laughlin",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 71
+	},
+	"Gregory": {
+	  "LastName": "Jack",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 66
+	},
+	"Arturo": {
+	  "LastName": "Mccollum",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 79
+	},
+	"Ian": {
+	  "LastName": "Kahn",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 80
+	},
+	"Berl": {
+	  "LastName": "Epperson",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 98
+	},
+	"Ahmed": {
+	  "LastName": "Ho",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 94
+	},
+	"Mendy": {
+	  "LastName": "Mackey",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 92
+	},
+	"Aiden": {
+	  "LastName": "Berger",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 60
+	},
+	"Chris": {
+	  "LastName": "Doe",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 69
+	},
+	"Damani": {
+	  "LastName": "Allan",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 92
+	},
+	"Shlome": {
+	  "LastName": "Davies",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 84
+	},
+	"Sean": {
+	  "LastName": "Cronin",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 82
+	},
+	"Steven": {
+	  "LastName": "Carmichael",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 66
+	},
+	"Antonio": {
+	  "LastName": "Milton",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 68
+	},
+	"Archer": {
+	  "LastName": "Milton",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 84
+	},
+	"Calvin": {
+	  "LastName": "Aldrich",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 88
+	},
+	"Malcolm": {
+	  "LastName": "Mcmahon",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 72
+	},
+	"Dominic": {
+	  "LastName": "Ojeda",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 79
+	},
+	"Yonatan": {
+	  "LastName": "Godwin",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 97
+	},
+	"Jaden": {
+	  "LastName": "Meek",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 77
+	},
+	"Dov": {
+	  "LastName": "Carrier",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 84
+	},
+	"Paul": {
+	  "LastName": "Jacobson",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 66
+	},
+	"Mekhi": {
+	  "LastName": "Brand",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 61
+	}
+  },
+  "Dallas Rebels": {
+	"Bryan": {
+	  "LastName": "Conway",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 96
+	},
+	"Leo": {
+	  "LastName": "Crisp",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 86
+	},
+	"Muhammad": {
+	  "LastName": "Leary",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 88
+	},
+	"Abdoulaye": {
+	  "LastName": "Desai",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 97
+	},
+	"Allen": {
+	  "LastName": "Robb",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 81
+	},
+	"Wilson": {
+	  "LastName": "Pulido",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 85
+	},
+	"Kaiden": {
+	  "LastName": "Post",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 71
+	},
+	"Harry": {
+	  "LastName": "Farris",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 65
+	},
+	"Caleb": {
+	  "LastName": "Lusk",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 60
+	},
+	"Eitan": {
+	  "LastName": "Correa",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 92
+	},
+	"Yossi": {
+	  "LastName": "Doss",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 77
+	},
+	"Ryder": {
+	  "LastName": "Nixon",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 87
+	},
+	"Sean": {
+	  "LastName": "Zarate",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 80
+	},
+	"Logan": {
+	  "LastName": "Nevarez",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 68
+	},
+	"Dylan": {
+	  "LastName": "Tan",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 72
+	},
+	"Johan": {
+	  "LastName": "Spear",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 85
+	},
+	"Asher": {
+	  "LastName": "Sneed",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 80
+	},
+	"Alex": {
+	  "LastName": "Fraley",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 93
+	},
+	"Filip": {
+	  "LastName": "Miner",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 79
+	},
+	"Michael": {
+	  "LastName": "Farley",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 82
+	},
+	"Ivan": {
+	  "LastName": "Barfield",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 93
+	},
+	"Austin": {
+	  "LastName": "Baird",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 93
+	},
+	"Sebastian": {
+	  "LastName": "Haas",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 96
+	},
+	"Nicholas": {
+	  "LastName": "Humphreys",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 72
+	},
+	"Alexander": {
+	  "LastName": "Aguilera",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 81
+	},
+	"Ayden": {
+	  "LastName": "Sawyer",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 78
+	},
+	"Calvin": {
+	  "LastName": "Bassett",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 68
+	},
+	"Fabian": {
+	  "LastName": "Lemus",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 98
+	},
+	"Shane": {
+	  "LastName": "Ontiveros",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 98
+	},
+	"Khalil": {
+	  "LastName": "Haggerty",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 76
+	},
+	"John": {
+	  "LastName": "Upton",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 60
+	},
+	"Julio": {
+	  "LastName": "Winters",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 93
+	},
+	"Jeremy": {
+	  "LastName": "Speer",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 93
+	},
+	"Shlomo": {
+	  "LastName": "Ennis",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Landon": {
+	  "LastName": "Sherrill",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 95
+	},
+	"Cheskel": {
+	  "LastName": "Merritt",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 73
+	},
+	"Marcus": {
+	  "LastName": "Montes",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 66
+	},
+	"Pinchus": {
+	  "LastName": "Causey",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Alejandro": {
+	  "LastName": "Schmid",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 68
+	},
+	"Mekhi": {
+	  "LastName": "Shelley",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 93
+	},
+	"Damian": {
+	  "LastName": "Baumgartner",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 84
+	},
+	"Yechiel": {
+	  "LastName": "Levin",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 74
+	},
+	"Gavriel": {
+	  "LastName": "Keys",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 94
+	},
+	"Justin": {
+	  "LastName": "Blevins",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 91
+	}
+  },
+  "Nashville Strings": {
+	"Nathaniel": {
+	  "LastName": "Mcnair",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 85
+	},
+	"Aidan": {
+	  "LastName": "Lai",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 80
+	},
+	"Mohammed": {
+	  "LastName": "Sherrill",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 83
+	},
+	"Theodore": {
+	  "LastName": "Mccann",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 95
+	},
+	"Ben": {
+	  "LastName": "Poe",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 71
+	},
+	"Evan": {
+	  "LastName": "Knowles",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 60
+	},
+	"Bryan": {
+	  "LastName": "Cano",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 72
+	},
+	"Ashton": {
+	  "LastName": "Mcgill",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 87
+	},
+	"Mario": {
+	  "LastName": "Roy",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 90
+	},
+	"Kingsley": {
+	  "LastName": "Frantz",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 80
+	},
+	"Rodrigo": {
+	  "LastName": "Horvath",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 74
+	},
+	"Chris": {
+	  "LastName": "Gamboa",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 98
+	},
+	"Cody": {
+	  "LastName": "Kern",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 76
+	},
+	"Allen": {
+	  "LastName": "Moeller",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 79
+	},
+	"Samir": {
+	  "LastName": "Hoyt",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 67
+	},
+	"Carmine": {
+	  "LastName": "Barone",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 99
+	},
+	"Ibrahim": {
+	  "LastName": "Jett",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 83
+	},
+	"Hamza": {
+	  "LastName": "Lanier",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 80
+	},
+	"Dominick": {
+	  "LastName": "Hadley",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 90
+	},
+	"Asher": {
+	  "LastName": "Speer",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 95
+	},
+	"Lenny": {
+	  "LastName": "Salcedo",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 81
+	},
+	"Christopher": {
+	  "LastName": "Ruffin",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 99
+	},
+	"Abraham": {
+	  "LastName": "Goldberg",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 65
+	},
+	"Shimon": {
+	  "LastName": "Schmitz",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 87
+	},
+	"Luke": {
+	  "LastName": "Hatfield",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 96
+	},
+	"Simcha": {
+	  "LastName": "Humphreys",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 62
+	},
+	"Grayson": {
+	  "LastName": "Hawley",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 79
+	},
+	"Max": {
+	  "LastName": "Bartholomew",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 93
+	},
+	"Jimmy": {
+	  "LastName": "Bergeron",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 99
+	},
+	"Liam": {
+	  "LastName": "Couch",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 98
+	},
+	"Lucas": {
+	  "LastName": "Riggs",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 63
+	},
+	"Cesar": {
+	  "LastName": "Fultz",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 85
+	},
+	"Emmanuel": {
+	  "LastName": "Mcpherson",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 68
+	},
+	"Kamari": {
+	  "LastName": "Quintanilla",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 87
+	},
+	"Adriel": {
+	  "LastName": "Sherwood",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 65
+	},
+	"Brian": {
+	  "LastName": "Pierre",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 64
+	},
+	"Austin": {
+	  "LastName": "Womack",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 64
+	},
+	"Gregory": {
+	  "LastName": "Nevarez",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 87
+	},
+	"Dominic": {
+	  "LastName": "Blackburn",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 91
+	},
+	"Santino": {
+	  "LastName": "Childers",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 66
+	},
+	"Raymond": {
+	  "LastName": "Laughlin",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 78
+	},
+	"Julian": {
+	  "LastName": "Bachman",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 74
+	},
+	"George": {
+	  "LastName": "Lacy",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 79
+	},
+	"Micah": {
+	  "LastName": "Goldman",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 67
+	}
+  },
+  "Houston Bulls": {
+	"Bradley": {
+	  "LastName": "Dempsey",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 61
+	},
+	"Ezekiel": {
+	  "LastName": "Sargent",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 70
+	},
+	"Steven": {
+	  "LastName": "Lawton",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 99
+	},
+	"Albert": {
+	  "LastName": "Shanks",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 80
+	},
+	"Brayden": {
+	  "LastName": "Huynh",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 77
+	},
+	"Walter": {
+	  "LastName": "Adler",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 75
+	},
+	"Dominic": {
+	  "LastName": "Lund",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 86
+	},
+	"Yehoshua": {
+	  "LastName": "Felton",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Edward": {
+	  "LastName": "Block",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 93
+	},
+	"Josue": {
+	  "LastName": "Mccrary",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 67
+	},
+	"Pierce": {
+	  "LastName": "Mena",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 70
+	},
+	"Steve": {
+	  "LastName": "Burr",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 87
+	},
+	"Elijah": {
+	  "LastName": "Jamison",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 89
+	},
+	"Royce": {
+	  "LastName": "Irwin",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 93
+	},
+	"Thomas": {
+	  "LastName": "Anguiano",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 91
+	},
+	"Leandro": {
+	  "LastName": "Hester",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 99
+	},
+	"Edwin": {
+	  "LastName": "Vu",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 68
+	},
+	"Cayden": {
+	  "LastName": "Bean",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 85
+	},
+	"Allen": {
+	  "LastName": "Poe",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 66
+	},
+	"David": {
+	  "LastName": "Wallis",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 79
+	},
+	"James": {
+	  "LastName": "Buckner",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 98
+	},
+	"Zev": {
+	  "LastName": "Boudreaux",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 99
+	},
+	"Lazer": {
+	  "LastName": "Duff",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 74
+	},
+	"Xavier": {
+	  "LastName": "Mccauley",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 61
+	},
+	"Jasper": {
+	  "LastName": "Driver",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 98
+	},
+	"Moishe": {
+	  "LastName": "Herrmann",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 66
+	},
+	"Zamir": {
+	  "LastName": "Slade",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 67
+	},
+	"Jackson": {
+	  "LastName": "Fontaine",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 72
+	},
+	"Riley": {
+	  "LastName": "Hutchinson",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 91
+	},
+	"Nolan": {
+	  "LastName": "Crum",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 60
+	},
+	"Christian": {
+	  "LastName": "Means",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Kaden": {
+	  "LastName": "Patten",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 98
+	},
+	"Tomas": {
+	  "LastName": "Kessler",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 84
+	},
+	"Ashton": {
+	  "LastName": "Mcmahan",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 60
+	},
+	"Jonathan": {
+	  "LastName": "Coronado",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Prince": {
+	  "LastName": "Cazares",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 94
+	},
+	"Sincere": {
+	  "LastName": "Lantz",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 83
+	},
+	"Ethan": {
+	  "LastName": "Paige",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 94
+	},
+	"Evan": {
+	  "LastName": "Baum",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 70
+	},
+	"Lukas": {
+	  "LastName": "Covarrubias",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 98
+	},
+	"Kayden": {
+	  "LastName": "Arnett",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 72
+	},
+	"Ryan": {
+	  "LastName": "Cash",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 94
+	}
+  },
+  "Kansas City Badgers": {
+	"Joshua": {
+	  "LastName": "Dent",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 77
+	},
+	"Bryson": {
+	  "LastName": "Brinson",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 70
+	},
+	"Beckett": {
+	  "LastName": "Moser",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 87
+	},
+	"Makai": {
+	  "LastName": "Cortes",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 81
+	},
+	"Dov": {
+	  "LastName": "Brunner",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 65
+	},
+	"Eli": {
+	  "LastName": "Bernal",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 72
+	},
+	"Zev": {
+	  "LastName": "Beaver",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 64
+	},
+	"Travis": {
+	  "LastName": "Bernard",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 70
+	},
+	"Moses": {
+	  "LastName": "Villanueva",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 65
+	},
+	"Joseph": {
+	  "LastName": "Bruno",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 70
+	},
+	"Dean": {
+	  "LastName": "Fischer",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 63
+	},
+	"Taylor": {
+	  "LastName": "Amador",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 77
+	},
+	"Robert": {
+	  "LastName": "Willoughby",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 81
+	},
+	"Ahmed": {
+	  "LastName": "Swartz",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 91
+	},
+	"David": {
+	  "LastName": "Spaulding",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 74
+	},
+	"Lukas": {
+	  "LastName": "Oh",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 91
+	},
+	"Aiden": {
+	  "LastName": "Kruger",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 82
+	},
+	"Grayson": {
+	  "LastName": "Hoyt",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 87
+	},
+	"Matthew": {
+	  "LastName": "Seay",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 85
+	},
+	"James": {
+	  "LastName": "Tang",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 69
+	},
+	"Austin": {
+	  "LastName": "Rucker",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 73
+	},
+	"Issac": {
+	  "LastName": "Palma",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 81
+	},
+	"Michael": {
+	  "LastName": "Caudill",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 65
+	},
+	"Logan": {
+	  "LastName": "Herman",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 84
+	},
+	"Judah": {
+	  "LastName": "Rivas",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 99
+	},
+	"Jeremy": {
+	  "LastName": "Stockton",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 99
+	},
+	"Preston": {
+	  "LastName": "Fink",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 97
+	},
+	"Benjamin": {
+	  "LastName": "Mccann",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 73
+	},
+	"Avery": {
+	  "LastName": "Atkinson",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 70
+	},
+	"Ricardo": {
+	  "LastName": "Prince",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 94
+	},
+	"Derek": {
+	  "LastName": "Villegas",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 81
+	},
+	"Eric": {
+	  "LastName": "Christy",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 91
+	},
+	"Andrew": {
+	  "LastName": "Tilley",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 92
+	},
+	"Wesley": {
+	  "LastName": "Winston",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 76
+	},
+	"Jordan": {
+	  "LastName": "Grey",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 89
+	},
+	"Mendy": {
+	  "LastName": "Lopes",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 71
+	},
+	"Alex": {
+	  "LastName": "Singer",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 64
+	},
+	"Paul": {
+	  "LastName": "Holcomb",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 86
+	},
+	"Tenzin": {
+	  "LastName": "Hardin",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 72
+	},
+	"Liam": {
+	  "LastName": "Zapata",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 77
+	},
+	"Enrique": {
+	  "LastName": "Fair",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 67
+	},
+	"Ariel": {
+	  "LastName": "Hitchcock",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 92
+	},
+	"Giovanni": {
+	  "LastName": "Montanez",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 62
+	},
+	"Edward": {
+	  "LastName": "Richey",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 81
+	}
+  },
+  "Georgia Peaches": {
+	"Preston": {
+	  "LastName": "Finch",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 75
+	},
+	"Andrew": {
+	  "LastName": "Hatfield",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 67
+	},
+	"Matteo": {
+	  "LastName": "Snow",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 65
+	},
+	"Winston": {
+	  "LastName": "Rinehart",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 72
+	},
+	"Sawyer": {
+	  "LastName": "Cantu",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 72
+	},
+	"Isaac": {
+	  "LastName": "Unger",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 63
+	},
+	"Yitzchok": {
+	  "LastName": "Larkin",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 91
+	},
+	"Alpha": {
+	  "LastName": "Smiley",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 87
+	},
+	"Hamza": {
+	  "LastName": "David",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 68
+	},
+	"Kyle": {
+	  "LastName": "Kruger",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 90
+	},
+	"Moses": {
+	  "LastName": "Hammer",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 80
+	},
+	"Kenneth": {
+	  "LastName": "Lawton",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 69
+	},
+	"Leo": {
+	  "LastName": "Bock",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 70
+	},
+	"Mason": {
+	  "LastName": "Mcgovern",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 72
+	},
+	"Avraham": {
+	  "LastName": "Cabral",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 60
+	},
+	"Jeremias": {
+	  "LastName": "Horvath",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 64
+	},
+	"Jordan": {
+	  "LastName": "Ponder",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 61
+	},
+	"Shawn": {
+	  "LastName": "Wise",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 70
+	},
+	"Yaseen": {
+	  "LastName": "Mallory",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 68
+	},
+	"Jonathan": {
+	  "LastName": "Burleson",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 94
+	},
+	"Josiah": {
+	  "LastName": "Bueno",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 83
+	},
+	"Vincent": {
+	  "LastName": "Okeefe",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 97
+	},
+	"Felix": {
+	  "LastName": "Leon",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 81
+	},
+	"Louis": {
+	  "LastName": "Washburn",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 61
+	},
+	"Yusuf": {
+	  "LastName": "Swanson",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 65
+	},
+	"Peter": {
+	  "LastName": "Mcneill",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 79
+	},
+	"Joseph": {
+	  "LastName": "Harrington",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 71
+	},
+	"Ryder": {
+	  "LastName": "Childers",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 91
+	},
+	"Yaakov": {
+	  "LastName": "Tomlinson",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 98
+	},
+	"Aiden": {
+	  "LastName": "Joiner",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 86
+	},
+	"Richard": {
+	  "LastName": "Thao",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 86
+	},
+	"Maximus": {
+	  "LastName": "Marcum",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 98
+	},
+	"Shalom": {
+	  "LastName": "Huerta",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 97
+	},
+	"Gavin": {
+	  "LastName": "Cheung",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 97
+	},
+	"Mordche": {
+	  "LastName": "Jeffries",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 85
+	},
+	"Freddy": {
+	  "LastName": "Navarro",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 96
+	},
+	"Berish": {
+	  "LastName": "Swenson",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 65
+	},
+	"Mohamed": {
+	  "LastName": "Jacob",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 85
+	},
+	"Michael": {
+	  "LastName": "Sotelo",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 90
+	},
+	"Ahmed": {
+	  "LastName": "Ebert",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 68
+	},
+	"Steven": {
+	  "LastName": "Koenig",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 80
+	},
+	"Anton": {
+	  "LastName": "Rico",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 98
+	},
+	"Avery": {
+	  "LastName": "Monroe",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 89
+	},
+	"Morris": {
+	  "LastName": "Marcus",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 61
+	}
+  },
+  "Boston Wildcats": {
+	"Logan": {
+	  "LastName": "Rocha",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 94
+	},
+	"Lincoln": {
+	  "LastName": "Mcnally",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 98
+	},
+	"Arthur": {
+	  "LastName": "Cavazos",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 89
+	},
+	"Jonah": {
+	  "LastName": "Manning",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 83
+	},
+	"Brandon": {
+	  "LastName": "Nunn",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 68
+	},
+	"Brody": {
+	  "LastName": "Elder",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 61
+	},
+	"Drew": {
+	  "LastName": "David",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 88
+	},
+	"Charles": {
+	  "LastName": "Benoit",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 93
+	},
+	"Justice": {
+	  "LastName": "Oldham",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 94
+	},
+	"Jasper": {
+	  "LastName": "Starr",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 77
+	},
+	"Stephen": {
+	  "LastName": "Helton",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 71
+	},
+	"Denzel": {
+	  "LastName": "Sargent",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 99
+	},
+	"Kayden": {
+	  "LastName": "Swift",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 85
+	},
+	"Eric": {
+	  "LastName": "Neely",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 92
+	},
+	"Zachary": {
+	  "LastName": "Calloway",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 80
+	},
+	"Andy": {
+	  "LastName": "Glover",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 91
+	},
+	"Nathaniel": {
+	  "LastName": "Donnelly",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 91
+	},
+	"Edison": {
+	  "LastName": "Everett",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 67
+	},
+	"Meir": {
+	  "LastName": "Fitch",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 97
+	},
+	"Matteo": {
+	  "LastName": "Titus",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 82
+	},
+	"Bryce": {
+	  "LastName": "Mcclain",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 61
+	},
+	"Rafael": {
+	  "LastName": "Bolton",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 85
+	},
+	"Erik": {
+	  "LastName": "Bock",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 91
+	},
+	"Malcolm": {
+	  "LastName": "Zaragoza",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 95
+	},
+	"Jayce": {
+	  "LastName": "Miranda",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 67
+	},
+	"Emmanuel": {
+	  "LastName": "Wiggins",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 79
+	},
+	"Maximilian": {
+	  "LastName": "Oconnell",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 71
+	},
+	"Lamar": {
+	  "LastName": "Hargrove",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 97
+	},
+	"Dennis": {
+	  "LastName": "Lindsay",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 67
+	},
+	"Leon": {
+	  "LastName": "Elmore",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 97
+	},
+	"Robert": {
+	  "LastName": "Arce",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 71
+	},
+	"Colin": {
+	  "LastName": "Smallwood",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 73
+	},
+	"Felix": {
+	  "LastName": "Zavala",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 61
+	},
+	"Noel": {
+	  "LastName": "Wisniewski",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 91
+	},
+	"Wilson": {
+	  "LastName": "Hu",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 80
+	},
+	"Abraham": {
+	  "LastName": "Mcconnell",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 94
+	},
+	"William": {
+	  "LastName": "Albright",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 65
+	},
+	"Carter": {
+	  "LastName": "Christopher",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 66
+	},
+	"Yitzchak": {
+	  "LastName": "Post",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 88
+	},
+	"Dominic": {
+	  "LastName": "Ervin",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 98
+	},
+	"Steven": {
+	  "LastName": "Mcrae",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 66
+	},
+	"Romeo": {
+	  "LastName": "Sexton",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 70
+	}
+  },
+  "Tampa Wolverines": {
+	"Avi": {
+	  "LastName": "Lau",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 83
+	},
+	"Jonathan": {
+	  "LastName": "Mccann",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 77
+	},
+	"Bruce": {
+	  "LastName": "Copeland",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 70
+	},
+	"Sam": {
+	  "LastName": "Lusk",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 63
+	},
+	"Dominick": {
+	  "LastName": "Gaffney",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 75
+	},
+	"Chance": {
+	  "LastName": "Bush",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 85
+	},
+	"George": {
+	  "LastName": "Dejesus",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 90
+	},
+	"Tyler": {
+	  "LastName": "Humphries",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 61
+	},
+	"Dominic": {
+	  "LastName": "Corey",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 72
+	},
+	"Owen": {
+	  "LastName": "Casas",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 97
+	},
+	"Rehan": {
+	  "LastName": "Morin",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 81
+	},
+	"Devin": {
+	  "LastName": "Case",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 91
+	},
+	"Miles": {
+	  "LastName": "Chatman",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 68
+	},
+	"Andrew": {
+	  "LastName": "Ames",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 71
+	},
+	"Judah": {
+	  "LastName": "Mathis",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 76
+	},
+	"Xavier": {
+	  "LastName": "Cannon",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 68
+	},
+	"Josue": {
+	  "LastName": "Oleary",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 69
+	},
+	"Aahil": {
+	  "LastName": "Lin",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 82
+	},
+	"Elliott": {
+	  "LastName": "Vogel",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 78
+	},
+	"Blake": {
+	  "LastName": "Salter",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 70
+	},
+	"Noah": {
+	  "LastName": "Mackenzie",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 74
+	},
+	"Pablo": {
+	  "LastName": "Munson",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 66
+	},
+	"Mason": {
+	  "LastName": "Capps",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 61
+	},
+	"Jariel": {
+	  "LastName": "Foley",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 82
+	},
+	"Brayden": {
+	  "LastName": "Cahill",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 87
+	},
+	"Rohan": {
+	  "LastName": "Clifford",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 91
+	},
+	"Cooper": {
+	  "LastName": "Curran",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 77
+	},
+	"Shlome": {
+	  "LastName": "Hagan",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 71
+	},
+	"Thomas": {
+	  "LastName": "Case",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 86
+	},
+	"Shloime": {
+	  "LastName": "Mcbride",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 80
+	},
+	"Gabriel": {
+	  "LastName": "Le",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 97
+	},
+	"Wesley": {
+	  "LastName": "Gibbs",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 79
+	},
+	"Chaim": {
+	  "LastName": "Mcgregor",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 85
+	},
+	"Theodore": {
+	  "LastName": "Sepulveda",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 72
+	},
+	"Giovani": {
+	  "LastName": "Gee",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 75
+	},
+	"Avery": {
+	  "LastName": "Brannon",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 93
+	},
+	"Zayden": {
+	  "LastName": "Darnell",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 81
+	},
+	"Jayden": {
+	  "LastName": "Barkley",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 68
+	},
+	"Makhi": {
+	  "LastName": "Mora",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 67
+	},
+	"Kareem": {
+	  "LastName": "Ledford",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 67
+	},
+	"Jace": {
+	  "LastName": "Hester",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 72
+	},
+	"Jeremy": {
+	  "LastName": "Brewster",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 60
+	}
+  },
+  "Miami Pirates": {
+	"Kevin": {
+	  "LastName": "Sizemore",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 83
+	},
+	"Reed": {
+	  "LastName": "Hoskins",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 66
+	},
+	"Joel": {
+	  "LastName": "Palma",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 60
+	},
+	"Jay": {
+	  "LastName": "Lau",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 74
+	},
+	"Nathaniel": {
+	  "LastName": "Babb",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 85
+	},
+	"Asher": {
+	  "LastName": "Bass",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 99
+	},
+	"Leo": {
+	  "LastName": "Minor",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 73
+	},
+	"Elijah": {
+	  "LastName": "Templeton",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 72
+	},
+	"Benjamin": {
+	  "LastName": "Ernst",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 83
+	},
+	"Ahnaf": {
+	  "LastName": "Reyna",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 89
+	},
+	"Reid": {
+	  "LastName": "Welch",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 87
+	},
+	"Jose": {
+	  "LastName": "Diehl",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 99
+	},
+	"Zaire": {
+	  "LastName": "Whitaker",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 65
+	},
+	"Bradley": {
+	  "LastName": "Carnes",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 82
+	},
+	"Luke": {
+	  "LastName": "Tanner",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 97
+	},
+	"Moishe": {
+	  "LastName": "Mora",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 94
+	},
+	"Brandon": {
+	  "LastName": "Davison",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 61
+	},
+	"Francis": {
+	  "LastName": "Schofield",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 62
+	},
+	"Max": {
+	  "LastName": "Kraft",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 68
+	},
+	"Edward": {
+	  "LastName": "Terry",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 94
+	},
+	"Charles": {
+	  "LastName": "Gibbons",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 60
+	},
+	"Chase": {
+	  "LastName": "Hinson",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 89
+	},
+	"Maximilian": {
+	  "LastName": "Bryson",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 99
+	},
+	"Raymond": {
+	  "LastName": "Albert",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 82
+	},
+	"Sean": {
+	  "LastName": "Koenig",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 85
+	},
+	"Nathan": {
+	  "LastName": "Engel",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 99
+	},
+	"Steven": {
+	  "LastName": "Colvin",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 95
+	},
+	"Amar'E": {
+	  "LastName": "Singletary",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 66
+	},
+	"Xavier": {
+	  "LastName": "Lytle",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 91
+	},
+	"Jake": {
+	  "LastName": "Strange",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 94
+	},
+	"Marcos": {
+	  "LastName": "Gibbs",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 81
+	},
+	"Jonah": {
+	  "LastName": "Crabtree",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 69
+	},
+	"Ryan": {
+	  "LastName": "Davila",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 92
+	},
+	"Caleb": {
+	  "LastName": "Marsh",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 90
+	},
+	"Devin": {
+	  "LastName": "Britt",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 83
+	},
+	"Eric": {
+	  "LastName": "Kiser",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 79
+	},
+	"Kai": {
+	  "LastName": "Ambrose",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 80
+	},
+	"Carter": {
+	  "LastName": "Vinson",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 73
+	},
+	"Dylan": {
+	  "LastName": "Schmitt",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 89
+	},
+	"Alexander": {
+	  "LastName": "Ireland",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 97
+	},
+	"Naftuli": {
+	  "LastName": "Culver",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 71
+	},
+	"Pedro": {
+	  "LastName": "Andersen",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 75
+	}
+  },
+  "Indianapolis Cougars": {
+	"Maximiliano": {
+	  "LastName": "Novak",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 68
+	},
+	"David": {
+	  "LastName": "Daugherty",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 96
+	},
+	"Riley": {
+	  "LastName": "Shepard",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 90
+	},
+	"Jackson": {
+	  "LastName": "Hagan",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 71
+	},
+	"Nehemiah": {
+	  "LastName": "Sims",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 97
+	},
+	"Zachary": {
+	  "LastName": "Calhoun",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 99
+	},
+	"Nicolas": {
+	  "LastName": "Hess",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 87
+	},
+	"Brody": {
+	  "LastName": "Royal",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 66
+	},
+	"Youssef": {
+	  "LastName": "Hester",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 82
+	},
+	"Nachman": {
+	  "LastName": "Kiser",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 78
+	},
+	"Noel": {
+	  "LastName": "Bueno",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 86
+	},
+	"Jeremiah": {
+	  "LastName": "Ponce",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 92
+	},
+	"Timothy": {
+	  "LastName": "Finn",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 65
+	},
+	"Dominick": {
+	  "LastName": "Stanford",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 69
+	},
+	"Darwin": {
+	  "LastName": "Glenn",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 66
+	},
+	"Duvid": {
+	  "LastName": "Huffman",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 73
+	},
+	"Adan": {
+	  "LastName": "Boggs",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 78
+	},
+	"Pedro": {
+	  "LastName": "Titus",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 66
+	},
+	"Aiden": {
+	  "LastName": "Tobin",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 94
+	},
+	"Hao": {
+	  "LastName": "Polk",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 63
+	},
+	"Kayden": {
+	  "LastName": "Dietrich",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 69
+	},
+	"Maxim": {
+	  "LastName": "Waller",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 96
+	},
+	"Kyrie": {
+	  "LastName": "Sun",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 80
+	},
+	"Mason": {
+	  "LastName": "Montgomery",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 90
+	},
+	"Mohammed": {
+	  "LastName": "Burnham",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 98
+	},
+	"Yahya": {
+	  "LastName": "Hayden",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 65
+	},
+	"Dereck": {
+	  "LastName": "Walls",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 81
+	},
+	"Philip": {
+	  "LastName": "Lovelace",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 88
+	},
+	"Ryan": {
+	  "LastName": "Lundy",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 81
+	},
+	"Jasper": {
+	  "LastName": "Schaeffer",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 92
+	},
+	"Chaim": {
+	  "LastName": "Ha",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 74
+	},
+	"Frank": {
+	  "LastName": "Horton",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 68
+	},
+	"Sean": {
+	  "LastName": "Mayo",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 80
+	},
+	"Jencarlos": {
+	  "LastName": "Griggs",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 61
+	},
+	"Amari": {
+	  "LastName": "Maguire",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 85
+	},
+	"Noah": {
+	  "LastName": "Burnham",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 93
+	},
+	"George": {
+	  "LastName": "Pritchard",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 76
+	},
+	"Eliezer": {
+	  "LastName": "Larsen",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 82
+	},
+	"Anson": {
+	  "LastName": "Abrams",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 84
+	},
+	"Ezekiel": {
+	  "LastName": "Ritter",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 77
+	},
+	"Jared": {
+	  "LastName": "Floyd",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 77
+	},
+	"Owen": {
+	  "LastName": "Curtis",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 98
+	},
+	"Md": {
+	  "LastName": "Mansfield",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 86
+	}
+  },
+  "Louisville Stallions": {
+	"Adrian": {
+	  "LastName": "Sawyer",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 66
+	},
+	"Alex": {
+	  "LastName": "Knowles",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 64
+	},
+	"Arthur": {
+	  "LastName": "Zimmerman",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 70
+	},
+	"Carter": {
+	  "LastName": "Fraser",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 79
+	},
+	"Jackson": {
+	  "LastName": "Adair",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 76
+	},
+	"Morris": {
+	  "LastName": "Holt",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 73
+	},
+	"Leonardo": {
+	  "LastName": "Austin",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 60
+	},
+	"Richard": {
+	  "LastName": "Webb",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 87
+	},
+	"Alvin": {
+	  "LastName": "Charles",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 64
+	},
+	"Bryan": {
+	  "LastName": "Davies",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 91
+	},
+	"Timothy": {
+	  "LastName": "Salmon",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 94
+	},
+	"Elian": {
+	  "LastName": "Boyle",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 69
+	},
+	"Axel": {
+	  "LastName": "Mead",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 69
+	},
+	"Cesar": {
+	  "LastName": "Abrams",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 98
+	},
+	"Malcolm": {
+	  "LastName": "Cartwright",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 71
+	},
+	"Binyomin": {
+	  "LastName": "Schrader",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 78
+	},
+	"Alexander": {
+	  "LastName": "Colbert",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 89
+	},
+	"Rayan": {
+	  "LastName": "Kyle",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 75
+	},
+	"Gregory": {
+	  "LastName": "Schaefer",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 67
+	},
+	"Alan": {
+	  "LastName": "Carr",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 67
+	},
+	"Troy": {
+	  "LastName": "Medley",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 84
+	},
+	"Nathan": {
+	  "LastName": "Aponte",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 68
+	},
+	"Elvin": {
+	  "LastName": "Glass",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 76
+	},
+	"Antonio": {
+	  "LastName": "Faulkner",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 75
+	},
+	"Caleb": {
+	  "LastName": "Rodrigues",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 83
+	},
+	"Connor": {
+	  "LastName": "Frey",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 87
+	},
+	"Lian": {
+	  "LastName": "Fields",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 94
+	},
+	"Eric": {
+	  "LastName": "Riggs",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 99
+	},
+	"Theo": {
+	  "LastName": "Hutchinson",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 70
+	},
+	"Aarav": {
+	  "LastName": "Grover",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 63
+	},
+	"Jaxson": {
+	  "LastName": "Fair",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 93
+	},
+	"Angelo": {
+	  "LastName": "Broussard",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 63
+	},
+	"Israel": {
+	  "LastName": "Goldsmith",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 88
+	},
+	"Jonah": {
+	  "LastName": "Abernathy",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 65
+	},
+	"Daniel": {
+	  "LastName": "Washburn",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 61
+	},
+	"Shloime": {
+	  "LastName": "Larkin",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 69
+	},
+	"Luca": {
+	  "LastName": "Pearce",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 73
+	},
+	"Thomas": {
+	  "LastName": "Farrell",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 83
+	},
+	"Samuel": {
+	  "LastName": "Bueno",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 65
+	},
+	"Johnny": {
+	  "LastName": "Rosado",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 91
+	},
+	"Malachi": {
+	  "LastName": "Mansfield",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 70
+	},
+	"Edwin": {
+	  "LastName": "Pritchett",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 88
+	}
+  },
+  "Cleveland Blue Jays": {
+	"Cheskel": {
+	  "LastName": "Rudolph",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 63
+	},
+	"Weston": {
+	  "LastName": "Eason",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 75
+	},
+	"George": {
+	  "LastName": "Reeves",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 69
+	},
+	"Nicholas": {
+	  "LastName": "Dixon",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 61
+	},
+	"Shmiel": {
+	  "LastName": "Venegas",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 78
+	},
+	"Asher": {
+	  "LastName": "Haines",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 63
+	},
+	"Otto": {
+	  "LastName": "Handy",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 79
+	},
+	"Aryan": {
+	  "LastName": "Tidwell",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 67
+	},
+	"Axel": {
+	  "LastName": "Grove",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 78
+	},
+	"Matthew": {
+	  "LastName": "Souza",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 74
+	},
+	"Landon": {
+	  "LastName": "Braswell",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 94
+	},
+	"Vincent": {
+	  "LastName": "Song",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 73
+	},
+	"Sean": {
+	  "LastName": "Ware",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 86
+	},
+	"Brayan": {
+	  "LastName": "Strickland",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 82
+	},
+	"Amir": {
+	  "LastName": "Laird",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 66
+	},
+	"Zachary": {
+	  "LastName": "Peralta",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 77
+	},
+	"Eddie": {
+	  "LastName": "Galvez",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 67
+	},
+	"Alex": {
+	  "LastName": "Little",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 64
+	},
+	"Alan": {
+	  "LastName": "Doty",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 65
+	},
+	"Shloimy": {
+	  "LastName": "Todd",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 85
+	},
+	"Ayan": {
+	  "LastName": "Pinto",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 92
+	},
+	"Elliott": {
+	  "LastName": "Goldberg",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 74
+	},
+	"Ricky": {
+	  "LastName": "Gaston",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 93
+	},
+	"Yosef": {
+	  "LastName": "Munoz",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 84
+	},
+	"Solomon": {
+	  "LastName": "Hanna",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 83
+	},
+	"Adan": {
+	  "LastName": "Humphreys",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 79
+	},
+	"Zion": {
+	  "LastName": "Britton",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 86
+	},
+	"William": {
+	  "LastName": "Askew",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 61
+	},
+	"Armani": {
+	  "LastName": "Trotter",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 90
+	},
+	"Nathan": {
+	  "LastName": "Epstein",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 90
+	},
+	"Johnathan": {
+	  "LastName": "Waller",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 73
+	},
+	"Jaxon": {
+	  "LastName": "Haynes",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 96
+	},
+	"Reid": {
+	  "LastName": "Marks",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 77
+	},
+	"Kyle": {
+	  "LastName": "Jefferson",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 94
+	},
+	"Jayson": {
+	  "LastName": "Trent",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 62
+	},
+	"Ellis": {
+	  "LastName": "Reeder",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 76
+	},
+	"Jason": {
+	  "LastName": "Erwin",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 87
+	},
+	"Timothy": {
+	  "LastName": "Dudley",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 63
+	},
+	"Maxwell": {
+	  "LastName": "Reagan",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 70
+	},
+	"Jasper": {
+	  "LastName": "Godfrey",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 75
+	},
+	"Jaden": {
+	  "LastName": "Hutton",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 84
+	},
+	"Thomas": {
+	  "LastName": "Bonilla",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 79
+	},
+	"Aharon": {
+	  "LastName": "Aldrich",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 62
+	}
+  },
+  "Detroit Motors": {
+	"Giuseppe": {
+	  "LastName": "Conway",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 65
+	},
+	"Omar": {
+	  "LastName": "Winkler",
+	  "Side": "Offense",
+	  "Position": "QB",
+	  "Rating": 62
+	},
+	"Mohamed": {
+	  "LastName": "Frederick",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 77
+	},
+	"Leibish": {
+	  "LastName": "Spears",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 74
+	},
+	"Abraham": {
+	  "LastName": "Montano",
+	  "Side": "Offense",
+	  "Position": "RB",
+	  "Rating": 97
+	},
+	"Axel": {
+	  "LastName": "Weinstein",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 66
+	},
+	"Nicholas": {
+	  "LastName": "Forrest",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 94
+	},
+	"Abdullah": {
+	  "LastName": "Valdez",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 94
+	},
+	"Pedro": {
+	  "LastName": "Rodgers",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 79
+	},
+	"Alex": {
+	  "LastName": "Keller",
+	  "Side": "Offense",
+	  "Position": "WR",
+	  "Rating": 64
+	},
+	"Connor": {
+	  "LastName": "Ferrara",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 61
+	},
+	"Anthony": {
+	  "LastName": "Creech",
+	  "Side": "Offense",
+	  "Position": "TE",
+	  "Rating": 90
+	},
+	"Jason": {
+	  "LastName": "Macias",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 96
+	},
+	"Sam": {
+	  "LastName": "Steward",
+	  "Side": "Offense",
+	  "Position": "RT",
+	  "Rating": 67
+	},
+	"Aaron": {
+	  "LastName": "Cramer",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 88
+	},
+	"Elijah": {
+	  "LastName": "Gorman",
+	  "Side": "Offense",
+	  "Position": "LT",
+	  "Rating": 81
+	},
+	"Chad": {
+	  "LastName": "Simpson",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 75
+	},
+	"Meyer": {
+	  "LastName": "Marrero",
+	  "Side": "Offense",
+	  "Position": "RG",
+	  "Rating": 69
+	},
+	"Leonel": {
+	  "LastName": "Coffman",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 64
+	},
+	"Milo": {
+	  "LastName": "Kruse",
+	  "Side": "Offense",
+	  "Position": "LG",
+	  "Rating": 79
+	},
+	"Harrison": {
+	  "LastName": "Chambers",
+	  "Side": "Offense",
+	  "Position": "C",
+	  "Rating": 92
+	},
+	"Hamza": {
+	  "LastName": "Mcclelland",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 63
+	},
+	"Jake": {
+	  "LastName": "Levy",
+	  "Side": "Defense",
+	  "Position": "LE",
+	  "Rating": 66
+	},
+	"Gordon": {
+	  "LastName": "Bowser",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 98
+	},
+	"William": {
+	  "LastName": "Dennis",
+	  "Side": "Defense",
+	  "Position": "RE",
+	  "Rating": 73
+	},
+	"Amari": {
+	  "LastName": "Kirk",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 86
+	},
+	"Meir": {
+	  "LastName": "Rosario",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 70
+	},
+	"Eduardo": {
+	  "LastName": "Ladd",
+	  "Side": "Defense",
+	  "Position": "DT",
+	  "Rating": 82
+	},
+	"James": {
+	  "LastName": "Sandoval",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 61
+	},
+	"Marlon": {
+	  "LastName": "Overton",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 75
+	},
+	"Rafael": {
+	  "LastName": "Boyd",
+	  "Side": "Defense",
+	  "Position": "OLB",
+	  "Rating": 74
+	},
+	"Shloma": {
+	  "LastName": "Haynes",
+	  "Side": "Defense",
+	  "Position": "MLB",
+	  "Rating": 90
+	},
+	"Antonio": {
+	  "LastName": "Moser",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 70
+	},
+	"Daniel": {
+	  "LastName": "Watt",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 73
+	},
+	"Johan": {
+	  "LastName": "Stringer",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 74
+	},
+	"Ali": {
+	  "LastName": "Shields",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 86
+	},
+	"Xavier": {
+	  "LastName": "Light",
+	  "Side": "Defense",
+	  "Position": "CB",
+	  "Rating": 69
+	},
+	"Mark": {
+	  "LastName": "Reese",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 81
+	},
+	"Andre": {
+	  "LastName": "Rowley",
+	  "Side": "Defense",
+	  "Position": "SS",
+	  "Rating": 90
+	},
+	"Leandro": {
+	  "LastName": "Stahl",
+	  "Side": "Defense",
+	  "Position": "FS",
+	  "Rating": 97
+	},
+	"Maksim": {
+	  "LastName": "Delacruz",
+	  "Side": "ST",
+	  "Position": "K",
+	  "Rating": 75
+	},
+	"Johnny": {
+	  "LastName": "Leach",
+	  "Side": "ST",
+	  "Position": "P",
+	  "Rating": 85
+	},
+	"George": {
+	  "LastName": "Leach",
+	  "Side": "ST",
+	  "Position": "R",
+	  "Rating": 72
+	}
+  }
+}

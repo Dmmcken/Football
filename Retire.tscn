@@ -1,0 +1,44 @@
+[gd_scene load_steps=3 format=3 uid="uid://ba7e0utx5nj82"]
+
+[ext_resource type="Script" path="res://Retire.gd" id="1_g5rns"]
+[ext_resource type="Texture2D" uid="uid://c3fi82uqofwut" path="res://Art/Copper.png" id="2_win7x"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_g5rns")
+
+[node name="Copper" type="Sprite2D" parent="."]
+position = Vector2(576, 328)
+scale = Vector2(1.45455, 1.40741)
+texture = ExtResource("2_win7x")
+
+[node name="RetireScroll" type="ScrollContainer" parent="."]
+offset_left = 384.0
+offset_top = 112.0
+offset_right = 768.0
+offset_bottom = 504.0
+
+[node name="CenterContainer" type="CenterContainer" parent="RetireScroll"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="RetireBox" type="VBoxContainer" parent="RetireScroll/CenterContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Label" type="Label" parent="."]
+offset_left = 320.0
+offset_top = 48.0
+offset_right = 832.0
+offset_bottom = 112.0
+text = "Retiring Players"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Continue" type="Button" parent="."]
+offset_left = 448.0
+offset_top = 512.0
+offset_right = 704.0
+offset_bottom = 584.0
+text = "Continue"
+
+[connection signal="pressed" from="Continue" to="." method="_on_continue_pressed"]
