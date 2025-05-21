@@ -22,6 +22,6 @@ offset_left = 496.0
 offset_top = 336.0
 offset_right = 656.0
 offset_bottom = 424.0
-text = "Start Game"
+text = "Ass"
 
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
