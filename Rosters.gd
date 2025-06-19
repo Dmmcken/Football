@@ -1,7 +1,7 @@
 extends Node
 
 var team_rosters = {}
-
+var selected_team = GameData.get_selected_team_name()
 var first_names = []
 var last_names = []
 var dead_cap = []
@@ -315,6 +315,7 @@ func generate_all_team_rosters():
 func _ready():
 	team_rosters = generate_all_team_rosters()
 	create_deadcap()
+
 
 func compare_by_rating(player1, player2):
 	if player1["Rating"] >= player2["Rating"]:

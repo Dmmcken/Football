@@ -80,6 +80,7 @@ var player_team = ""
 func _on_team_select_pressed():
 	if selected_team != "":
 		GameData.set_selected_team_name(selected_team)
+		selected_degrade()
 		var game_ui_scene = load("res://OC.tscn")
 		var ui_scene_instance = game_ui_scene.instantiate()
 		get_tree().current_scene.visible = false
@@ -144,6 +145,14 @@ func generate_all_team_rosters():
 		var team_name = team_names[i]
 		all_team_rosters[team_name] = generate_team_roster()
 	return all_team_rosters
+
+func selected_degrade():
+	for team in Rosters.team_rosters:
+		if team == selected_team:
+			for player in Rosters.team_rosters[team]:
+				if player["Rating"] >= 70:
+					var drop = randi() % 15
+					player["Rating"] -= drop
 
 
 func _on_abq_pressed():
@@ -242,7 +251,7 @@ func _on_tam_pressed():
 
 
 func _on_button_pressed():
-	print(selected_team)
+	print(roster_data)
 
 
 func _on_col_pressed():

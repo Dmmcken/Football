@@ -136,11 +136,15 @@ func is_starter_st(position, depth_chart):
 @onready var team_st_label = $TeamST
 @onready var team_ovr_label = $TeamOVR
 @onready var salary_cap_label = $SalaryCap
+@onready var best_player_1_label = $BestPlayers1
+@onready var best_player_2_label = $BestPlayers2
+@onready var best_player_3_label = $BestPlayers3
 
 func _ready():
 	add_child(game_simulator)
 	add_child(game_play)
 	selected_team = GameData.get_selected_team_name()
+	set_depth_chart()
 	player_team_label.text = selected_team
 	week_label.text = "Week " + str(current_week)
 	record_label.text = str(wins) + "-" + str(losses)
@@ -173,6 +177,24 @@ func set_team_ovr():
 	team_defense_label.text = "%s" % [team_averages["Defense_Ovr"]]
 	team_st_label.text = "%s" % [team_averages["Special_Teams_Ovr"]]
 	team_ovr_label.text = "%s" % [team_averages["Team_Ovr"]]
+	set_team_top_three()
+
+func set_team_top_three():
+	var player1 = ""
+	var player2 = ""
+	var player3 = ""
+	var roster = []
+	for player in Rosters.team_rosters[selected_team]:
+		if player["DepthChart"] == 1:
+			roster.append(player)
+	roster.sort_custom(func(a, b):
+		return a["Rating"] > b["Rating"])
+	player1 = roster[0]
+	player2 = roster[1]
+	player3 = roster[2]
+	best_player_1_label.text = "%s %s %s %s" % [player1["Position"], player1["FirstName"], player1["LastName"], player1["Rating"]]
+	best_player_2_label.text = "%s %s %s %s" % [player2["Position"], player2["FirstName"], player2["LastName"], player2["Rating"]]
+	best_player_3_label.text = "%s %s %s %s" % [player3["Position"], player3["FirstName"], player3["LastName"], player3["Rating"]]
 
 func load_team_records(json_file_path):
 	var file = FileAccess.open(json_file_path, FileAccess.READ)
@@ -1508,6 +1530,11 @@ func trim_rosters():
 								if player["PlayerID"] == roster_player["PlayerID"]:
 									Rosters.team_rosters[team].erase(roster_player)
 									Rosters.team_rosters["Free Agent"].append(roster_player)
+
+func set_depth_chart():
+	var team_roster = Rosters.team_rosters[selected_team]
+	reorder_teams(team_roster)
+	Rosters.team_rosters[selected_team] = team_roster
 
 func reorder_teams(team_roster):
 	var positions = ["QB", "RB", "WR", "TE", "LT", "LG", "C", "RG", "RT", "LE", "RE", "DT", "OLB", "MLB", "CB", "SS", "FS", "K", "P", "R"]

@@ -1,8 +1,12 @@
-[gd_scene load_steps=6 format=3 uid="uid://du7x3wvheg888"]
+[gd_scene load_steps=10 format=3 uid="uid://du7x3wvheg888"]
 
 [ext_resource type="Script" uid="uid://ba6bhk5wnjn5r" path="res://SeasonHome.gd" id="1_5gxnp"]
 [ext_resource type="Texture2D" uid="uid://xh7wwx1airyc" path="res://Art/Stadium.png" id="2_6bxi5"]
 [ext_resource type="Theme" uid="uid://ccrt2axm1b3pb" path="res://Themes/PopupWarnings.tres" id="3_7po3q"]
+[ext_resource type="Texture2D" uid="uid://dkv4ocf32tdva" path="res://Art/Team_OVR_Panel.png" id="3_u852k"]
+[ext_resource type="Texture2D" uid="uid://ctn8il55ivjbw" path="res://Art/Top_Border.png" id="4_ftjy5"]
+[ext_resource type="Texture2D" uid="uid://bhfd26d3fa5r0" path="res://Art/Top_Border_Click.png" id="5_vmnsc"]
+[ext_resource type="Texture2D" uid="uid://b2agv8aqahh1a" path="res://Art/Top_Border_Hover.png" id="6_u852k"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_hxgix"]
 bg_color = Color(1, 1, 1, 0.478431)
@@ -29,32 +33,40 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Button" type="Button" parent="Panel"]
 layout_mode = 0
-offset_left = 936.0
-offset_top = 544.0
-offset_right = 1064.0
-offset_bottom = 608.0
+offset_left = 1024.0
+offset_top = 584.0
+offset_right = 1152.0
+offset_bottom = 648.0
 text = "Coaches"
 
+[node name="TeamOvrPanel" type="Sprite2D" parent="."]
+position = Vector2(192, 296)
+scale = Vector2(1, 0.944445)
+texture = ExtResource("3_u852k")
+
 [node name="CurrentWeek" type="Label" parent="."]
-offset_left = 448.0
-offset_top = 64.0
-offset_right = 704.0
-offset_bottom = 128.0
+offset_left = 441.0
+offset_top = 49.0
+offset_right = 697.0
+offset_bottom = 113.0
 text = "{CurrentWeek}"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="PlayerTeam" type="Label" parent="."]
-offset_left = 384.0
-offset_right = 768.0
-offset_bottom = 64.0
+offset_left = 2.0
+offset_top = 96.0
+offset_right = 386.0
+offset_bottom = 160.0
+theme_override_font_sizes/font_size = 20
 text = "{PlayerTeam}"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
 
 [node name="OpponentTeam" type="Label" parent="."]
+visible = false
 offset_left = 256.0
 offset_top = 304.0
 offset_right = 896.0
@@ -75,18 +87,19 @@ metadata/_edit_use_anchors_ = true
 
 [node name="SimulateButton" type="Button" parent="."]
 offset_left = 448.0
-offset_top = 384.0
+offset_top = 512.0
 offset_right = 704.0
-offset_bottom = 512.0
+offset_bottom = 640.0
 text = "Advance Week"
 metadata/_edit_use_anchors_ = true
 
 [node name="PlayerRecord" type="Label" parent="."]
-offset_left = 512.0
-offset_top = 128.0
-offset_right = 640.0
-offset_bottom = 192.0
-text = "{Record}"
+offset_left = 128.0
+offset_top = 160.0
+offset_right = 256.0
+offset_bottom = 224.0
+theme_override_font_sizes/font_size = 30
+text = "{record}"
 horizontal_alignment = 1
 vertical_alignment = 1
 metadata/_edit_use_anchors_ = true
@@ -98,88 +111,111 @@ offset_right = 1096.0
 offset_bottom = 264.0
 
 [node name="OffenseOVR" type="Label" parent="."]
-offset_left = 256.0
-offset_top = 192.0
-offset_right = 416.0
-offset_bottom = 218.0
-text = "Offense OVR"
+offset_left = 12.0
+offset_top = 306.0
+offset_right = 172.0
+offset_bottom = 335.0
+theme_override_constants/line_spacing = -7
+theme_override_font_sizes/font_size = 13
+text = "Offense 
+OVR"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="TeamOffense" type="Label" parent="."]
-offset_left = 256.0
-offset_top = 224.0
-offset_right = 416.0
-offset_bottom = 258.0
+offset_left = 69.0
+offset_top = 335.0
+offset_right = 117.0
+offset_bottom = 380.0
+theme_override_font_sizes/font_size = 25
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="TeamDefense" type="Label" parent="."]
-offset_left = 416.0
-offset_top = 224.0
-offset_right = 576.0
-offset_bottom = 258.0
+offset_left = 168.0
+offset_top = 335.0
+offset_right = 216.0
+offset_bottom = 380.0
+theme_override_font_sizes/font_size = 25
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="TeamST" type="Label" parent="."]
-offset_left = 576.0
-offset_top = 224.0
-offset_right = 736.0
-offset_bottom = 258.0
+offset_left = 267.0
+offset_top = 335.0
+offset_right = 315.0
+offset_bottom = 380.0
+theme_override_font_sizes/font_size = 25
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="TeamOVR" type="Label" parent="."]
-offset_left = 736.0
-offset_top = 224.0
-offset_right = 896.0
-offset_bottom = 258.0
+offset_left = 155.0
+offset_top = 238.0
+offset_right = 228.0
+offset_bottom = 307.0
+theme_override_font_sizes/font_size = 42
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="OffenseOVR2" type="Label" parent="."]
-offset_left = 416.0
-offset_top = 192.0
-offset_right = 576.0
-offset_bottom = 218.0
-text = "Defense OVR"
+offset_left = 112.0
+offset_top = 306.0
+offset_right = 272.0
+offset_bottom = 335.0
+theme_override_constants/line_spacing = -7
+theme_override_font_sizes/font_size = 13
+text = "Defense 
+OVR"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="OffenseOVR3" type="Label" parent="."]
-offset_left = 576.0
-offset_top = 192.0
-offset_right = 736.0
-offset_bottom = 218.0
-text = "Special Teams OVR"
+offset_left = 212.0
+offset_top = 306.0
+offset_right = 372.0
+offset_bottom = 335.0
+theme_override_constants/line_spacing = -7
+theme_override_font_sizes/font_size = 13
+text = "Special Teams 
+OVR"
 horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="OffenseOVR4" type="Label" parent="."]
-offset_left = 736.0
-offset_top = 192.0
-offset_right = 896.0
-offset_bottom = 218.0
+offset_left = 110.0
+offset_top = 214.0
+offset_right = 270.0
+offset_bottom = 240.0
 text = "Team OVR"
 horizontal_alignment = 1
 vertical_alignment = 1
 
+[node name="Record" type="Label" parent="."]
+offset_left = 135.0
+offset_top = 145.0
+offset_right = 248.0
+offset_bottom = 175.0
+text = "Record"
+horizontal_alignment = 1
+vertical_alignment = 1
+
 [node name="DepthChart" type="Button" parent="."]
-offset_left = 256.0
-offset_top = 544.0
-offset_right = 384.0
-offset_bottom = 608.0
+offset_left = 880.0
+offset_top = 520.0
+offset_right = 1008.0
+offset_bottom = 584.0
 text = "Depth Chart"
 
 [node name="FreeAgents" type="Button" parent="."]
-offset_left = 768.0
-offset_top = 544.0
-offset_right = 896.0
-offset_bottom = 608.0
+offset_left = 888.0
+offset_top = 584.0
+offset_right = 1016.0
+offset_bottom = 648.0
 text = "Free Agents"
 
 [node name="Salary" type="Label" parent="."]
+visible = false
 offset_left = 928.0
 offset_right = 1120.0
 offset_bottom = 64.0
@@ -195,10 +231,10 @@ offset_bottom = 112.0
 horizontal_alignment = 1
 
 [node name="TradeMenu" type="Button" parent="."]
-offset_left = 600.0
-offset_top = 544.0
-offset_right = 728.0
-offset_bottom = 608.0
+offset_left = 1008.0
+offset_top = 456.0
+offset_right = 1136.0
+offset_bottom = 520.0
 text = "Trade"
 
 [node name="SalaryCapPopup" type="PopupPanel" parent="."]
@@ -254,6 +290,7 @@ horizontal_alignment = 1
 vertical_alignment = 1
 
 [node name="TestButton" type="Button" parent="."]
+visible = false
 offset_right = 128.0
 offset_bottom = 64.0
 text = "Test"
@@ -269,18 +306,102 @@ offset_bottom = 100.0
 layout_mode = 2
 
 [node name="StandingsButton" type="Button" parent="."]
-offset_left = 424.0
-offset_top = 544.0
-offset_right = 552.0
-offset_bottom = 608.0
+offset_left = 1008.0
+offset_top = 520.0
+offset_right = 1136.0
+offset_bottom = 584.0
 text = "Standings"
 
 [node name="SeasonStats" type="Button" parent="."]
-offset_left = 88.0
-offset_top = 544.0
-offset_right = 216.0
-offset_bottom = 608.0
+offset_left = 864.0
+offset_top = 448.0
+offset_right = 992.0
+offset_bottom = 512.0
 text = "Season Stats"
+
+[node name="TeamButton" type="TextureButton" parent="."]
+offset_right = 384.0
+offset_bottom = 64.0
+texture_normal = ExtResource("4_ftjy5")
+texture_pressed = ExtResource("5_vmnsc")
+texture_hover = ExtResource("6_u852k")
+
+[node name="Label" type="Label" parent="TeamButton"]
+layout_mode = 0
+offset_right = 384.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 25
+text = "Team"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HubButton" type="TextureButton" parent="."]
+offset_left = 384.0
+offset_right = 768.0
+offset_bottom = 64.0
+texture_normal = ExtResource("4_ftjy5")
+texture_pressed = ExtResource("5_vmnsc")
+texture_hover = ExtResource("6_u852k")
+
+[node name="Label2" type="Label" parent="HubButton"]
+layout_mode = 0
+offset_right = 384.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 25
+text = "Main"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="StatsButton" type="TextureButton" parent="."]
+offset_left = 768.0
+offset_right = 1152.0
+offset_bottom = 64.0
+texture_normal = ExtResource("4_ftjy5")
+texture_pressed = ExtResource("5_vmnsc")
+texture_hover = ExtResource("6_u852k")
+
+[node name="Label3" type="Label" parent="StatsButton"]
+layout_mode = 0
+offset_right = 384.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 25
+text = "Stats"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="BestPlayers" type="Label" parent="."]
+offset_left = 59.0
+offset_top = 380.0
+offset_right = 323.0
+offset_bottom = 403.0
+text = "Best Players"
+horizontal_alignment = 1
+
+[node name="BestPlayers1" type="Label" parent="."]
+offset_left = 43.0
+offset_top = 404.0
+offset_right = 340.0
+offset_bottom = 430.0
+theme_override_constants/line_spacing = -5
+theme_override_constants/paragraph_spacing = -5
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 1
+
+[node name="BestPlayers2" type="Label" parent="."]
+offset_left = 43.0
+offset_top = 431.0
+offset_right = 340.0
+offset_bottom = 457.0
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 1
+
+[node name="BestPlayers3" type="Label" parent="."]
+offset_left = 43.0
+offset_top = 458.0
+offset_right = 340.0
+offset_bottom = 484.0
+theme_override_font_sizes/font_size = 18
+horizontal_alignment = 1
 
 [connection signal="pressed" from="Panel/Button" to="." method="_on_coaches_button_pressed"]
 [connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
